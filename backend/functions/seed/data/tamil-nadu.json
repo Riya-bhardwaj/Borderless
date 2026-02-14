@@ -6,22 +6,16 @@
     "parentId": "india",
     "geofences": [
       {
-        "lat": 12.2586,
-        "lng": 77.0046,
-        "radiusMeters": 5000,
-        "label": "Karnataka-TN Border NH44"
+        "lat": 13.0827,
+        "lng": 80.2707,
+        "radiusMeters": 200000,
+        "label": "Tamil Nadu - Chennai Region"
       },
       {
-        "lat": 10.9916,
-        "lng": 76.9529,
-        "radiusMeters": 5000,
-        "label": "Kerala-TN Border NH544"
-      },
-      {
-        "lat": 13.6288,
-        "lng": 79.4192,
-        "radiusMeters": 5000,
-        "label": "AP-TN Border NH40"
+        "lat": 9.9252,
+        "lng": 78.1198,
+        "radiusMeters": 200000,
+        "label": "Tamil Nadu - Madurai Region"
       }
     ],
     "quickFacts": [
@@ -37,7 +31,14 @@
     "name": "Chennai",
     "type": "city",
     "parentId": "tamil-nadu",
-    "geofences": [],
+    "geofences": [
+      {
+        "lat": 13.0827,
+        "lng": 80.2707,
+        "radiusMeters": 40000,
+        "label": "Chennai City"
+      }
+    ],
     "quickFacts": [
       "Detroit of India - auto manufacturing hub",
       "Marina Beach is world's second longest urban beach",

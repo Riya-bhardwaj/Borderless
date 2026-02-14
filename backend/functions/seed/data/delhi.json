@@ -6,22 +6,10 @@
     "parentId": "india",
     "geofences": [
       {
-        "lat": 28.6328,
-        "lng": 77.3372,
-        "radiusMeters": 5000,
-        "label": "Delhi-UP Border (Noida)"
-      },
-      {
-        "lat": 28.4925,
-        "lng": 77.0695,
-        "radiusMeters": 5000,
-        "label": "Delhi-Haryana Border (Gurgaon)"
-      },
-      {
-        "lat": 28.7388,
-        "lng": 77.1139,
-        "radiusMeters": 5000,
-        "label": "Delhi-Haryana Border (Rohtak Rd)"
+        "lat": 28.6139,
+        "lng": 77.2090,
+        "radiusMeters": 50000,
+        "label": "Delhi NCR"
       }
     ],
     "quickFacts": [
@@ -37,7 +25,14 @@
     "name": "New Delhi",
     "type": "city",
     "parentId": "delhi",
-    "geofences": [],
+    "geofences": [
+      {
+        "lat": 28.6139,
+        "lng": 77.2090,
+        "radiusMeters": 25000,
+        "label": "New Delhi"
+      }
+    ],
     "quickFacts": [
       "Seat of Indian government",
       "Connaught Place is the commercial hub",
