@@ -1,0 +1,6 @@
+sleep: invalid time interval: echo
+sleep: invalid time interval: {}
+sleep: invalid time interval: python3
+sleep: invalid time interval: /Users/shivamsaxena/Documents/Personal/Repos/Borderless/async_backend/run.py
+usage: sleep number[unit] [...]
+Unit can be 's' (seconds, the default), m (minutes), h (hours), or d (days).

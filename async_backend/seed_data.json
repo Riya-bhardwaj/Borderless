@@ -1,0 +1,2342 @@
+{
+  "regions": {
+    "delhi": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Secular cosmopolitan culture blending Mughal and modern heritage",
+        "Street food capital \u2014 paratha, chaat, kebab traditions in Old Delhi",
+        "Mughal architectural heritage \u2014 Red Fort, Jama Masjid, Humayun's Tomb"
+      ],
+      "legal_rules": [
+        "Alcohol legal with license (drinking age 25)",
+        "Odd-even traffic rule may apply during pollution season",
+        "Firecrackers banned during Diwali (green crackers only)"
+      ],
+      "behavioral_notes": [
+        "Queue culture is weak \u2014 expect crowds",
+        "Bargaining expected in markets like Sarojini and Chandni Chowk",
+        "Auto-rickshaw drivers may not use meters \u2014 negotiate fare upfront"
+      ]
+    },
+    "karnataka": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Kannada",
+      "cultural_markers": [
+        "Temple etiquette important \u2014 dress conservatively",
+        "Silk saree and sandalwood tradition",
+        "Mysore Dasara is a major festival"
+      ],
+      "legal_rules": [
+        "Alcohol regulated: dry days enforced on national holidays and elections",
+        "Plastic ban in effect \u2014 carry cloth bags",
+        "Cow slaughter banned"
+      ],
+      "behavioral_notes": [
+        "Remove footwear at temples and many homes",
+        "Respectful dress expected at religious sites",
+        "Kannada signage dominant \u2014 English less common outside Bangalore"
+      ]
+    },
+    "maharashtra": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Marathi",
+      "cultural_markers": [
+        "Ganesh Chaturthi is the biggest festival",
+        "Warkari pilgrimage tradition to Pandharpur",
+        "Lavani and Tamasha folk art traditions"
+      ],
+      "legal_rules": [
+        "Beef ban enforced \u2014 possession and sale prohibited",
+        "Alcohol: permit system in some areas, legal drinking age 25",
+        "Noise restrictions after 10 PM strictly enforced in residential areas"
+      ],
+      "behavioral_notes": [
+        "Use right hand for giving and receiving",
+        "Shoes off in homes \u2014 always",
+        "Local train etiquette: do not block doors, women's compartments reserved"
+      ]
+    },
+    "tamil_nadu": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Tamil",
+      "cultural_markers": [
+        "Dravidian cultural pride \u2014 strong regional identity",
+        "Pongal is the biggest festival (January harvest)",
+        "Classical Bharatanatyam dance tradition",
+        "Temple towns with strict religious customs"
+      ],
+      "legal_rules": [
+        "TASMAC state-run liquor shops only \u2014 no private liquor stores",
+        "Jallikattu (bull-taming) legally permitted during Pongal",
+        "Anti-conversion laws in effect"
+      ],
+      "behavioral_notes": [
+        "Tamil language preference very strong \u2014 Hindi may not be understood or welcomed",
+        "Remove footwear at all temples without exception",
+        "Vegetarian food widely available \u2014 non-veg restaurants are clearly marked"
+      ]
+    },
+    "kerala": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Malayalam",
+      "cultural_markers": [
+        "Onam festival with Pookalam (flower carpet), Vallam Kali (boat races), and Onasadya feast",
+        "Kathakali classical dance-drama and Kalaripayattu martial art traditions",
+        "Backwater houseboat culture in Alleppey (Alappuzha) and Kumarakom"
+      ],
+      "legal_rules": [
+        "Alcohol heavily restricted \u2014 only 5-star hotels and government-run Bevco outlets sell liquor",
+        "Hartals (strikes/shutdowns) called by political parties can disrupt transport unexpectedly",
+        "Plastic ban enforced \u2014 single-use plastics prohibited"
+      ],
+      "behavioral_notes": [
+        "High literacy rate \u2014 English widely understood alongside Malayalam",
+        "Religious harmony notable \u2014 Hindu, Muslim, and Christian communities coexist closely",
+        "Tipping not traditionally expected but appreciated at restaurants"
+      ]
+    },
+    "rajasthan": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Royal Rajput heritage \u2014 forts, palaces, and havelis across the state",
+        "Vibrant textile traditions \u2014 block printing from Jaipur, tie-dye bandhani",
+        "Desert culture \u2014 camel fairs, folk music (Manganiar and Langa musicians)"
+      ],
+      "legal_rules": [
+        "Alcohol legal but heavily taxed; drinking age 25",
+        "Some areas near temples and religious sites are dry zones",
+        "Cow slaughter banned \u2014 strict enforcement"
+      ],
+      "behavioral_notes": [
+        "Greeting with 'Khamma Ghani' or 'Padharo Mhare Desh' (welcome) is traditional",
+        "Conservative dress norms in rural areas \u2014 women often wear ghunghat (veil)",
+        "Hospitality is deeply valued \u2014 guests offered water and chai immediately"
+      ]
+    },
+    "gujarat": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Gujarati",
+      "cultural_markers": [
+        "Navratri celebrated with massive Garba and Dandiya Raas gatherings",
+        "Predominantly vegetarian food culture \u2014 dhokla, thepla, fafda, jalebi",
+        "Textile heritage \u2014 Patola silk sarees from Patan, bandhani tie-dye"
+      ],
+      "legal_rules": [
+        "Gujarat is a dry state \u2014 alcohol sale and consumption prohibited without permit",
+        "Foreign tourists and visitors can obtain a temporary liquor permit",
+        "Cow slaughter punishable with life imprisonment under Gujarat Animal Preservation Act"
+      ],
+      "behavioral_notes": [
+        "Vegetarianism is the norm \u2014 many families are strictly vegetarian",
+        "Business and trading culture deeply embedded \u2014 Gujaratis are known for entrepreneurship",
+        "Guests are treated with great hospitality \u2014 'Atithi Devo Bhava' (guest is God) taken seriously"
+      ]
+    },
+    "west_bengal": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Bengali",
+      "cultural_markers": [
+        "Durga Puja is the grandest cultural event \u2014 pandal-hopping tradition",
+        "Rabindranath Tagore's literary and musical legacy pervasive",
+        "Sweets culture \u2014 rosogolla, sandesh, mishti doi are iconic"
+      ],
+      "legal_rules": [
+        "Alcohol legal; drinking age 21",
+        "Cow slaughter legal in West Bengal unlike most Indian states",
+        "Noise pollution rules enforced during immersion processions"
+      ],
+      "behavioral_notes": [
+        "Addressing elders as 'dada' (brother) or 'didi' (sister) is common and respectful",
+        "Intellectual and literary discussions valued \u2014 'adda' (informal chat) culture",
+        "Fish and rice are dietary staples \u2014 vegetarian options exist but non-veg is the norm"
+      ]
+    },
+    "uttar_pradesh": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Spiritual heartland \u2014 Varanasi, Ayodhya, Mathura, Allahabad (Prayagraj)",
+        "Awadhi cuisine tradition \u2014 kebabs, biryanis, and Lucknowi culinary heritage",
+        "Mughal architectural legacy \u2014 Taj Mahal, Fatehpur Sikri, Agra Fort"
+      ],
+      "legal_rules": [
+        "Alcohol legal; drinking age 25",
+        "Cow slaughter strictly banned \u2014 UP Prevention of Cow Slaughter Act",
+        "Anti-conversion ordinance (UP Freedom of Religion Act) in effect"
+      ],
+      "behavioral_notes": [
+        "Touching feet of elders (pranam/charan sparsh) is customary and expected",
+        "Religious sensitivity high \u2014 respect for both Hindu and Muslim traditions",
+        "Hindi is the sole working language \u2014 English not widely spoken outside cities"
+      ]
+    },
+    "punjab": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Punjabi",
+      "cultural_markers": [
+        "Sikh Gurdwara culture \u2014 langar (community kitchen) open to all",
+        "Bhangra and Giddha folk dance traditions",
+        "Rich agricultural identity \u2014 wheat fields, Baisakhi harvest festival"
+      ],
+      "legal_rules": [
+        "Alcohol legal; drinking age 25",
+        "Cow slaughter banned under Punjab Prohibition of Cow Slaughter Act",
+        "Stubble burning regulations enforced seasonally (often violated)"
+      ],
+      "behavioral_notes": [
+        "Warmth and hospitality are hallmarks \u2014 'Sat Sri Akal' is the common greeting",
+        "Generous food culture \u2014 refusing food is considered impolite",
+        "Head covering required when entering any Gurdwara"
+      ]
+    },
+    "goa": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Konkani",
+      "cultural_markers": [
+        "Portuguese colonial heritage \u2014 churches, Latin Quarter in Fontainhas, Goan-Portuguese cuisine",
+        "Beach and shack culture \u2014 Calangute, Baga, Anjuna, Palolem beaches",
+        "Carnival tradition in February \u2014 street parades, floats, and King Momo festivities"
+      ],
+      "legal_rules": [
+        "Alcohol is cheap and widely available \u2014 drinking age 18 (lowest in India)",
+        "Casinos are legal \u2014 floating casinos on the Mandovi River in Panaji",
+        "Uniform Civil Code applies in Goa \u2014 unique among Indian states"
+      ],
+      "behavioral_notes": [
+        "Relaxed 'susegad' (laid-back) lifestyle is the defining cultural attitude",
+        "Siesta culture \u2014 many shops close between 1 PM and 4 PM",
+        "Respect for the environment expected on beaches \u2014 littering fines enforced"
+      ]
+    },
+    "telangana": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Telugu",
+      "cultural_markers": [
+        "Bathukamma flower festival unique to Telangana",
+        "Biryani culture \u2014 Hyderabadi dum biryani is a state icon",
+        "Kakatiya dynasty heritage \u2014 Warangal Fort, Thousand Pillar Temple"
+      ],
+      "legal_rules": [
+        "Alcohol legal; drinking age 21",
+        "Cow slaughter banned under Telangana Animal Preservation Act",
+        "Plastic carry bags below 50 microns banned statewide"
+      ],
+      "behavioral_notes": [
+        "Telugu and Urdu both widely spoken \u2014 bilingual culture",
+        "Elders addressed with respectful suffixes like 'garu'",
+        "Hospitality is strong \u2014 refusing offered food/tea can be seen as rude"
+      ]
+    },
+    "andhra_pradesh": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Telugu",
+      "cultural_markers": [
+        "Tirupati Balaji (Tirumala Venkateswara Temple) \u2014 richest and most visited Hindu temple in the world",
+        "Kuchipudi classical dance tradition originated here",
+        "Spicy Andhra cuisine \u2014 known for heavy use of red chilies, gunpowder (podi), and pickles"
+      ],
+      "legal_rules": [
+        "Alcohol regulated \u2014 government pushing towards prohibition in phases",
+        "Cow slaughter banned under AP Prohibition of Cow Slaughter Act",
+        "Tirupati temple has strict dress code and conduct rules enforced by TTD (Tirumala Tirupati Devasthanams)"
+      ],
+      "behavioral_notes": [
+        "Respectful suffix 'garu' used when addressing anyone \u2014 essential social etiquette",
+        "Meals traditionally eaten on banana leaves during festivals and special occasions",
+        "Telugu pride strong \u2014 the language was recently conferred classical language status"
+      ]
+    },
+    "madhya_pradesh": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Heart of India \u2014 UNESCO sites including Sanchi Stupa, Bhimbetka rock shelters, Khajuraho temples",
+        "Tribal culture significant \u2014 Gond, Bhil, and Baiga communities with distinct art and music",
+        "Wildlife sanctuaries \u2014 Kanha, Bandhavgarh, Pench national parks for tiger safaris"
+      ],
+      "legal_rules": [
+        "Alcohol legal; drinking age 21",
+        "Cow slaughter banned \u2014 Madhya Pradesh Gau Vansh Pratishedh Adhiniyam",
+        "Anti-conversion law (MP Freedom of Religion Act) in effect"
+      ],
+      "behavioral_notes": [
+        "Conservative and traditional social norms in smaller towns",
+        "Hindi spoken with distinctive Malwi, Bundeli, or Nimadi regional accents",
+        "Food culture is strongly vegetarian in many regions, especially among Jain and Hindu communities"
+      ]
+    },
+    "odisha": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Odia",
+      "cultural_markers": [
+        "Jagannath Puri temple and the annual Rath Yatra (chariot festival) are central to identity",
+        "Odissi classical dance tradition \u2014 one of India's eight classical dance forms",
+        "Konark Sun Temple \u2014 UNESCO World Heritage Site with iconic stone chariot architecture"
+      ],
+      "legal_rules": [
+        "Alcohol legal; drinking age 21",
+        "Cow slaughter banned under Odisha Prevention of Cow Slaughter Act",
+        "Single-use plastic banned in all urban areas"
+      ],
+      "behavioral_notes": [
+        "Odia people known for gentle, polite demeanor",
+        "Rice is the absolute staple \u2014 meals without rice feel incomplete",
+        "Temple towns like Puri have strict vegetarian zones near the Jagannath temple"
+      ]
+    },
+    "assam": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Assamese",
+      "cultural_markers": [
+        "Bihu festival (Rongali, Kongali, Bhogali) with traditional Bihu dance and music",
+        "Tea garden culture \u2014 Assam produces over half of India's tea",
+        "One-horned rhinoceros habitat \u2014 Kaziranga National Park is a UNESCO World Heritage Site"
+      ],
+      "legal_rules": [
+        "Alcohol legal; drinking age 21",
+        "Cattle slaughter banned under Assam Cattle Preservation Act 2021",
+        "Inner Line Permit not required for Assam but needed for neighboring NE states"
+      ],
+      "behavioral_notes": [
+        "Offering gamosa (traditional woven towel) is the highest mark of respect and welcome",
+        "Tea is offered in every household \u2014 refusing is impolite",
+        "Assamese people value simplicity and understatement \u2014 boasting is frowned upon"
+      ]
+    },
+    "jammu_and_kashmir": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Kashmiri",
+      "cultural_markers": [
+        "Mughal gardens of Srinagar \u2014 Shalimar Bagh, Nishat Bagh, Chashme Shahi",
+        "Pashmina shawl weaving tradition \u2014 centuries-old artisan craft",
+        "Wazwan feast tradition \u2014 multi-course Kashmiri banquet with rogan josh, gushtaba, yakhni"
+      ],
+      "legal_rules": [
+        "Section 144 (prohibitory orders) can be imposed at short notice in sensitive areas",
+        "Photography restricted near military installations and certain border areas",
+        "Alcohol available in licensed hotels and shops but not widely consumed socially"
+      ],
+      "behavioral_notes": [
+        "Kashmiris greet with 'Aadab' or 'As-Salaam-Alaikum' \u2014 reciprocate respectfully",
+        "Hospitality through kehwa (Kashmiri saffron tea) and noon chai (pink salt tea) is customary",
+        "Political discussions are sensitive \u2014 avoid unsolicited opinions on the political situation"
+      ]
+    },
+    "himachal_pradesh": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Himalayan hill station culture \u2014 British colonial-era architecture in Shimla and Dalhousie",
+        "Kullu Dussehra festival \u2014 week-long celebration unique to the Kullu Valley",
+        "Pahari (hill) culture \u2014 traditional wooden temple architecture, Himachali cap (topi) is cultural identity"
+      ],
+      "legal_rules": [
+        "Alcohol legal; drinking age 25",
+        "Plastic bags banned across the state \u2014 strictly enforced at tourist spots",
+        "No construction allowed within certain distances of forests and rivers"
+      ],
+      "behavioral_notes": [
+        "Hill people are warm but reserved \u2014 greet with 'Namaste' and folded hands",
+        "Roads are narrow and winding \u2014 honking is a safety norm, not aggression",
+        "Local pahadi food (siddu, dham) offered warmly to visitors \u2014 accept graciously"
+      ]
+    },
+    "uttarakhand": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Devbhoomi (Land of Gods) \u2014 Char Dham pilgrimage (Badrinath, Kedarnath, Gangotri, Yamunotri)",
+        "Yoga and spiritual capital of the world \u2014 Rishikesh and Haridwar on the Ganges",
+        "Garhwali and Kumaoni folk culture \u2014 distinct hill traditions, music, and cuisine"
+      ],
+      "legal_rules": [
+        "Alcohol legal; drinking age 25",
+        "Non-vegetarian food and alcohol prohibited in holy towns like Haridwar and Rishikesh",
+        "Char Dham Yatra registration mandatory \u2014 biometric ID required for pilgrims"
+      ],
+      "behavioral_notes": [
+        "Spiritual sensibility is strong \u2014 respect for religious sites is essential",
+        "Adventure tourism norms \u2014 follow guide instructions for rafting, trekking",
+        "Mountain etiquette: do not litter on trekking trails \u2014 'Leave No Trace' enforced"
+      ]
+    },
+    "bihar": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Buddhist heritage \u2014 Bodh Gaya (where Buddha attained enlightenment), Nalanda ancient university ruins",
+        "Chhath Puja \u2014 ancient Vedic festival dedicated to the Sun God, unique to Bihar and eastern UP",
+        "Madhubani (Mithila) painting tradition \u2014 intricate folk art recognized globally"
+      ],
+      "legal_rules": [
+        "Bihar is a dry state since 2016 \u2014 complete prohibition of alcohol, strict penalties",
+        "Cow slaughter banned",
+        "Caste-based discrimination laws strictly on the books though social hierarchies persist"
+      ],
+      "behavioral_notes": [
+        "Touching feet of elders is standard practice and a sign of deep respect",
+        "Bihari hospitality is generous \u2014 sattu, litti-chokha offered warmly to guests",
+        "Hindi and Bhojpuri/Magahi/Maithili spoken \u2014 Maithili has its own literary tradition"
+      ]
+    },
+    "jharkhand": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Tribal heritage \u2014 Santhal, Munda, Oraon, Ho tribes with rich folk traditions",
+        "Sarhul festival \u2014 spring celebration of Sal trees sacred to tribal communities",
+        "Mineral-rich state \u2014 known as India's mining hub (coal, iron ore, mica)"
+      ],
+      "legal_rules": [
+        "Alcohol legal; drinking age 21",
+        "Cow slaughter banned under Jharkhand Bovine Animal Prohibition of Slaughter Act",
+        "Tribal land transfer restrictions \u2014 non-tribals cannot buy tribal land (Chotanagpur Tenancy Act)"
+      ],
+      "behavioral_notes": [
+        "Tribal customs respected \u2014 festivals like Karma and Sarhul have community participation",
+        "Rice-based diet predominant \u2014 rice beer (handia) is traditional in tribal areas",
+        "People are hospitable but reserved \u2014 earn trust through respectful engagement"
+      ]
+    },
+    "chhattisgarh": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Tribal diversity \u2014 Bastar Dussehra is a 75-day tribal festival unlike mainstream Dussehra",
+        "Dhokra (bell metal) casting artisan tradition \u2014 ancient lost-wax technique",
+        "Rich folk dance traditions \u2014 Panthi, Raut Nacha, Sua Naach"
+      ],
+      "legal_rules": [
+        "Alcohol legal; drinking age 21",
+        "Cow slaughter banned under Chhattisgarh Agricultural Cattle Preservation Act",
+        "Some areas in Bastar region may have restricted access due to security advisories"
+      ],
+      "behavioral_notes": [
+        "Chhattisgarhi (dialect of Hindi) is the daily language \u2014 Hindi understood everywhere",
+        "Tribal areas have distinct social protocols \u2014 take local guidance before visiting",
+        "Rice and lentils are staple \u2014 'bore baasi' (fermented rice) is a traditional breakfast"
+      ]
+    },
+    "haryana": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Haryanvi folk traditions \u2014 Saang (folk theatre) and Ragini music",
+        "Strong wrestling and sports culture \u2014 Haryana produces many Olympic athletes",
+        "Agricultural heartland \u2014 Baisakhi and Teej are major festivals"
+      ],
+      "legal_rules": [
+        "Alcohol legal; drinking age 25",
+        "Cow slaughter banned \u2014 Haryana Gauvansh Sanrakshan and Gausamvardhan Act strict enforcement",
+        "Khap panchayat (village council) influence exists in rural areas despite legal limits"
+      ],
+      "behavioral_notes": [
+        "Conservative social norms especially in rural areas",
+        "Respect for elders is paramount \u2014 'Tau' (uncle) used as respectful address for older men",
+        "Dairy-heavy diet \u2014 milk, lassi, ghee, and curd are staples"
+      ]
+    },
+    "meghalaya": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Khasi",
+      "cultural_markers": [
+        "Matrilineal society \u2014 children take the mother's surname, youngest daughter inherits property",
+        "Living root bridges of Cherrapunji (Sohra) \u2014 UNESCO tentative list, centuries-old Khasi engineering",
+        "Wettest place on Earth \u2014 Mawsynram and Cherrapunji receive extreme rainfall"
+      ],
+      "legal_rules": [
+        "Inner Line Permit not required for Indian citizens but check advisories",
+        "Restricted Area Permit needed for foreign nationals in certain border areas",
+        "Autonomous District Councils govern tribal areas with customary laws"
+      ],
+      "behavioral_notes": [
+        "Khasi, Jaintia, and Garo tribes have distinct customs \u2014 learn which area you are in",
+        "Christianity is the majority religion \u2014 church on Sundays is important, shops may be closed",
+        "Betel nut (kwai) chewing is ubiquitous \u2014 offered as a sign of welcome"
+      ]
+    },
+    "nagaland": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "English (official); Nagamese (creole) is the lingua franca; each tribe has its own language",
+      "cultural_markers": [
+        "Hornbill Festival (Dec 1-10, Kisama Heritage Village near Kohima) \u2014 'Festival of Festivals' showcasing all Naga tribes' dances, music, crafts, food, and warrior traditions",
+        "Naga tribes (Angami, Ao, Sema, Konyak, Lotha, etc.) each have distinct traditions, attire, and customs; former headhunting warrior culture",
+        "Naga cuisine: smoked pork with bamboo shoot, axone/akhuni (fermented soybean, a signature flavor), dog meat consumed by some tribes (controversial), Raja Mircha (Bhut Jolokia/Ghost Pepper) originates here",
+        "Handwoven Naga shawls with tribal motifs are culturally significant \u2014 different patterns denote tribal identity and achievements"
+      ],
+      "legal_rules": [
+        "Nagaland is officially a DRY STATE under the Nagaland Liquor Total Prohibition Act (1989) \u2014 but enforcement is inconsistent and local rice beer/zu is culturally tolerated",
+        "Inner Line Permit (ILP) required for all Indian citizens from outside Nagaland \u2014 obtain from Nagaland House in Delhi/Kolkata/Guwahati or online",
+        "Foreign tourists need a Restricted Area Permit (RAP) \u2014 can be obtained at Indian missions abroad or Foreigner Registration Offices",
+        "Customary tribal law governs many aspects of life through village councils \u2014 parallel to state and central laws"
+      ],
+      "behavioral_notes": [
+        "Each Naga tribe has distinct customs \u2014 what is acceptable in one tribe may not be in another; local guidance is essential",
+        "Do not call Naga people 'Indians' in a way that implies they are outsiders \u2014 Nagas have a distinct identity but are Indian citizens",
+        "Seek permission before photographing tribal people, especially during rituals or in villages",
+        "Sunday is strictly observed as a rest day (Christian majority 88%+) \u2014 shops, restaurants, and transport may be severely limited"
+      ]
+    },
+    "mizoram": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Mizo (Lushai); English is widely spoken",
+      "cultural_markers": [
+        "Chapchar Kut (Mar) is the biggest festival \u2014 spring festival celebrating completion of jhum (slash-and-burn) cultivation with traditional Cheraw bamboo dance",
+        "Cheraw (bamboo dance) is Mizoram's most iconic art form \u2014 dancers step in and out of bamboo poles clapped together rhythmically",
+        "Mizo society is egalitarian and community-oriented \u2014 tlawmngaihna (selfless service to others) is the core Mizo ethical value",
+        "Mizo cuisine: bai (mixed vegetables with pork/chicken and herbs), sa-um (fermented pork), chhangban (steamed rice cake), vawksa rep (smoked pork)"
+      ],
+      "legal_rules": [
+        "Mizoram has partial prohibition \u2014 the Mizoram Liquor (Prohibition) Act was in effect but MLPC Act 2014 allowed regulated sale; policy has fluctuated \u2014 locally brewed zu may be available",
+        "Inner Line Permit (ILP) required for all Indian citizens from outside Mizoram",
+        "Foreign nationals need a Restricted Area Permit (RAP)",
+        "Community laws through Village Councils and Young Mizo Association (YMA) are powerful \u2014 YMA enforces social discipline locally"
+      ],
+      "behavioral_notes": [
+        "Mizo society is predominantly Christian (87%+) \u2014 Sundays are rest days; church attendance is high",
+        "Mizos are known for their warmth and hospitality \u2014 guests are treated with great respect; refusing food is impolite",
+        "The YMA (Young Mizo Association) functions as a powerful community organization \u2014 respect their community rules",
+        "Dress modestly in towns \u2014 while Mizos have a modern outlook, decorum is expected in churches and public places"
+      ]
+    },
+    "manipur": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Meiteilon/Manipuri (Meitei language; various tribal languages also spoken)",
+      "cultural_markers": [
+        "Manipuri Raas Leela dance \u2014 classical dance form depicting Krishna-Radha love story; one of India's eight classical dance forms",
+        "Ima Keithel (Mothers' Market) in Imphal \u2014 Asia's largest all-women market, run entirely by Meitei women for centuries",
+        "Loktak Lake \u2014 largest freshwater lake in Northeast India; famous for floating phumdis (vegetation masses) and Keibul Lamjao (world's only floating national park)",
+        "Manipuri cuisine: eromba (boiled vegetables with fermented fish), singju (spicy salad), kangshoi (vegetable stew), iromba; fermented fish (ngari) is a key ingredient"
+      ],
+      "legal_rules": [
+        "Legal drinking age is 21 \u2014 but Manipur has complex prohibition history; currently regulated sale is permitted",
+        "Inner Line Permit (ILP) required for Indian citizens from outside Manipur \u2014 obtain from Manipur Bhavans or online",
+        "Foreign nationals need a Restricted Area Permit (RAP)",
+        "Armed Forces Special Powers Act (AFSPA) is in effect in parts of Manipur \u2014 security presence is significant in certain areas"
+      ],
+      "behavioral_notes": [
+        "Ethnic tensions between Meitei (valley) and Kuki-Zo/Naga (hills) communities have led to conflict \u2014 check current situation before travel; 2023 conflict had severe impact",
+        "Ima Keithel is culturally sacred \u2014 behave respectfully; photography may require permission from the women vendors",
+        "Manipuri culture values martial arts (thang-ta, sword and spear art) and polo (believed to have originated here as sagol kangjei)",
+        "Carry valid ID at all times \u2014 security checkpoints are common, especially on highways between Imphal and hill districts"
+      ]
+    },
+    "sikkim": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Nepali",
+      "cultural_markers": [
+        "Buddhist monastery culture \u2014 Rumtek, Pemayangtse, Enchey monasteries",
+        "Kanchenjunga (third highest peak) dominates the landscape and spiritual identity",
+        "Organic state \u2014 Sikkim became India's first fully organic state in 2016"
+      ],
+      "legal_rules": [
+        "Inner Line Permit required for Nathula Pass and restricted border areas",
+        "Restricted Area Permit needed for foreign nationals visiting certain areas",
+        "Plastic water bottles banned in certain protected areas \u2014 carry reusable bottles"
+      ],
+      "behavioral_notes": [
+        "Nepali is the lingua franca \u2014 also Bhutia, Lepcha, and Limbu spoken",
+        "People are gentle and soft-spoken \u2014 aggression and loud behavior are culturally jarring",
+        "Alcohol (local tongba and chang) widely consumed \u2014 but respect monastery zones"
+      ]
+    },
+    "tripura": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Bengali (Kokborok, the tribal language, is also an official language)",
+      "cultural_markers": [
+        "Neermahal \u2014 lake palace in Melaghar, only lake palace in eastern India; modeled partly on Mughal and Hindu styles",
+        "Tripura Sundari Temple (Udaipur, Tripura) \u2014 one of the 51 Shakti Peethas; major Hindu pilgrimage site",
+        "Tribal culture of the Tripuri, Reang, Jamatia, Chakma people \u2014 Garia Puja (spring festival) and Kharchi Puja (July, worship of 14 deities) are major festivals",
+        "Tripuri cuisine: muya awandru (bamboo shoot curry with fermented fish), chakhwi (traditional rice beer), gudok (fermented fish side dish), berma (dried/fermented fish)"
+      ],
+      "legal_rules": [
+        "Legal drinking age is 21 \u2014 alcohol available through licensed shops",
+        "Inner Line Permit is NOT required for Tripura for Indian citizens",
+        "Foreign nationals may need to register at the Foreigners Registration Office",
+        "Restricted areas near the Bangladesh border \u2014 permits may be needed for certain border zones"
+      ],
+      "behavioral_notes": [
+        "Bengali is the dominant language due to migration patterns \u2014 but Kokborok-speaking tribal communities have a distinct identity; be sensitive to this distinction",
+        "Tripura is less touristy \u2014 infrastructure is basic in rural areas; plan accordingly",
+        "Tribal areas: seek permission before photographing; local customs vary by tribe",
+        "Political activism and hartals can occur \u2014 check local news before travel"
+      ]
+    },
+    "arunachal_pradesh": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "English (official); Hindi is a lingua franca; 30+ tribal languages spoken (Adi, Nyishi, Apatani, Monpa, etc.)",
+      "cultural_markers": [
+        "Tawang Monastery \u2014 largest Buddhist monastery in India and second largest in the world (after Lhasa); 6th Dalai Lama was born here",
+        "26+ major tribes with distinct cultures \u2014 Apatani tribe (Ziro Valley, UNESCO tentative list) known for facial tattoos (historical, discontinued) and sustainable paddy-cum-fish agriculture",
+        "Losar (Tibetan New Year, Feb/Mar) celebrated by Monpa people in Tawang; Myoko Festival of the Apatani; Solung of the Adi tribe",
+        "Apong (rice beer) is central to tribal social life and rituals across most Arunachali tribes"
+      ],
+      "legal_rules": [
+        "Legal drinking age is 21 \u2014 traditional rice beer (apong/chuak) is culturally integral",
+        "Inner Line Permit (ILP) required for ALL Indian citizens from outside Arunachal Pradesh \u2014 obtain from Arunachal Pradesh Resident Commissioner offices in Delhi/Kolkata/Guwahati or online",
+        "Foreign nationals need a Protected Area Permit (PAP) \u2014 must travel in a group of at least 2 with a registered tour operator",
+        "China claims Arunachal Pradesh as 'South Tibet' \u2014 the security situation means military zones exist near the border with restricted civilian access"
+      ],
+      "behavioral_notes": [
+        "Tribal customs vary significantly across the state \u2014 always have a local guide when visiting tribal villages",
+        "Seek permission before photographing tribal people, ceremonies, or morung (traditional meeting houses)",
+        "Infrastructure is developing \u2014 roads can be poor, especially during monsoons (Jun-Sep); flights to Itanagar/Pasighat are limited",
+        "Arunachali people are warm but private \u2014 build rapport before asking personal questions or taking photographs"
+      ]
+    },
+    "meenakshi_temple": {
+      "type": "zone",
+      "parent_region": "tamil_nadu",
+      "dominant_language": "Tamil",
+      "cultural_markers": [
+        "One of the most important Hindu temples in India",
+        "Dravidian architecture masterpiece",
+        "Active place of worship \u2014 not just a tourist site"
+      ],
+      "legal_rules": [
+        "Strict dress code: no shorts, sleeveless tops, or revealing clothing",
+        "Photography prohibited inside sanctum sanctorum",
+        "Non-Hindus may have restricted access to certain inner areas"
+      ],
+      "behavioral_notes": [
+        "Shoe removal required \u2014 use the shoe counter",
+        "Maintain silence and decorum inside the temple",
+        "Follow the queue system for darshan (viewing of deity)",
+        "Mobile phones must be on silent"
+      ]
+    },
+    "tirupati_temple": {
+      "type": "zone",
+      "parent_region": "andhra_pradesh",
+      "dominant_language": "Telugu",
+      "cultural_markers": [
+        "Sri Venkateswara Temple at Tirumala is the richest and most-visited religious site in the world \u2014 receives 50,000 to 100,000 pilgrims daily",
+        "Devotees traditionally donate hair (tonsure) as an offering \u2014 the temple has dedicated tonsure halls called Kalyanakatta",
+        "The deity is believed to be self-manifested (Swayambhu) \u2014 the seven Tirumala hills are considered the earthly abode of Lord Vishnu",
+        "Tirumala Tirupati Devasthanams (TTD) is a government-managed trust that administers the temple and its vast operations"
+      ],
+      "legal_rules": [
+        "Strict dress code enforced at temple entry: men must wear dhoti/panche or formal pants with shirt (no shorts, bermudas, torn jeans); women must wear saree, half-saree, chudidar, or salwar kameez \u2014 western wear not permitted",
+        "All electronic devices including mobile phones, cameras, and power banks must be deposited at designated counters before entering the temple \u2014 strictly enforced with metal detectors",
+        "Free darshan involves queues of 10-20 hours; paid special darshan (Rs 300) ticket available online through TTD website \u2014 advance booking strongly recommended",
+        "Non-Hindus may visit but must sign a declaration of faith in Lord Venkateswara at the entrance"
+      ],
+      "behavioral_notes": [
+        "Tonsure (head shaving) is voluntary but extremely common \u2014 if participating, use only the official Kalyanakatta halls, not unauthorized barbers outside",
+        "Laddu prasadam is the sacred offering \u2014 a maximum of 2 laddus per person can be purchased with darshan ticket; additional laddus require a separate token",
+        "Maintain absolute silence and keep moving in the queue inside the sanctum \u2014 stopping for extended darshan is not permitted due to crowd volume",
+        "Alcohol and non-vegetarian food are strictly prohibited in the entire Tirumala hill area (not just the temple) \u2014 checking is done at road checkpoints"
+      ]
+    },
+    "golden_temple": {
+      "type": "zone",
+      "parent_region": "punjab",
+      "dominant_language": "Punjabi",
+      "cultural_markers": [
+        "Sri Harmandir Sahib (Golden Temple) is the holiest Gurudwara in Sikhism \u2014 the Akal Takht (supreme temporal seat of Sikh authority) is located within the complex",
+        "The temple is covered in approximately 750 kg of pure gold \u2014 the gold plating was first done by Maharaja Ranjit Singh in the early 19th century",
+        "The Langar (free community kitchen) serves 50,000 to 100,000 free meals daily to all visitors regardless of religion, caste, or background",
+        "The Guru Granth Sahib (Sikh holy scripture) is ceremonially installed every morning and returned to the Akal Takht every evening in the Sukhasan ceremony"
+      ],
+      "legal_rules": [
+        "Head covering is mandatory for all visitors regardless of gender or religion \u2014 free scarves and bandanas are available at the entrance if needed",
+        "Footwear must be removed and feet washed at the entrance \u2014 shoe storage and foot-wash areas are provided free of charge",
+        "Photography is allowed in the outer complex (Parikrama) but strictly prohibited inside the inner sanctum (Harmandir Sahib) where the Guru Granth Sahib is kept",
+        "Tobacco, alcohol, and any intoxicants are strictly prohibited in the entire complex \u2014 this is a core Sikh religious principle"
+      ],
+      "behavioral_notes": [
+        "The temple is open 24 hours a day, 365 days a year \u2014 there is no closing time and no entry fee",
+        "Walk clockwise around the Sarovar (sacred pool) following the Parikrama path \u2014 this is the customary direction of circumambulation",
+        "Sit on the floor in the Langar Hall \u2014 everyone sits and eats as equals regardless of status; do not waste food",
+        "Do not point your feet toward the Guru Granth Sahib or any religious area \u2014 sit cross-legged or with feet tucked under"
+      ]
+    },
+    "jagannath_temple": {
+      "type": "zone",
+      "parent_region": "odisha",
+      "dominant_language": "Odia",
+      "cultural_markers": [
+        "One of the four sacred Char Dham pilgrimage sites \u2014 dedicated to Lord Jagannath (form of Vishnu), Balabhadra, and Subhadra",
+        "The annual Rath Yatra (chariot festival) is world-famous \u2014 three massive chariots are pulled through Puri streets; the English word 'Juggernaut' derives from 'Jagannath'",
+        "The temple kitchen (Rosai Ghar) is the largest in the world \u2014 feeds up to 100,000 people daily with Mahaprasad cooked on firewood in earthen pots",
+        "The Sudarshan Chakra (disc) atop the temple is visible from all directions and the temple flag always appears to fly in the opposite direction of the wind"
+      ],
+      "legal_rules": [
+        "Non-Hindus are strictly prohibited from entering the temple \u2014 this is actively enforced by temple security and has been upheld by Indian courts",
+        "Photography and videography are completely banned inside the temple complex",
+        "Dress code enforced: traditional Indian attire preferred; no leather items (belts, bags, wallets) allowed inside the temple",
+        "Mobile phones are banned inside the temple \u2014 must be deposited at counters outside"
+      ],
+      "behavioral_notes": [
+        "If you are Hindu, be prepared for very large crowds especially during Rath Yatra (June/July) \u2014 plan darshan during off-peak early morning hours",
+        "Mahaprasad (temple food offered to deity) is considered sacred \u2014 it is traditionally eaten seated on the ground and should not be wasted",
+        "Non-Hindus can view the temple from the rooftop of the Raghunandan Library located opposite the Lion Gate \u2014 this is the established alternative viewpoint",
+        "Respect the pandas (hereditary temple priests) but be aware that some may pressure visitors for donations \u2014 official donation counters are available inside"
+      ]
+    },
+    "kashi_vishwanath_temple": {
+      "type": "zone",
+      "parent_region": "uttar_pradesh",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "One of the 12 Jyotirlingas (most sacred Shiva temples) \u2014 believed to be the spot where Shiva first manifested as an infinite pillar of light",
+        "Located on the western bank of the Ganges in Varanasi \u2014 one of the holiest cities in Hinduism and one of the oldest continuously inhabited cities in the world",
+        "The Kashi Vishwanath Corridor (inaugurated 2021) transformed the temple precinct with direct access from the Ganges ghats to the temple",
+        "The current temple was built by Ahilyabai Holkar of Indore in 1780; the 15.5-meter gold dome was donated by Maharaja Ranjit Singh of Punjab"
+      ],
+      "legal_rules": [
+        "Multi-layered security similar to airports \u2014 Aadhaar card or government-issued photo ID mandatory for all visitors including Indian citizens",
+        "All electronic devices including mobile phones, cameras, power banks, and smartwatches must be deposited at lockers before entering the security zone",
+        "No bags, wallets, belts, or any leather items allowed inside \u2014 only a small transparent pouch for offerings is permitted through security",
+        "Temple open from 2:30 AM (Mangala Aarti) to 11:00 PM \u2014 different aarti timings throughout the day with varying queue lengths"
+      ],
+      "behavioral_notes": [
+        "The Ganga Aarti at Dashashwamedh Ghat (nearby) is a must-see evening ritual \u2014 arrive by 6:00 PM to secure a good viewing spot",
+        "Cremation rituals are ongoing at Manikarnika Ghat \u2014 do not photograph cremations; it is deeply disrespectful and may provoke confrontation",
+        "Beware of unauthorized pandas (priests) and touts offering unsolicited guide services \u2014 use official temple services or pre-booked guides",
+        "The area around the temple is narrow-laned old city (galis) \u2014 navigate on foot; vehicles cannot access the inner lanes"
+      ]
+    },
+    "somnath_temple": {
+      "type": "zone",
+      "parent_region": "gujarat",
+      "dominant_language": "Gujarati",
+      "cultural_markers": [
+        "First among the 12 Jyotirlingas \u2014 believed to be the site where the moon god (Soma) prayed to Shiva to lift a curse",
+        "Destroyed and rebuilt at least 6 times through history \u2014 by Mahmud of Ghazni (1026 CE), Alauddin Khalji, and others; current structure was rebuilt in 1951 at Sardar Vallabhbhai Patel's initiative",
+        "Located on the western coast of Gujarat at Prabhas Patan \u2014 the Arabian Sea is directly behind the temple",
+        "A 'Baan Stambh' (arrow pillar) on the sea-facing side marks the direction toward the South Pole with no landmass in between"
+      ],
+      "legal_rules": [
+        "Photography allowed in the outer temple complex but prohibited inside the main sanctum and garbhagriha",
+        "Dress code: modest clothing required \u2014 no shorts or sleeveless tops; traditional attire preferred for entry",
+        "Temple timings: 6:00 AM to 9:30 PM \u2014 Aarti at 7:00 AM, 12:00 PM, and 7:00 PM daily",
+        "Sound and light show runs every evening \u2014 separate ticket required; narrated in Hindi and English"
+      ],
+      "behavioral_notes": [
+        "The evening aarti at sunset over the Arabian Sea is an iconic experience \u2014 arrive 30 minutes early to get a good spot",
+        "Gujarat is a dry state \u2014 no alcohol is available anywhere near the temple or in the nearby town of Veraval/Prabhas Patan",
+        "Footwear must be removed before entering; shoe storage is available near the entrance",
+        "The temple trust manages a museum nearby with artifacts documenting the temple's history of destruction and reconstruction \u2014 worth visiting for historical context"
+      ]
+    },
+    "ramanathaswamy_temple": {
+      "type": "zone",
+      "parent_region": "tamil_nadu",
+      "dominant_language": "Tamil",
+      "cultural_markers": [
+        "One of the 12 Jyotirlingas and one of the Char Dham \u2014 believed to be where Lord Rama worshipped Shiva to atone for killing Ravana (a Brahmin)",
+        "Famous for the longest corridor of any Hindu temple in India \u2014 the outer corridor stretches over 1,200 meters with ornately carved pillars",
+        "Has 22 sacred wells (theerthams) within the temple complex \u2014 pilgrims bathe in each well in a prescribed order before entering the main sanctum",
+        "Located on Rameswaram Island connected to mainland India by the Pamban Bridge \u2014 one of India's most scenic railway bridges opened in 1914"
+      ],
+      "legal_rules": [
+        "Strict dress code: men must be bare-chested or wear veshti/dhoti for entering the inner sanctum; women must wear saree or salwar kameez \u2014 western clothing not permitted",
+        "Photography is strictly prohibited inside the temple complex",
+        "Temple timings: 5:00 AM to 1:00 PM and 3:00 PM to 9:00 PM \u2014 closed during afternoon hours",
+        "Bathing in the 22 theerthams is a traditional ritual \u2014 temple staff pour buckets of water from each sacred well over pilgrims in sequence"
+      ],
+      "behavioral_notes": [
+        "Carry a change of dry clothes \u2014 the theertham bathing ritual means you will be soaking wet; changing rooms are available near the temple",
+        "The Agni Theertham (sea beach adjacent to the temple) is where pilgrims bathe in the sea before entering \u2014 participate respectfully if joining",
+        "Footwear must be removed well before the temple entrance \u2014 the stone corridor floors can be extremely hot in summer afternoons",
+        "The temple is an active major pilgrimage site \u2014 maintain a devotional atmosphere and follow instructions from temple staff and priests"
+      ]
+    },
+    "siddhivinayak_temple": {
+      "type": "zone",
+      "parent_region": "maharashtra",
+      "dominant_language": "Marathi",
+      "cultural_markers": [
+        "One of the most visited and richest temples in Mumbai \u2014 dedicated to Lord Ganesha; 'Siddhivinayak' means 'Ganesha who grants wishes'",
+        "The idol is unique: Ganesha's trunk turns to the right (normally left-turned in most temples) \u2014 considered exceptionally powerful and auspicious in Hindu tradition",
+        "Bollywood celebrities, politicians, and cricketers regularly visit for blessings before major events \u2014 it is Mumbai's most famous temple",
+        "Built in 1801 by Laxman Vithu and Deubai Patil \u2014 the original small shrine has been expanded into the current grand structure with a gold-plated dome (3.6 kg gold)"
+      ],
+      "legal_rules": [
+        "Dress code: modest clothing required \u2014 no shorts, sleeveless tops, or revealing clothing for men or women",
+        "Photography prohibited inside the temple sanctum \u2014 mobile phones allowed but no photos of the deity permitted",
+        "Temple timings: 5:30 AM to 10:00 PM; Tuesdays are the most auspicious day and attract massive crowds with 2-4 hour queues common",
+        "Online darshan booking available through the temple trust website to skip long queues \u2014 paid special darshan tickets also available"
+      ],
+      "behavioral_notes": [
+        "Visit on weekdays or early mornings to avoid extreme crowds \u2014 Tuesday is the busiest day of the week by a large margin",
+        "Modak (sweet dumpling) is the traditional offering to Ganesha \u2014 available from stalls near the temple entrance",
+        "Follow the designated queue path strictly \u2014 temple management enforces queue discipline due to very high daily footfall",
+        "The temple is located in Prabhadevi, central Mumbai \u2014 easily accessible via Dadar railway station on both Western and Central railway lines"
+      ]
+    },
+    "akshardham_temple": {
+      "type": "zone",
+      "parent_region": "delhi",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Swaminarayan Akshardham is one of the largest Hindu temple complexes in the world \u2014 inaugurated in 2005; built in 5 years by over 11,000 artisans and volunteers",
+        "Made entirely of Rajasthani pink sandstone and Italian Carrara marble \u2014 no steel or concrete used in the main monument; built following ancient Vastu Shastra and Pancharatra Shastra principles",
+        "Features a Musical Fountain show (Sahaj Anand Water Show), a boat ride depicting 10,000 years of Indian civilization, and a large-format film on Swaminarayan's life",
+        "Holds Guinness World Record as the World's Largest Comprehensive Hindu Temple"
+      ],
+      "legal_rules": [
+        "All electronic devices strictly prohibited inside \u2014 mobile phones, cameras, bags, food items, and even pens must be deposited at the cloakroom before entry; this is the strictest device ban of any Indian temple",
+        "Entry to the temple is free but ticketed attractions (exhibitions, boat ride, water show) have separate charges (Rs 170-220 per adult)",
+        "Dress code enforced: no shorts, short skirts, sleeveless tops, or low-cut clothing \u2014 free wraparound cloth provided at the entrance if needed",
+        "Temple timings: 9:30 AM to 6:30 PM; closed every Monday; last entry for exhibitions at 5:30 PM"
+      ],
+      "behavioral_notes": [
+        "Security screening is airport-level with bag checks and metal detectors \u2014 arrive at least 30 minutes before your intended entry time",
+        "The complex is vast \u2014 plan at least 3-4 hours for a complete visit including all exhibitions and the water show",
+        "The Musical Fountain (water show) runs after sunset \u2014 timing varies by season; it is considered a highlight and should not be missed",
+        "No food or water bottles allowed inside the main complex \u2014 a food court is available inside the premises but outside the main monument area"
+      ]
+    },
+    "lotus_temple": {
+      "type": "zone",
+      "parent_region": "delhi",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Baha'i House of Worship \u2014 one of only 8 continental Baha'i temples in the world; designed by Iranian-Canadian architect Fariborz Sahba and completed in 1986",
+        "The lotus-shaped structure has 27 free-standing marble-clad petals arranged in clusters of three \u2014 made from white concrete and clad in Greek Pentelic marble",
+        "Open to people of all religions for silent prayer and meditation \u2014 no sermons, rituals, or religious images are present inside; only silent contemplation",
+        "Won numerous architectural awards including the Globart Academy Award \u2014 has been visited by over 100 million people since its inauguration"
+      ],
+      "legal_rules": [
+        "Entry is completely free \u2014 no tickets required for any visitor",
+        "Photography allowed from outside in the gardens but strictly prohibited inside the prayer hall",
+        "Absolute silence must be maintained inside the prayer hall \u2014 no talking, whispering, or phone usage permitted",
+        "Temple timings: 9:00 AM to 5:30 PM (October to March) and 9:00 AM to 7:00 PM (April to September); closed on Mondays"
+      ],
+      "behavioral_notes": [
+        "The temple welcomes all faiths equally \u2014 it is not a Hindu temple despite the lotus design; respect the Baha'i tradition of universal worship",
+        "Footwear must be removed before entering the prayer hall \u2014 shoe racks are provided outside",
+        "Visitors typically spend 15-20 minutes inside for silent meditation or prayer \u2014 there are no guided tours or rituals conducted",
+        "The surrounding Mughal-style gardens are beautifully landscaped \u2014 allocate time to walk around the grounds after visiting the prayer hall"
+      ]
+    },
+    "taj_mahal": {
+      "type": "zone",
+      "parent_region": "uttar_pradesh",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Built by Mughal Emperor Shah Jahan (1632-1653) as a mausoleum for his wife Mumtaz Mahal \u2014 considered the finest example of Mughal architecture and a symbol of eternal love",
+        "UNESCO World Heritage Site since 1983 \u2014 designated as one of the New Seven Wonders of the World in a 2007 global poll",
+        "Made of white Makrana marble from Rajasthan with pietra dura inlay work of 28 types of precious and semi-precious stones sourced from across Asia",
+        "The four minarets are built slightly tilted outward \u2014 designed so they would fall away from the main tomb structure in case of an earthquake"
+      ],
+      "legal_rules": [
+        "Entry ticket: Rs 50 for Indians, Rs 1,100 for foreigners (ASI managed); separate Rs 200 ticket to enter the main mausoleum platform (includes shoe covers)",
+        "Closed every Friday \u2014 open only for Jumma (Friday) prayers at the mosque within the complex; not open to tourists on Fridays",
+        "Tripods, drones, tobacco products, food items, and large bags are prohibited \u2014 small bags allowed but subject to security screening at entry",
+        "Timings: 30 minutes before sunrise to 30 minutes before sunset; night viewing available on full moon nights and 2 days before/after (limited 400 tickets, 8:30 PM to 12:30 AM)"
+      ],
+      "behavioral_notes": [
+        "Arrive at sunrise for the best experience \u2014 the marble changes color with light and the crowds are smallest at opening time; sunset is also spectacular",
+        "Battery-operated vehicles (from parking to entrance gates) are mandatory \u2014 petrol/diesel vehicles banned within 500 meters of the Taj to prevent pollution damage to the marble",
+        "Touts and unofficial guides can be aggressive at the entrance \u2014 use only ASI-authorized guides who carry official identification cards",
+        "Do not touch or lean against the marble surfaces \u2014 the monument shows yellowing from pollution and contact with oils; conservation is an ongoing concern"
+      ]
+    },
+    "red_fort": {
+      "type": "zone",
+      "parent_region": "delhi",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Built by Mughal Emperor Shah Jahan between 1639-1648 when he shifted the Mughal capital from Agra to Delhi (then called Shahjahanabad)",
+        "UNESCO World Heritage Site \u2014 the Indian Prime Minister hoists the national flag and delivers a national address here every Independence Day (August 15) since 1947",
+        "The fort walls are made of red sandstone, stretching 2.5 km in perimeter \u2014 the interior once housed elaborate gardens, royal apartments (Diwan-i-Aam, Diwan-i-Khas), and the Peacock Throne",
+        "Houses several museums including the Indian War Memorial Museum, Museum on the Independence Movement, and the Museum of Archaeology"
+      ],
+      "legal_rules": [
+        "Entry ticket: Rs 35 for Indians, Rs 500 for foreigners (ASI managed)",
+        "Timings: 9:30 AM to 4:30 PM; closed on Mondays",
+        "Drones and tripods prohibited inside; regular photography and mobile phones are allowed throughout",
+        "Sound and Light show runs every evening except Mondays \u2014 separate ticket required (approximately Rs 80 for adults)"
+      ],
+      "behavioral_notes": [
+        "The fort is very large \u2014 plan at least 2-3 hours for a thorough visit covering all major structures",
+        "The area around the fort (Chandni Chowk) is Delhi's oldest and busiest market \u2014 explore it on foot as vehicle access is heavily restricted",
+        "Avoid visiting on extremely hot summer days (May-June) as there is limited shade inside the fort complex",
+        "Audio guides are available for rent at the entrance for a more informative and self-paced experience"
+      ]
+    },
+    "hampi": {
+      "type": "zone",
+      "parent_region": "karnataka",
+      "dominant_language": "Kannada",
+      "cultural_markers": [
+        "Ruins of the Vijayanagara Empire (14th-16th century) \u2014 once one of the largest and richest cities in the world with a population estimated at 500,000",
+        "UNESCO World Heritage Site since 1986 \u2014 spread over 4,100 hectares with over 1,600 surviving remains including temples, palaces, market streets, and aquatic structures",
+        "The Virupaksha Temple is still an active place of worship \u2014 dedicated to Lord Shiva; it has been functioning continuously since the 7th century CE",
+        "The Stone Chariot at the Vittala Temple complex is one of India's most iconic structures \u2014 it is featured on the Indian 50 rupee currency note"
+      ],
+      "legal_rules": [
+        "Entry to the main monument enclosures: Rs 40 for Indians, Rs 600 for foreigners (ASI composite ticket covers multiple monuments for the day)",
+        "Climbing on monuments, ruins, and boulders in the protected archaeological zone is prohibited \u2014 ASI can impose fines for violations",
+        "No construction, modification, or commercial activity allowed within the UNESCO heritage zone \u2014 strict ASI and UNESCO regulations apply",
+        "Drone photography requires special permission from ASI \u2014 usually not granted for casual or tourist visitors"
+      ],
+      "behavioral_notes": [
+        "Hampi is a spread-out site \u2014 rent a bicycle or moped from Hampi Bazaar to cover the ruins efficiently; walking alone will not cover the major sites in one day",
+        "Carry water and sun protection \u2014 the Deccan Plateau terrain is hot and dry with limited shade between monument clusters",
+        "The Virupaksha Temple enforces a dress code \u2014 cover shoulders and knees when entering the active temple",
+        "The area across the Tungabhadra River (formerly known as Hippie Island, now Virupapur Gaddi) has budget accommodation \u2014 the coracle ferry operates only during daytime hours"
+      ]
+    },
+    "skandagiri_trek": {
+      "type": "zone",
+      "parent_region": "karnataka",
+      "dominant_language": "Kannada",
+      "cultural_markers": [
+        "Skandagiri (also called Kalavara Durga) is a 1,350m hill fortress about 70 km from Bangalore — one of the most popular night treks in South India",
+        "Ancient Tipu Sultan-era fort ruins at the summit — stone walls, arched gateways, and a small temple remain from the 18th-century fortification",
+        "Famous for its sunrise trek above the clouds — trekkers start at 2-3 AM to reach the peak by dawn and witness a stunning sea of clouds below",
+        "The trail passes through scrubland, rocky terrain, and forested patches — the final ascent is steep and requires scrambling over boulders"
+      ],
+      "legal_rules": [
+        "Online booking mandatory through Karnataka Eco Tourism Development Board (Jungle Lodges) — walk-ins are NOT allowed; book at https://www.junglelodges.com or authorized portals",
+        "Trek permits are limited to a fixed number per day (typically 100-150 trekkers) — slots fill up fast especially on weekends; book 1-2 weeks in advance",
+        "Night trek batches start at specific times (usually 2 AM-4 AM) — latecomers are turned away; arrive at the base at least 30 minutes before your slot",
+        "Trekking outside designated trail is prohibited — the area is part of a reserved forest; straying off-path can lead to fines by forest department",
+        "Littering is strictly prohibited — carry-in carry-out policy enforced; plastic bottles and food wrappers must be brought back",
+        "Campfires and cooking at the summit are not allowed — the fort area is an archaeological and forest-protected zone"
+      ],
+      "behavioral_notes": [
+        "Carry a headlamp or strong flashlight for the night trek — the trail is unlit and has loose rocks; phone flashlights are insufficient",
+        "Wear proper trekking shoes with grip — the rocky sections near the summit are slippery especially with morning dew; avoid sports shoes or sandals",
+        "Carry at least 2 liters of water per person — there are no water sources on the trail; dehydration is the most common issue",
+        "Temperature at the summit can drop to 8-12°C at night even when Bangalore is 20°C — carry a warm layer and windbreaker",
+        "The descent is harder on the knees than the climb — take it slow on the rocky sections; trekking poles recommended",
+        "Guides provided by the booking authority accompany each batch — follow their instructions; do not attempt the trek without the authorized group"
+      ]
+    },
+    "nandi_hills": {
+      "type": "zone",
+      "parent_region": "karnataka",
+      "dominant_language": "Kannada",
+      "cultural_markers": [
+        "Nandi Hills (Nandidurga) is an ancient hill fortress at 1,478m — just 60 km from Bangalore, it is the city's most popular weekend getaway",
+        "Tipu Sultan's Summer Residence (Tipu's Drop) — a cliffside viewpoint from where prisoners were reportedly pushed; now a scenic overlook with panoramic views",
+        "Bhoga Nandeeshwara Temple at the base — a 9th-century Chola-era temple dedicated to Lord Shiva, one of Karnataka's oldest functioning temples",
+        "Famous for sunrise views — during winter months (October-February) the hills are often above the clouds creating a spectacular sea-of-clouds panorama"
+      ],
+      "legal_rules": [
+        "Entry timing strictly enforced — gates open at 6 AM and close at 6 PM; no overnight stays allowed on the hilltop",
+        "Vehicle entry fee: Rs 75 per car, Rs 25 per two-wheeler — parking at the top is limited; during weekends expect long queues from 7 AM onward",
+        "Drone flying prohibited within the Nandi Hills area — forest department and district administration enforce the ban",
+        "Alcohol and smoking prohibited on the hilltop — the area includes temple grounds and is a family-oriented destination",
+        "Speed limit of 20 km/h enforced on the ghat road — 15 hairpin bends with blind curves; overtaking prohibited"
+      ],
+      "behavioral_notes": [
+        "Arrive before 6 AM on weekends to avoid traffic — the single-lane ghat road creates 1-2 hour traffic jams on weekend mornings",
+        "Weekday visits are significantly less crowded and more enjoyable — the sunrise experience is the same but without the weekend rush",
+        "Cycling up Nandi Hills is popular among Bangalore's cycling community — the 8 km climb averages 6% gradient; start early from the base",
+        "Carry your own food and water — there is a small KSTDC canteen at the top but it has limited options and long queues on weekends",
+        "Monkeys are aggressive near the food stalls — keep food items in closed bags; do not feed or tease them"
+      ]
+    },
+    "khajuraho_temples": {
+      "type": "zone",
+      "parent_region": "madhya_pradesh",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "UNESCO World Heritage Site \u2014 famous for erotic sculptures depicting various aspects of human life including sexuality, spirituality, and daily activities of medieval India",
+        "Built by the Chandela dynasty between 950-1050 CE \u2014 originally 85 temples were constructed, but only 25 survive today in varying states of preservation",
+        "The erotic sculptures constitute only about 10% of the total carvings \u2014 the majority depict gods, goddesses, celestial beings (apsaras), and scenes of daily life, music, and dance",
+        "Three groups of temples: Western Group (main group, ASI-managed, most impressive), Eastern Group (includes Jain temples), and Southern Group \u2014 spread across the small town"
+      ],
+      "legal_rules": [
+        "Western Group entry: Rs 40 for Indians, Rs 600 for foreigners (ASI managed) \u2014 this is the main ticketed group",
+        "Eastern and Southern groups are free to enter \u2014 no tickets required",
+        "Photography allowed at all temple groups; tripods and professional filming equipment may require separate ASI permission",
+        "Sound and Light show every evening at the Western Group \u2014 Rs 250 for foreigners, Rs 100 for Indians; narrated in Hindi and English on alternate evenings"
+      ],
+      "behavioral_notes": [
+        "Despite the erotic sculptures, this is a historically sacred site \u2014 maintain respectful behavior and avoid loud or inappropriate commentary",
+        "Hire an official ASI-certified guide to understand the symbolism and narrative behind the sculptures \u2014 casual viewing misses the deeper philosophical meaning (Kama as one of four Purusharthas)",
+        "The Western Group is the most impressive and should be prioritized \u2014 plan at least 2 hours for a thorough visit with guide",
+        "The town of Khajuraho is small and quiet \u2014 most visitors stay 1-2 days; temples are best viewed in warm morning or late afternoon light for photography"
+      ]
+    },
+    "ajanta_ellora_caves": {
+      "type": "zone",
+      "parent_region": "maharashtra",
+      "dominant_language": "Marathi",
+      "cultural_markers": [
+        "Ajanta Caves: 30 rock-cut Buddhist caves dating from 2nd century BCE to 6th century CE \u2014 world-famous for ancient mural paintings and sculptures; UNESCO World Heritage Site since 1983",
+        "Ellora Caves: 34 caves representing Hindu (caves 13-29), Buddhist (caves 1-12), and Jain (caves 30-34) traditions; the Kailasa Temple (Cave 16) is the world's largest monolithic rock excavation, carved top-down from a single basalt cliff",
+        "Ajanta and Ellora are approximately 100 km apart near Aurangabad (now Chhatrapati Sambhajinagar) \u2014 they are entirely separate sites requiring separate day visits",
+        "The Ajanta paintings are among the finest surviving examples of ancient Indian art \u2014 depicting Jataka tales (stories of Buddha's previous lives) with vivid natural pigments"
+      ],
+      "legal_rules": [
+        "Ajanta entry: Rs 40 for Indians, Rs 600 for foreigners (ASI managed); closed on Mondays",
+        "Ellora entry: Rs 40 for Indians, Rs 600 for foreigners (ASI managed); closed on Tuesdays",
+        "Flash photography is strictly prohibited inside the Ajanta caves to protect the ancient 1,500+ year old paintings \u2014 non-flash photography is permitted",
+        "Touching the paintings, sculptures, and rock surfaces is prohibited \u2014 conservation is a critical ongoing concern at both sites"
+      ],
+      "behavioral_notes": [
+        "Ajanta caves involve significant climbing with steep steps carved into rock \u2014 wear comfortable shoes and carry water; not suitable for visitors with severe mobility issues",
+        "Visit Ajanta caves in the morning when natural sunlight enters the cave openings \u2014 the paintings are best appreciated in natural light rather than artificial lighting",
+        "Each site requires at least half a day \u2014 do not attempt to cover both Ajanta and Ellora in a single day as you will not do justice to either",
+        "Official ASI guides at both sites are knowledgeable and significantly enhance the experience \u2014 hire one at the entrance for detailed explanations of the art and history"
+      ]
+    },
+    "qutub_minar": {
+      "type": "zone",
+      "parent_region": "delhi",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "UNESCO World Heritage Site \u2014 the 72.5-meter Qutub Minar is the tallest brick minaret in the world; construction began in 1193 by Qutb-ud-din Aibak, founder of the Delhi Sultanate",
+        "The complex houses the Iron Pillar of Delhi \u2014 a 7-meter, 1,600-year-old pillar from the Gupta era that has remarkably resisted rusting, a metallurgical marvel studied by scientists worldwide",
+        "The Quwwat-ul-Islam Mosque in the complex was the first mosque built in Delhi after the Islamic conquest (1192 CE) \u2014 constructed using materials from demolished Hindu and Jain temples",
+        "The tower has five distinct storeys with different architectural styles reflecting its construction over multiple rulers \u2014 the first three are red sandstone, the fourth is marble and sandstone, the fifth is marble"
+      ],
+      "legal_rules": [
+        "Entry: Rs 35 for Indians, Rs 550 for foreigners (ASI managed)",
+        "Climbing inside the Qutub Minar is permanently banned since a 1981 stampede that killed 47 people (mostly schoolchildren) during a power outage inside the narrow staircase",
+        "Timings: 7:00 AM to 5:00 PM daily; open all days of the week",
+        "Drones prohibited within the complex; regular photography including mobile phones is allowed throughout the grounds"
+      ],
+      "behavioral_notes": [
+        "The Iron Pillar is now fenced off \u2014 you can no longer touch or embrace it (a tradition believed to bring good luck was discontinued to prevent damage from skin oils)",
+        "The complex is compact compared to other heritage sites \u2014 1 to 2 hours is sufficient for a thorough visit",
+        "Early morning visits are recommended for better photographs and fewer crowds",
+        "The nearest metro station is Qutub Minar on the Yellow Line \u2014 the site is very accessible by Delhi Metro public transport"
+      ]
+    },
+    "konark_sun_temple": {
+      "type": "zone",
+      "parent_region": "odisha",
+      "dominant_language": "Odia",
+      "cultural_markers": [
+        "UNESCO World Heritage Site \u2014 13th-century temple designed as a massive stone chariot of the Sun God Surya with 24 elaborately carved stone wheels and 7 galloping horses",
+        "Built by King Narasimhadeva I of the Eastern Ganga dynasty around 1250 CE \u2014 the main tower (vimana/deul) has collapsed but the audience hall (jagamohana) survives intact",
+        "The 24 stone wheels function as accurate sundials \u2014 they can tell time to the minute based on shadow position, a marvel of medieval astronomical engineering",
+        "Known as the 'Black Pagoda' by European sailors (contrasting with the 'White Pagoda' \u2014 the whitewashed Jagannath Temple in Puri 35 km away) as it served as a navigation landmark"
+      ],
+      "legal_rules": [
+        "Entry: Rs 40 for Indians, Rs 600 for foreigners (ASI managed)",
+        "Timings: 6:00 AM to 8:00 PM daily; open all days",
+        "Photography allowed in the outer complex; the interior of the jagamohana is sealed and not accessible to visitors",
+        "Climbing on the monument structure is strictly prohibited \u2014 ASI conservation rules apply"
+      ],
+      "behavioral_notes": [
+        "The temple has erotic sculptures similar to Khajuraho carved on the outer walls \u2014 maintain respectful behavior while viewing",
+        "The annual Konark Dance Festival (December) features classical Odissi and other dance performances against the temple as a backdrop \u2014 plan your visit to coincide if interested in classical arts",
+        "Chandrabhaga Beach is approximately 3 km from the temple \u2014 combine the temple visit with a peaceful beach trip",
+        "The ASI Archaeological Museum near the temple entrance houses important original sculptures and artifacts removed from the temple for preservation \u2014 worth a separate visit"
+      ]
+    },
+    "jim_corbett_national_park": {
+      "type": "zone",
+      "parent_region": "uttarakhand",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "India's oldest national park, established in 1936 as Hailey National Park \u2014 renamed after legendary hunter-turned-conservationist Jim Corbett who championed wildlife protection",
+        "The park where Project Tiger, India's flagship tiger conservation program, was launched in 1973",
+        "Spread over 520 sq km in the Himalayan foothills along the Ramganga River \u2014 diverse habitat includes sal forests, grasslands, riverine belts, and marshy depressions",
+        "Home to approximately 230+ Bengal tigers along with leopards, Asian elephants, gharials, and over 600 bird species"
+      ],
+      "legal_rules": [
+        "Entry requires an online permit booked through the Uttarakhand Forest Department website \u2014 walk-in entry is unreliable and often unavailable during peak season",
+        "The park has 5 tourism zones: Bijrani, Jhirna, Dhikala, Durga Devi, and Sitabani \u2014 Dhikala is the premium core zone requiring overnight stay booking; Jhirna zone is open year-round",
+        "Only authorized jeep safaris permitted (no self-driving or walking) \u2014 two time slots: morning (approximately 6:00-9:30 AM) and afternoon (approximately 2:30-6:00 PM); exact timings vary by season",
+        "Most zones are closed during monsoon season (July to mid-November) due to flooding and road damage \u2014 only Jhirna and Sitabani buffer zone may remain accessible"
+      ],
+      "behavioral_notes": [
+        "Maintain absolute silence during safari \u2014 noise disturbs wildlife and significantly reduces chances of tiger and elephant sightings",
+        "Wear earth-tone or neutral-colored clothing \u2014 avoid bright colors, white, and fluorescent shades which can startle animals",
+        "Do not stand up in the jeep or extend body parts outside the vehicle \u2014 these are wild animals in their natural habitat and can be unpredictable",
+        "Dhikala zone offers the most immersive experience with overnight forest rest house stays \u2014 book 45 days in advance as permits sell out very quickly for this zone"
+      ]
+    },
+    "ranthambore_national_park": {
+      "type": "zone",
+      "parent_region": "rajasthan",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "One of India's most famous tiger reserves \u2014 renowned for diurnal (daytime) tiger sightings as the tigers here are unusually habituated to safari vehicles and often seen near lakes",
+        "The 10th-century Ranthambore Fort (UNESCO World Heritage Site under 'Hill Forts of Rajasthan') sits inside the national park \u2014 one of the few places where wildlife and medieval ruins coexist",
+        "Home to iconic named tigers like Machli (T-16, called the world's most photographed tigress, died 2016) \u2014 individual tigers are tracked and known by name and ID number (e.g., T-73, T-84)",
+        "Spread over 392 sq km of dry deciduous forest with lakes (Padam Talao, Rajbagh Talao, Malik Talao) \u2014 the open terrain and water bodies make tigers more visible than in dense jungle parks"
+      ],
+      "legal_rules": [
+        "Entry only through online booking via the Rajasthan Forest Department portal \u2014 permits sell out weeks in advance, especially for premium zones 1 through 5",
+        "Park divided into 10 safari zones \u2014 zone allocation is assigned at booking time and cannot be changed; zones 1 through 5 are the core tiger-sighting zones",
+        "Two safari vehicles available: Canter (open-top bus, 20 seats, cheaper) or Gypsy (open jeep, 6 seats, better for photography and closer sightings); Gypsy is preferred but costs more",
+        "Park open October 1 to June 30 only \u2014 completely closed during monsoon season (July through September) for wildlife breeding and habitat recovery"
+      ],
+      "behavioral_notes": [
+        "Morning safaris generally have higher tiger sighting probability \u2014 book morning slots if you can only do one safari per day",
+        "Carry binoculars and a telephoto lens \u2014 tigers may be visible but at a distance; a 200-400mm lens is ideal for tiger photography",
+        "Trust the naturalist guide and driver on route selection \u2014 they track tiger pugmarks, alarm calls of deer and langurs, and know movement patterns",
+        "Do not litter, throw food, or make sudden loud noises \u2014 strict penalties apply and it endangers both wildlife and future tourism access"
+      ]
+    },
+    "kaziranga_national_park": {
+      "type": "zone",
+      "parent_region": "assam",
+      "dominant_language": "Assamese",
+      "cultural_markers": [
+        "UNESCO World Heritage Site \u2014 home to two-thirds of the world's entire one-horned rhinoceros population (approximately 2,600+ individuals as per recent census)",
+        "Also has the highest density of Bengal tigers per unit area among all protected areas in the world",
+        "The park operates India's most aggressive anti-poaching program \u2014 forest guards have legal authority to use lethal force against armed poachers; this controversial policy has been effective",
+        "Spread over 430 sq km along the Brahmaputra River floodplain \u2014 the park floods extensively every monsoon season, and animals naturally migrate to higher ground in the Karbi Anglong hills"
+      ],
+      "legal_rules": [
+        "Park open November 1 to April 30 only \u2014 completely closed during monsoon (May to October) as the Brahmaputra flooding submerges up to 70% of the park",
+        "Elephant safaris operate in the Central Range (Kohora) during early morning only (approximately 5:30-6:30 AM) \u2014 must be booked at the park's range office the previous evening",
+        "Jeep safaris available in four ranges: Central (Kohora), Western (Bagori \u2014 best for rhino sightings), Eastern (Agaratoli), and Burapahar \u2014 online booking through Assam tourism is recommended",
+        "Entry fees: Rs 100 for Indians, Rs 650 for foreigners; separate camera fees: Rs 500 for still cameras, Rs 1,000 for video cameras per safari"
+      ],
+      "behavioral_notes": [
+        "Elephant safari provides the best and closest rhino viewing experience \u2014 rhinoceroses are more tolerant of elephant-mounted visitors than of jeep vehicles",
+        "Wear warm layered clothing for early morning safaris \u2014 the Brahmaputra valley can be cold and misty during winter mornings (November to February)",
+        "National Highway 37 runs through the park buffer zone \u2014 drive extremely carefully as rhinos, elephants, and wild buffalo frequently cross the road, especially at dawn and dusk",
+        "Respect the armed forest guards and follow all ranger instructions without question \u2014 Kaziranga's anti-poaching measures are taken very seriously"
+      ]
+    },
+    "sundarbans": {
+      "type": "zone",
+      "parent_region": "west_bengal",
+      "dominant_language": "Bengali",
+      "cultural_markers": [
+        "UNESCO World Heritage Site \u2014 the largest contiguous mangrove forest in the world, spanning approximately 10,000 sq km across India and Bangladesh; the Indian portion covers about 4,260 sq km",
+        "Home to the Royal Bengal Tiger \u2014 the Sundarbans tigers are unique for being excellent swimmers and historically known man-eaters; approximately 100 tigers inhabit the Indian side",
+        "The forest is entirely tidal \u2014 the landscape transforms with every tide; all navigation is by boat through a complex maze of channels, rivers, creeks, and mudflats",
+        "Bonbibi is the local guardian deity \u2014 worshipped by both Hindu and Muslim honey collectors (mawalis) and fishermen as the protector against tiger attacks before entering the forest"
+      ],
+      "legal_rules": [
+        "Entry requires a permit from the Sundarbans Tiger Reserve authority \u2014 obtained at the Sajnekhali Wildlife Sanctuary check-post or online through the West Bengal Forest Department",
+        "Entry only by registered boats with licensed operators \u2014 private boats are not allowed in the core tiger reserve zone; only forest department-approved tour operators can operate",
+        "Core area visits (Netidhopani, Dobanki, Sudhanyakhali watchtower) require additional permit fees \u2014 approximately Rs 200 per day for Indians, Rs 1,500 per day for foreigners",
+        "No entry into the forest after sunset \u2014 overnight stays permitted only at designated forest department camps and watchtower areas like Sajnekhali and Sudhanyakhali"
+      ],
+      "behavioral_notes": [
+        "Tiger sightings are rare despite this being a tiger reserve \u2014 the dense mangrove terrain provides excellent cover; birdwatching, mangrove ecology, and crocodile sightings are the primary attractions",
+        "Carry strong insect repellent \u2014 mosquitoes are pervasive and relentless in the mangrove swamp environment, especially during evening hours",
+        "Do not wade or swim in the water under any circumstances \u2014 saltwater crocodiles (up to 6 meters), bull sharks, and venomous water snakes inhabit the waterways",
+        "Local guides are essential \u2014 the waterway network is disorienting and tidal patterns are complex and dangerous; never venture out without an authorized and experienced guide"
+      ]
+    },
+    "valley_of_flowers": {
+      "type": "zone",
+      "parent_region": "uttarakhand",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "UNESCO World Heritage Site \u2014 a high-altitude Himalayan valley at 3,352 to 3,658 meters elevation with over 600 species of flowering plants, many endemic and endangered",
+        "Discovered by British mountaineer Frank Smythe in 1931 during his return from a Kamet expedition \u2014 he was so captivated that he wrote a book titled 'The Valley of Flowers'",
+        "The valley is adjacent to Nanda Devi National Park \u2014 together they were inscribed as a combined UNESCO World Heritage Site in 2005",
+        "Famous flora includes the Brahmakamal (sacred Himalayan lotus), Blue Poppy (Meconopsis aculeata), Cobra Lily, and hundreds of species of orchids, primulas, and medicinal herbs"
+      ],
+      "legal_rules": [
+        "Open only from June 1 to October 31 \u2014 closed for the rest of the year due to heavy snowfall making the trek route impassable",
+        "Entry permit required from the Nanda Devi National Park office at Ghangaria \u2014 Rs 150 for Indians, Rs 600 for foreigners per day of visit",
+        "Picking, plucking, uprooting, or collecting any flowers, plants, seeds, or soil samples is strictly prohibited \u2014 this is a protected UNESCO biosphere reserve with heavy penalties for violations",
+        "Camping inside the valley is not permitted \u2014 all visitors must return to the base village of Ghangaria before dark each day"
+      ],
+      "behavioral_notes": [
+        "The trek from Govindghat to Ghangaria (13 km) and then onward to the valley entrance (3.5 km) requires moderate fitness \u2014 altitude sickness is a real risk; acclimatize properly at Ghangaria",
+        "Late July to mid-August is peak blooming season \u2014 the valley is at its most spectacular during this window with maximum floral diversity",
+        "Carry rain gear and waterproof bags \u2014 the monsoon season brings daily afternoon rainfall during the entire open season",
+        "Mules and porters can be hired at Govindghat for the trek to Ghangaria \u2014 the trail is well-maintained but steep in several sections; helicopter service also available to Ghangaria"
+      ]
+    },
+    "lakshadweep_islands": {
+      "type": "zone",
+      "parent_region": "lakshadweep",
+      "dominant_language": "Malayalam",
+      "cultural_markers": [
+        "India's smallest Union Territory \u2014 36 coral islands (only 10 inhabited) in the Arabian Sea, located 200 to 440 km off the coast of Kerala",
+        "Population is over 95% Muslim \u2014 the islands follow a conservative Islamic culture with mosques central to community and daily life on each inhabited island",
+        "The lagoons contain some of the most pristine coral reef ecosystems in the Indian Ocean \u2014 Bangaram and Kadmat islands are famous for snorkeling and scuba diving",
+        "Coconut-based economy and cuisine \u2014 coconut is central to every aspect of island life; tuna fishing is the other major traditional livelihood"
+      ],
+      "legal_rules": [
+        "Entry permit mandatory for all visitors \u2014 Indian citizens must obtain a permit from the Lakshadweep Administration (applied through the SPORTS online portal or through authorized tour operators); processing takes several days",
+        "Foreign nationals are permitted to visit only Bangaram and Kadmat islands \u2014 a Restricted Area Permit (RAP) is required, arranged through approved tour operators with at least 2 weeks advance notice",
+        "Alcohol is prohibited on all inhabited islands except the uninhabited resort island of Bangaram \u2014 Lakshadweep is largely a dry territory consistent with its Islamic culture",
+        "Collection of coral (living or dead), shells, sand, or any marine life is strictly prohibited \u2014 violations carry heavy fines under the Environment Protection Act and Wildlife Protection Act"
+      ],
+      "behavioral_notes": [
+        "Dress conservatively on inhabited islands \u2014 the local population follows conservative Islamic customs; swimwear and beachwear are acceptable only at designated resort beaches on tourist islands",
+        "Mobile and internet connectivity is very limited across all islands \u2014 plan for being largely offline during your stay; satellite phones may be the only reliable communication on some islands",
+        "Respect marine ecology \u2014 do not step on coral reefs while snorkeling or diving; use only reef-safe sunscreen to protect the fragile coral ecosystem",
+        "The ship journey from Kochi takes 14 to 18 hours \u2014 flights operate to Agatti airport but are limited in frequency and expensive; book transportation well in advance especially during peak tourist season (October to May)"
+      ]
+    },
+    "andaman_nicobar_islands": {
+      "type": "zone",
+      "parent_region": "andaman_and_nicobar",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Union Territory in the Bay of Bengal \u2014 comprising 572 islands (only 37 permanently inhabited); Port Blair on South Andaman is the capital and the gateway for all visitors",
+        "Cellular Jail (Kala Pani) in Port Blair is a national memorial \u2014 the British used this isolated prison to exile Indian freedom fighters; the evening Sound and Light show narrates their sacrifices",
+        "Home to several indigenous tribes including the Sentinelese on North Sentinel Island \u2014 one of the world's last uncontacted peoples who have rejected all contact with the outside world",
+        "Marine biodiversity hotspot \u2014 pristine coral reefs, mangrove forests, and tropical rainforests; Radhanagar Beach on Havelock Island (Swaraj Dweep) has been rated among Asia's best beaches"
+      ],
+      "legal_rules": [
+        "Indian citizens do not need a special permit for South Andaman, Havelock (Swaraj Dweep), or Neil Island (Shaheed Dweep) \u2014 but a Restricted Area Permit (RAP) is required for tribal reserves, all Nicobar Islands, and certain remote islands",
+        "Foreign nationals receive a 30-day permit on arrival at Port Blair airport \u2014 but they are restricted to designated tourist areas; the entire Nicobar Islands group is completely off-limits to all foreigners",
+        "Visiting North Sentinel Island or attempting contact with the Sentinelese tribe is illegal \u2014 a 5 nautical mile exclusion zone is enforced by the Indian Navy and Coast Guard; violations can result in imprisonment under the Andaman and Nicobar Islands (Protection of Aboriginal Tribes) Regulation",
+        "Coral and shell collection is strictly prohibited \u2014 Marine National Park areas (Wandoor, Jolly Buoy, Red Skin) require additional permits and mandatory use of authorized guides"
+      ],
+      "behavioral_notes": [
+        "The Sentinelese have killed outsiders who attempted contact (most recently an American missionary in 2018) \u2014 this is not a tourist attraction; respect the exclusion zone absolutely and without exception",
+        "Best visited between November and May \u2014 monsoon season (June to September) brings heavy rainfall and rough seas; many inter-island ferry services are suspended during monsoon",
+        "Book inter-island ferries (Makruzz, Nautika, Green Ocean) well in advance \u2014 especially during peak season (December to January) they sell out days ahead",
+        "Carry sufficient cash \u2014 ATMs are available in Port Blair and Havelock but can be unreliable; smaller islands have no ATMs and very limited digital payment acceptance"
+      ]
+    },
+    "inner_line_permit_areas": {
+      "type": "zone",
+      "parent_region": "northeast_india",
+      "dominant_language": "Various (English, Hindi, and tribal languages)",
+      "cultural_markers": [
+        "The Inner Line Permit system dates to the Bengal Eastern Frontier Regulation of 1873 \u2014 originally a British colonial policy to protect tribal hill areas from exploitation by plains traders; now serves to protect indigenous tribal cultures and demographics",
+        "Currently applies to four states: Arunachal Pradesh, Nagaland, Mizoram, and Manipur (Manipur was added in December 2019) \u2014 each state issues its own ILP with different validity periods and conditions",
+        "These states have distinct tribal cultures vastly different from mainland India \u2014 Naga, Mizo, Apatani, Nyishi, Meitei, and dozens of other tribes have unique languages, dress, cuisine, social structures, and customs",
+        "Christianity is the dominant religion in Nagaland (approximately 88%), Mizoram (approximately 87%), and parts of Manipur and Arunachal Pradesh \u2014 a stark cultural contrast to predominantly Hindu mainland India"
+      ],
+      "legal_rules": [
+        "Indian citizens from outside these four states must obtain an Inner Line Permit before crossing the state border \u2014 available online through respective state government portals or in person at state Resident Commissioner (Bhawan) offices in Delhi, Kolkata, Guwahati, and other cities",
+        "Foreign nationals require a separate Protected Area Permit (PAP) or Restricted Area Permit (RAP) \u2014 obtained from the Ministry of Home Affairs or Foreigners Regional Registration Offices; Arunachal Pradesh typically requires group travel (minimum 2 persons) through a registered tour operator",
+        "ILP validity varies by state: Arunachal Pradesh (30 days, extendable), Nagaland (10 days, extendable to 30), Mizoram (15 days, extendable), Manipur (30 days) \u2014 the physical or digital permit must be carried at all times as border checkposts verify permits at entry",
+        "For Arunachal Pradesh specifically, foreign nationals require a Protected Area Permit costing approximately USD 50 per person \u2014 first-time foreign visitors must typically travel with a registered Indian tour operator"
+      ],
+      "behavioral_notes": [
+        "Respect tribal customs deeply \u2014 many communities have strict rules about outsiders entering sacred groves (lei), ceremonial grounds, morungs (traditional youth dormitories in Nagaland), and ancestral sites",
+        "Always ask permission before photographing tribal people, especially during festivals, rituals, or in villages \u2014 some communities consider unauthorized photography deeply disrespectful or a violation of sacred space",
+        "Alcohol laws vary: homemade rice beer (apong/zu) is culturally important and widely available in Nagaland and Arunachal Pradesh, but Mizoram has had periods of prohibition and Manipur has a complex history with alcohol regulation",
+        "Infrastructure and connectivity are significantly limited \u2014 roads can be in poor condition especially during monsoon; mobile network coverage is patchy outside state capitals; carry cash as digital payment infrastructure is unreliable"
+      ]
+    },
+    "ladakh": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Ladakhi",
+      "cultural_markers": [
+        "Tibetan Buddhist monastery culture \u2014 Hemis, Thiksey, Diskit monasteries",
+        "Ladakh Festival in September and Hemis Festival (masked dances) are major events",
+        "Stark high-altitude desert landscape \u2014 Pangong Lake, Nubra Valley, Khardung La pass"
+      ],
+      "legal_rules": [
+        "Inner Line Permit (ILP) required for certain areas \u2014 Nubra Valley, Pangong, Hanle",
+        "Restricted Area Permit needed for foreign nationals in some zones",
+        "Environmental regulations strict \u2014 no littering, camping only in designated areas"
+      ],
+      "behavioral_notes": [
+        "'Julley' is the universal greeting \u2014 means hello, thank you, and goodbye",
+        "Altitude sickness is real \u2014 acclimatize for 24-48 hours in Leh before trekking",
+        "Buddhist prayer flags and mani walls should always be passed from the left (clockwise)"
+      ]
+    },
+    "mumbai": {
+      "type": "city",
+      "parent_region": "maharashtra",
+      "dominant_language": "Marathi",
+      "cultural_markers": [
+        "Dabba (tiffin) delivery culture \u2014 Mumbai's dabbawalas deliver 200,000+ lunches daily with Six Sigma accuracy",
+        "Bollywood film industry capital \u2014 Film City in Goregaon, studios across Andheri",
+        "Marine Drive (Queen's Necklace) and Gateway of India are iconic waterfront landmarks",
+        "Vada pav is the city's street food identity \u2014 found at virtually every street corner"
+      ],
+      "legal_rules": [
+        "No-honking zones enforced in parts of South Mumbai \u2014 fines for violations",
+        "Plastic bags banned citywide \u2014 fines up to Rs 25,000 for repeated violations",
+        "BMC enforces strict building code \u2014 unauthorized constructions face demolition"
+      ],
+      "behavioral_notes": [
+        "Local trains are the lifeline \u2014 learn the etiquette: do not block doors, women's compartments strictly reserved",
+        "Rush hour trains are extremely crowded (8-10 AM, 6-8 PM) \u2014 avoid luggage during peak",
+        "Street food (vada pav, pav bhaji, bhel puri) is iconic \u2014 Mumbaikars eat on the go"
+      ]
+    },
+    "new_delhi": {
+      "type": "city",
+      "parent_region": "delhi",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "India Gate, Rashtrapati Bhavan, and Parliament House form the ceremonial capital axis designed by Lutyens",
+        "Chandni Chowk \u2014 one of India's oldest markets, dating to Mughal emperor Shah Jahan's era",
+        "Paranthe Wali Gali in Old Delhi \u2014 legendary lane of stuffed paratha shops operating since the 1870s",
+        "Qutub Minar, Humayun's Tomb, and Lotus Temple represent centuries of architectural heritage"
+      ],
+      "legal_rules": [
+        "Odd-even vehicle rationing scheme activated during severe pollution episodes \u2014 fines for violation",
+        "Delhi Metro has strict no-eating, no-drinking rules \u2014 fines enforced",
+        "Green crackers only during Diwali \u2014 traditional firecrackers banned by Supreme Court order"
+      ],
+      "behavioral_notes": [
+        "Bargaining is expected and essential in markets \u2014 fixed price only in malls",
+        "Auto-rickshaw and taxi drivers may refuse meters \u2014 use app-based cabs or negotiate upfront",
+        "Delhi belly is real \u2014 acclimatize with bottled water and street food gradually"
+      ]
+    },
+    "bangalore": {
+      "type": "city",
+      "parent_region": "karnataka",
+      "dominant_language": "Kannada",
+      "cultural_markers": [
+        "IT hub — India's Silicon Valley with campuses of Infosys, Wipro, and hundreds of startups in Koramangala, HSR Layout, and Whitefield; Electronic City is the original IT corridor",
+        "Pub and craft beer scene — Toit, Arbor Brewing, Windmills Craftworks, and microbreweries on 12th Main Indiranagar; Bangalore introduced India to the craft beer revolution",
+        "Garden city — Lalbagh Botanical Garden (established 1760 by Hyder Ali) hosts biannual flower shows; Cubbon Park is the green lung of the CBD",
+        "Masala dosa institutions — Vidyarthi Bhavan (est. 1943, Basavanagudi), MTR (est. 1924, Lalbagh), and CTR (Central Tiffin Room, Malleshwaram) are culinary pilgrimages",
+        "Weekend getaway culture — Skandagiri night trek, Nandi Hills sunrise, Coorg coffee plantations, and Mysuru palace are popular 1-2 day escapes from the city"
+      ],
+      "legal_rules": [
+        "Pubs and bars must close by 11:30 PM (1 AM on weekends in designated entertainment zones like MG Road, Brigade Road, Indiranagar)",
+        "Vehicle emission checks enforced at random by transport department — PUC certificate mandatory; fines for expired certificates",
+        "BBMP enforces strict no-plastic rules — single-use plastic bags banned; carry cloth bags when shopping; vendors fined for distributing plastic bags",
+        "BMTC buses and Namma Metro have no-eating rules — fines for violations on metro; Purple Line (Baiyappanahalli-Mysuru Road) and Green Line (Nagasandra-Silk Institute) operational",
+        "Noise restrictions after 10 PM in residential areas — BBMP and police enforce limits especially around Koramangala, Indiranagar, and JP Nagar; pubs face license action for violations"
+      ],
+      "behavioral_notes": [
+        "English widely spoken in tech corridors — but learning basic Kannada ('Swalpa adjust maadi' = please adjust a little, 'Guru' = respectful term for driver/shopkeeper) earns genuine goodwill",
+        "Traffic is notoriously bad — Silk Board junction, ORR, and Marathahalli are daily bottlenecks; plan extra 30-60 minutes during peak hours (8:30-10:30 AM, 5:30-8:30 PM); Namma Metro is the fastest option where available",
+        "Auto-rickshaw meters are mandatory but often ignored — insist on meter or use Ola/Uber/Rapido; meter fare starts at Rs 30; auto drivers often refuse short-distance trips",
+        "Bangalore weather is its biggest draw — pleasant 18-28°C most of the year; October-November brings heavy rains; carry an umbrella from June to November",
+        "Key areas to know — MG Road and Brigade Road for nightlife; Koramangala and Indiranagar for dining and cafes; Jayanagar and Basavanagudi for old Bangalore charm; Whitefield and Electronic City for IT campuses; Malleshwaram and Rajajinagar for traditional shopping"
+      ]
+    },
+    "hyderabad": {
+      "type": "city",
+      "parent_region": "telangana",
+      "dominant_language": "Telugu",
+      "cultural_markers": [
+        "Charminar and surrounding Laad Bazaar \u2014 iconic 1591 monument and bangle-shopping market",
+        "Hyderabadi dum biryani \u2014 slow-cooked rice and meat dish, city's most famous culinary export (Paradise, Bawarchi, Shah Ghouse)",
+        "HITEC City and Gachibowli form the IT corridor \u2014 major tech hub rivaling Bangalore",
+        "Golconda Fort \u2014 13th-century fort famous for its acoustic architecture and diamond mining history"
+      ],
+      "legal_rules": [
+        "GHMC enforces encroachment removal drives \u2014 street vendors face periodic displacement",
+        "Traffic police use AI-based e-challan system \u2014 red light and helmet violations auto-detected",
+        "Noise regulations enforced around the Hussain Sagar lake area and heritage zones"
+      ],
+      "behavioral_notes": [
+        "Urdu and Telugu both spoken widely \u2014 the city has a unique Deccani Urdu dialect called Hyderabadi Hindi",
+        "Biryani is serious business \u2014 locals have strong opinions about which restaurant is best",
+        "Irani chai (served in Irani cafes like Nimrah, Cafe Bahar) is a daily ritual \u2014 pair with Osmania biscuits"
+      ]
+    },
+    "chennai": {
+      "type": "city",
+      "parent_region": "tamil_nadu",
+      "dominant_language": "Tamil",
+      "cultural_markers": [
+        "Marina Beach \u2014 second longest urban beach in the world, evening promenade tradition",
+        "December Music and Dance Season (Margazhi) \u2014 six-week Carnatic music and Bharatanatyam festival, largest cultural event in South Asia",
+        "Kapaleeshwarar Temple in Mylapore \u2014 7th-century Dravidian temple central to city identity",
+        "Filter coffee culture \u2014 'degree coffee' served in steel davara-tumbler set is iconic"
+      ],
+      "legal_rules": [
+        "TASMAC shops only for alcohol \u2014 bars exist but liquor stores are all state-run",
+        "Chennai Traffic Police enforce helmet rules strictly \u2014 two-wheelers fined on the spot",
+        "Beach sand removal and beach construction strictly prohibited \u2014 CRZ (Coastal Regulation Zone) enforced"
+      ],
+      "behavioral_notes": [
+        "Tamil pride is very strong \u2014 Hindi is often not spoken and not always welcome; English is the preferred second language",
+        "Idli, dosa, sambar, and filter coffee are breakfast non-negotiables \u2014 the city runs on them",
+        "Conservative dress norms at temples \u2014 Kapaleeshwarar and Parthasarathy temples enforce strict dress codes"
+      ]
+    },
+    "kolkata": {
+      "type": "city",
+      "parent_region": "west_bengal",
+      "dominant_language": "Bengali",
+      "cultural_markers": [
+        "Durga Puja \u2014 UNESCO Intangible Cultural Heritage, thousands of artistic pandals across the city for five days in October",
+        "Howrah Bridge (Rabindra Setu) and Victoria Memorial are iconic landmarks",
+        "Literary and intellectual capital \u2014 College Street book market, Presidency University, Coffee House adda tradition",
+        "Rosogolla, mishti doi, kosha mangsho (slow-cooked mutton), and Kolkata biryani (with egg and potato) define the food scene"
+      ],
+      "legal_rules": [
+        "Hand-pulled rickshaws still exist in limited areas \u2014 subject to ongoing regulation and phase-out attempts",
+        "Kolkata Police enforce noise limits during Durga Puja immersion processions (Supreme Court guidelines)",
+        "No-vehicle zones in parts of central Kolkata during festivals \u2014 Park Street and Esplanade restricted"
+      ],
+      "behavioral_notes": [
+        "'Dada' (elder brother) is the universal respectful address for men; 'Didi' for women",
+        "Adda (informal intellectual conversation over tea) is a cherished daily ritual \u2014 not wasting time, it's culture",
+        "Kolkatans are passionate about football (East Bengal vs Mohun Bagan rivalry), Rabindranath Tagore, and fish"
+      ]
+    },
+    "pune": {
+      "type": "city",
+      "parent_region": "maharashtra",
+      "dominant_language": "Marathi",
+      "cultural_markers": [
+        "Oxford of the East \u2014 Savitribai Phule Pune University, Fergusson College, and Deccan College are academic landmarks",
+        "Shaniwar Wada \u2014 18th-century Peshwa fort-palace in the city center, symbol of Maratha heritage",
+        "Osho International Meditation Resort in Koregaon Park attracts global seekers",
+        "Misal pav, vada pav, and mastani (thick milkshake from Sujata Mastani) are signature foods"
+      ],
+      "legal_rules": [
+        "Pune Traffic Police enforce no-honking zones in areas like FC Road and JM Road",
+        "Noise restrictions after 10 PM strictly enforced \u2014 Pune residents frequently file noise complaints",
+        "PMC (Pune Municipal Corporation) enforces strict waste segregation \u2014 wet and dry waste separation mandatory"
+      ],
+      "behavioral_notes": [
+        "Pune has a strong Brahmin cultural influence \u2014 many traditional vegetarian eateries",
+        "Cycling culture growing with dedicated lanes \u2014 locals proud of the city's relatively clean air",
+        "IT parks (Hinjewadi, Kharadi) have transformed the city \u2014 mix of traditional Puneri and cosmopolitan tech culture"
+      ]
+    },
+    "ahmedabad": {
+      "type": "city",
+      "parent_region": "gujarat",
+      "dominant_language": "Gujarati",
+      "cultural_markers": [
+        "Sabarmati Ashram \u2014 Mahatma Gandhi's headquarters during the independence movement",
+        "UNESCO World Heritage City (2017) \u2014 first in India; old city's pols (traditional residential clusters) and carved wooden havelis",
+        "Navratri Garba in Ahmedabad is the largest dance festival \u2014 GMDC ground hosts 10,000+ dancers nightly",
+        "Manek Chowk transforms from jewelry market by day to street food heaven at night \u2014 famous for khaman, dabeli, and gola"
+      ],
+      "legal_rules": [
+        "Dry city in a dry state \u2014 alcohol strictly prohibited unless you hold a valid liquor permit",
+        "AMC (Ahmedabad Municipal Corporation) enforces building heritage conservation rules in the Walled City",
+        "BRTS (Bus Rapid Transit System) lanes are dedicated \u2014 no private vehicles allowed in BRTS corridors"
+      ],
+      "behavioral_notes": [
+        "Vegetarianism is the norm \u2014 the city is predominantly vegetarian; non-veg eateries exist but are distinctly separate",
+        "Business culture is strong \u2014 Ahmedabadis are entrepreneurial; many family-run textile businesses",
+        "Early riser city \u2014 morning chai stalls open by 5 AM, markets active by 7 AM"
+      ]
+    },
+    "jaipur": {
+      "type": "city",
+      "parent_region": "rajasthan",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Pink City \u2014 buildings in the old city painted terracotta pink since 1876 for Prince Albert's visit",
+        "Hawa Mahal (Palace of Winds), Amber Fort, City Palace, and Jantar Mantar (UNESCO) are landmark attractions",
+        "Johari Bazaar and Bapu Bazaar for traditional Rajasthani jewelry, textiles, and block-printed fabrics",
+        "Dal baati churma, ghewar (sweet), and pyaaz ki kachori are signature Jaipur dishes"
+      ],
+      "legal_rules": [
+        "Heritage zone building restrictions \u2014 strict rules on construction height and facade alterations in the Walled City",
+        "Elephant rides at Amber Fort regulated \u2014 animal welfare guidelines now enforced",
+        "Alcohol available but some areas near temples are dry \u2014 carry permit if purchasing for hotel consumption"
+      ],
+      "behavioral_notes": [
+        "Shopkeepers in tourist areas quote 3-5x the real price \u2014 bargaining is expected and necessary",
+        "Conservative dress preferred especially in the old city \u2014 women should consider covering shoulders and knees",
+        "Jaipur shuts down early \u2014 most markets close by 8-9 PM; nightlife is limited compared to metros"
+      ]
+    },
+    "lucknow": {
+      "type": "city",
+      "parent_region": "uttar_pradesh",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "City of Nawabs \u2014 Awadhi culture of tehzeeb (etiquette), adab (respect), and refinement",
+        "Tunday Kababi (est. 1905) and Aminabad's kebab stalls define the world-famous Lucknowi kebab tradition \u2014 galouti, kakori, seekh",
+        "Bara Imambara (1784) with its Bhool Bhulaiya (labyrinth) and Rumi Darwaza gateway are architectural marvels",
+        "Chikankari hand-embroidery tradition \u2014 centuries-old white threadwork on fabric, a Lucknow specialty"
+      ],
+      "legal_rules": [
+        "Alcohol legal but area-specific restrictions near religious sites in the old city",
+        "LDA (Lucknow Development Authority) heritage conservation rules apply in Husainabad and Aminabad areas",
+        "Traffic police enforce lane discipline on Hazratganj and Vidhan Sabha Marg \u2014 challans for violations"
+      ],
+      "behavioral_notes": [
+        "Lucknowi tehzeeb (manners) is famous \u2014 'Pehle aap' (after you) culture; politeness is deeply valued",
+        "Food portions are generous \u2014 refusing extra helpings repeatedly is the polite norm before accepting",
+        "Urdu-Hindi blend (Hindustani) is spoken with a distinctive Lucknowi accent and vocabulary"
+      ]
+    },
+    "chandigarh_ut": {
+      "type": "state",
+      "parent_region": null,
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Le Corbusier's planned city \u2014 the only city in India designed by a world-renowned architect",
+        "Shared capital of both Punjab and Haryana \u2014 unique administrative arrangement",
+        "Sukhna Lake, Rock Garden, and the Capitol Complex define the city's identity"
+      ],
+      "legal_rules": [
+        "Union Territory administered by central government \u2014 not governed by Punjab or Haryana",
+        "Strict traffic challan system \u2014 one of the highest traffic fine enforcement rates in India",
+        "Building heights capped in most sectors to preserve Le Corbusier's original urban plan"
+      ],
+      "behavioral_notes": [
+        "Punjabi cultural influence dominant \u2014 Punjabi and Hindi spoken interchangeably",
+        "One of India's highest per capita income cities \u2014 affluent, orderly, and well-maintained",
+        "Residents are proud of the city's green cover and planned infrastructure"
+      ]
+    },
+    "chandigarh": {
+      "type": "city",
+      "parent_region": "chandigarh_ut",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Le Corbusier's planned city \u2014 Capitol Complex (UNESCO World Heritage Site), Open Hand Monument, and sector-grid layout",
+        "Rock Garden by Nek Chand \u2014 40-acre sculpture garden made entirely from recycled waste and found objects",
+        "Sukhna Lake \u2014 man-made reservoir at the Shivalik foothills, popular for rowing and evening walks",
+        "Sector 17 plaza is the city's central shopping and gathering hub \u2014 designed as a pedestrian precinct"
+      ],
+      "legal_rules": [
+        "Union Territory \u2014 administered directly by the central government, not by Punjab or Haryana",
+        "Strict traffic enforcement \u2014 Chandigarh Traffic Police known for heavy challans; helmet and seatbelt rules rigidly enforced",
+        "No-construction beyond ground+3 floors in most residential sectors \u2014 strict height restrictions maintain the Le Corbusier plan"
+      ],
+      "behavioral_notes": [
+        "Punjabi culture dominant \u2014 Punjabi and Hindi spoken interchangeably; Haryanvi less common in the city",
+        "One of India's cleanest and most organized cities \u2014 residents take pride in civic order",
+        "Evening culture of walking along Sukhna Lake and eating out in Sector 26 and 35 food streets"
+      ]
+    },
+    "kochi": {
+      "type": "city",
+      "parent_region": "kerala",
+      "dominant_language": "Malayalam",
+      "cultural_markers": [
+        "Fort Kochi \u2014 Portuguese, Dutch, and British colonial layers; Chinese fishing nets (cheena vala) at the waterfront since 14th century",
+        "Kochi-Muziris Biennale \u2014 India's largest contemporary art festival held in Fort Kochi warehouses",
+        "Jew Town and Paradesi Synagogue (1568) in Mattancherry \u2014 one of the oldest active synagogues in the Commonwealth",
+        "Kerala seafood cuisine \u2014 karimeen (pearl spot fish), meen pollichathu (fish in banana leaf), and appam with stew"
+      ],
+      "legal_rules": [
+        "Alcohol available only at Bevco outlets and 5-star hotels \u2014 beer/wine parlors have separate licensing",
+        "Kochi Metro is India's first metro with a transgender-inclusive workforce \u2014 progressive civic policies",
+        "GCDA (Greater Cochin Development Authority) enforces CRZ rules strictly in the backwater and coastal areas"
+      ],
+      "behavioral_notes": [
+        "Cosmopolitan and tolerant \u2014 Hindu, Muslim, Christian, and Jewish communities have coexisted for centuries",
+        "English widely spoken \u2014 Kochi is one of the most English-friendly cities in South India",
+        "Kathakali performances at Kerala Kathakali Centre and Greenix Village are cultural must-sees, not tourist traps"
+      ]
+    },
+    "thiruvananthapuram": {
+      "type": "city",
+      "parent_region": "kerala",
+      "dominant_language": "Malayalam",
+      "cultural_markers": [
+        "Sri Padmanabhaswamy Temple \u2014 richest temple in the world with vaults containing billions in gold and gems",
+        "Kovalam Beach \u2014 crescent-shaped beach with lighthouse, one of India's earliest international beach destinations",
+        "Napier Museum and Kuthiramalika (Horse Palace) showcase Kerala's art and royal heritage",
+        "Puttu and kadala curry, avial, and Kerala parotta with beef fry are local food staples"
+      ],
+      "legal_rules": [
+        "Temple dress code strictly enforced at Padmanabhaswamy \u2014 men must wear mundu (dhoti), women sari or salwar; no western wear",
+        "Bevco liquor shops are the only legal retail outlets for alcohol \u2014 long queues common on weekends",
+        "CRZ (Coastal Regulation Zone) restrictions enforced along the coastline \u2014 no construction within 200m of high tide line"
+      ],
+      "behavioral_notes": [
+        "Government employee culture strong \u2014 the city revolves around the Secretariat and administrative offices",
+        "Malayali intellectual tradition \u2014 high newspaper readership, politically aware citizenry",
+        "Onam Sadya (vegetarian feast on banana leaf) is the city's grandest culinary tradition \u2014 26+ dishes served"
+      ]
+    },
+    "panaji": {
+      "type": "city",
+      "parent_region": "goa",
+      "dominant_language": "Konkani",
+      "cultural_markers": [
+        "Fontainhas Latin Quarter \u2014 colorful Portuguese-era houses, narrow streets, and heritage tile work",
+        "Church of Our Lady of the Immaculate Conception (1541) \u2014 whitewashed Baroque church overlooking the main square",
+        "Mandovi River promenade and floating casinos \u2014 Deltin Royale is India's largest offshore casino",
+        "Goan fish curry rice (xitt kodi), pork vindaloo, bebinca (layered coconut dessert) define the cuisine"
+      ],
+      "legal_rules": [
+        "Drinking age 18 \u2014 alcohol widely and cheaply available; no restricted timings for most bars",
+        "Casino gambling legal \u2014 regulated by the Goa Public Gambling Act; offshore casinos on the Mandovi",
+        "Beach shack licenses are seasonal (October-May) \u2014 shacks must be dismantled during monsoon"
+      ],
+      "behavioral_notes": [
+        "Susegad (contented, laid-back) attitude is not laziness \u2014 it's the Goan philosophy of life",
+        "Afternoon siesta is real \u2014 many shops and businesses close between 1 PM and 4 PM",
+        "Locals speak Konkani at home, but Portuguese influences linger in names, food, and architecture"
+      ]
+    },
+    "varanasi": {
+      "type": "city",
+      "parent_region": "uttar_pradesh",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Oldest continuously inhabited city in the world \u2014 spiritual capital of Hinduism on the Ganges",
+        "Dashashwamedh Ghat evening Ganga Aarti \u2014 spectacular nightly fire ritual with Vedic chanting",
+        "Kashi Vishwanath Temple (Jyotirlinga) \u2014 one of the 12 most sacred Shiva temples, rebuilt and expanded with the Kashi Vishwanath Corridor",
+        "Banarasi silk sarees \u2014 handwoven brocade with gold and silver zari thread, a centuries-old craft tradition"
+      ],
+      "legal_rules": [
+        "Non-vegetarian food and alcohol prohibited in the vicinity of Kashi Vishwanath Temple and many ghats",
+        "Photography restrictions at certain ghats during cremation rituals \u2014 Manikarnika and Harishchandra ghats",
+        "Drone flying banned near the ghats and temple corridor \u2014 security enforcement strict since the corridor opening"
+      ],
+      "behavioral_notes": [
+        "Death is not taboo here \u2014 open-air cremations at Manikarnika Ghat are a sacred, not morbid, tradition",
+        "Touts and self-appointed guides are persistent at ghats \u2014 politely decline or agree on a fixed price beforehand",
+        "Boat rides on the Ganges at dawn are the quintessential experience \u2014 negotiate boat prices firmly"
+      ]
+    },
+    "amritsar": {
+      "type": "city",
+      "parent_region": "punjab",
+      "dominant_language": "Punjabi",
+      "cultural_markers": [
+        "Harmandir Sahib (Golden Temple) \u2014 holiest Gurdwara in Sikhism, gold-plated shrine in the Amrit Sarovar (pool of nectar)",
+        "Langar at the Golden Temple \u2014 the world's largest free community kitchen serving 75,000-100,000 meals daily",
+        "Jallianwala Bagh \u2014 site of the 1919 massacre, now a national memorial with bullet-marked walls",
+        "Amritsari kulcha, chole, lassi, and tandoori chicken from Beera Chicken House and Kesar Da Dhaba (est. 1916) are legendary"
+      ],
+      "legal_rules": [
+        "Golden Temple premises \u2014 no tobacco, alcohol, or drugs; shoes must be removed; head must be covered",
+        "Wagah Border ceremony area has security protocols \u2014 arrive 2-3 hours early; no bags allowed in the stadium",
+        "Heritage zone restrictions around the Golden Temple \u2014 no high-rise construction in the immediate vicinity"
+      ],
+      "behavioral_notes": [
+        "Cover your head before entering any Gurdwara \u2014 scarves available for free at the entrance",
+        "Sikh hospitality is legendary \u2014 if invited to eat, do not refuse; it is offered with love",
+        "Wagah Border ceremony is a patriotic spectacle \u2014 arrive early (by 3 PM in winter) for good seats"
+      ]
+    },
+    "udaipur": {
+      "type": "city",
+      "parent_region": "rajasthan",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "City of Lakes \u2014 Lake Pichola, Fateh Sagar Lake, and the Lake Palace (Taj hotel) floating on the water",
+        "City Palace complex \u2014 largest palace complex in Rajasthan, seat of the Mewar dynasty for 400+ years",
+        "Miniature painting tradition \u2014 Mewar school of painting with intricate depictions of courtly and religious scenes",
+        "Shilpgram crafts village and Bagore Ki Haveli evening folk dance shows showcase living Rajasthani culture"
+      ],
+      "legal_rules": [
+        "Lake Pichola and Fateh Sagar have restricted boating zones \u2014 only authorized boats allowed",
+        "Heritage building regulations \u2014 no modern construction allowed that alters the old city skyline around the lakes",
+        "Alcohol available in hotels and licensed restaurants but many areas near temples are dry"
+      ],
+      "behavioral_notes": [
+        "Udaipur is romantic and tourist-friendly \u2014 less aggressive touts compared to Jaipur or Jodhpur",
+        "Respect for the Mewar royal family (Custodian of the City Palace) remains strong among locals",
+        "Evening sunset views from rooftop restaurants near Gangaur Ghat are the cultural ritual \u2014 expect crowds"
+      ]
+    },
+    "mysuru": {
+      "type": "city",
+      "parent_region": "karnataka",
+      "dominant_language": "Kannada",
+      "cultural_markers": [
+        "Mysore Palace (Amba Vilas) \u2014 Indo-Saracenic masterpiece illuminated with 97,000 bulbs on Sundays and during Dasara",
+        "Mysore Dasara \u2014 10-day state festival culminating in a grand Jamboo Savari (elephant procession) on Vijayadashami",
+        "Devaraja Market \u2014 130-year-old market selling Mysore jasmine, sandalwood, silk, and spices",
+        "Mysore pak (ghee-based sweet from Guru Sweet Mart, est. 1935), Mysore masala dosa, and filter coffee define the food culture"
+      ],
+      "legal_rules": [
+        "Heritage zone restrictions around Mysore Palace \u2014 no commercial alterations allowed to surrounding buildings",
+        "Chamundi Hill temple has a regulated vehicle route \u2014 parking and access controlled especially during festivals",
+        "Noise restrictions enforced during Dasara \u2014 amplified music permissions require police NOC"
+      ],
+      "behavioral_notes": [
+        "Mysore is quieter, cleaner, and more traditional than Bangalore \u2014 a slower, gentler pace of life",
+        "Royalty is still respected \u2014 the Wadiyar family participates in Dasara events and the public reveres them",
+        "Yoga tourism is significant \u2014 Ashtanga yoga practitioners come from worldwide to study at KPJAYI (K. Pattabhi Jois Institute)"
+      ]
+    },
+    "coimbatore": {
+      "type": "city",
+      "parent_region": "tamil_nadu",
+      "dominant_language": "Tamil",
+      "cultural_markers": [
+        "Manchester of South India \u2014 textile and cotton mill heritage; Tirupur nearby is India's knitwear capital",
+        "Isha Yoga Center (Isha Foundation) and the 112-foot Adiyogi Shiva statue at the foothills of the Velliangiri Mountains",
+        "Marudhamalai Murugan Temple on the hill and Perur Pateeswarar Temple are important pilgrimage sites",
+        "Coimbatore is known for its unique variant of South Indian food \u2014 Kongunad cuisine featuring kola urundai (meatballs), chicken biryani with seeraga samba rice"
+      ],
+      "legal_rules": [
+        "TASMAC shops only for alcohol \u2014 state-run outlets; bars in hotels have separate licenses",
+        "Coimbatore Corporation enforces industrial emission norms strictly \u2014 air quality monitoring in industrial areas",
+        "Plastic ban enforcement is active \u2014 cloth bags expected at all markets and shops"
+      ],
+      "behavioral_notes": [
+        "Coimbatore people are known for business acumen \u2014 the city has one of the highest densities of small and medium industries",
+        "Kongunad Tamil dialect is distinct from Chennai Tamil \u2014 locals are proud of their Kongu identity",
+        "Conservative and family-oriented city \u2014 nightlife is minimal compared to Chennai or Bangalore"
+      ]
+    },
+    "madurai": {
+      "type": "city",
+      "parent_region": "tamil_nadu",
+      "dominant_language": "Tamil",
+      "cultural_markers": [
+        "Meenakshi Amman Temple \u2014 towering gopurams (gateway towers) with 33,000 sculptures; one of India's grandest temples",
+        "Madurai is one of the oldest continuously inhabited cities in India \u2014 over 2,500 years old, mentioned in Sangam literature",
+        "Jallikattu (bull-taming) during Pongal \u2014 Madurai's Alanganallur is the most famous arena",
+        "Jigarthanda (cold dessert drink of milk, almond gum, sarsaparilla syrup, and ice cream) is unique to Madurai \u2014 Famous Jigarthanda is the iconic shop"
+      ],
+      "legal_rules": [
+        "Meenakshi Temple has strict dress code \u2014 no shorts, sleeveless tops, or leather items inside",
+        "Photography banned inside the sanctum of Meenakshi Temple \u2014 cameras/phones confiscated if rules violated",
+        "TASMAC liquor shops only \u2014 no private alcohol retail"
+      ],
+      "behavioral_notes": [
+        "Madurai Tamil is considered the purest form of the language \u2014 locals take immense pride in it",
+        "Temple rituals dominate daily life \u2014 Meenakshi Temple's morning and evening puja schedules shape local routines",
+        "Extremely hot climate \u2014 locals rest during 12 PM-3 PM; plan outdoor activities for early morning or evening"
+      ]
+    },
+    "bhopal": {
+      "type": "city",
+      "parent_region": "madhya_pradesh",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "City of Lakes \u2014 Upper Lake (Bhojtal, 11th century) and Lower Lake define the city's geography",
+        "Taj-ul-Masajid \u2014 one of the largest mosques in Asia, reflecting Bhopal's Nawabi heritage",
+        "Bharat Bhavan \u2014 multi-arts complex designed by Charles Correa, hosting tribal art, theatre, and poetry",
+        "Bhopali gosht (mutton), biryani-pilaf, and poha-jalebi (breakfast staple) define the food culture"
+      ],
+      "legal_rules": [
+        "Bhopal Gas Tragedy (1984) legacy \u2014 industrial safety regulations in Bhopal are among the strictest in India",
+        "BMC enforces heritage zone restrictions around the old city and lake areas",
+        "Alcohol legal but restricted timings for bars \u2014 most close by 11 PM"
+      ],
+      "behavioral_notes": [
+        "Bhopal has a Nawabi culture of politeness \u2014 'Janab' and 'Begum Sahiba' still used as respectful forms of address",
+        "Poha and jalebi for breakfast is a Bhopali ritual \u2014 every neighborhood has a favorite poha stall",
+        "The city is surprisingly green and spread out \u2014 cycling around the lakes is a growing local trend"
+      ]
+    },
+    "indore": {
+      "type": "city",
+      "parent_region": "madhya_pradesh",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "India's cleanest city \u2014 won the Swachh Survekshan award multiple consecutive times (7 times as of 2023)",
+        "Sarafa Bazaar \u2014 jewelry market by day, famous street food market by night (opens after 8 PM)",
+        "Rajwada Palace (Holkar dynasty, 18th century) in the old city center is the historical heart",
+        "Street food capital of MP \u2014 dal bafla, poha, garadu (yam fry), sabudana khichdi, bhutte ka kees (corn dish) from Chappan Dukan (56 Shops)"
+      ],
+      "legal_rules": [
+        "Waste segregation and cleanliness norms are strictly enforced \u2014 IMC (Indore Municipal Corporation) fines for littering",
+        "Alcohol legal; bars and restaurants have standard closing times around 11 PM",
+        "Traffic enforcement increasingly strict \u2014 e-challans for traffic violations common"
+      ],
+      "behavioral_notes": [
+        "Indoris take immense pride in their city's cleanliness \u2014 do not litter; you will be noticed",
+        "Street food culture is a nightly social event \u2014 Sarafa and Chappan Dukan are crowded from 8 PM to midnight",
+        "Malwi dialect of Hindi spoken with a distinctive musical intonation \u2014 warm and humorous conversational style"
+      ]
+    },
+    "bhubaneswar": {
+      "type": "city",
+      "parent_region": "odisha",
+      "dominant_language": "Odia",
+      "cultural_markers": [
+        "Temple City \u2014 over 700 temples including the Lingaraj Temple (11th century), Mukteshwar Temple, and Rajarani Temple",
+        "Dhauli Peace Pagoda \u2014 site where Emperor Ashoka embraced Buddhism after the Kalinga War (261 BCE)",
+        "Tribal museum (Museum of Tribal Arts and Artifacts) showcases Odisha's 62 tribal communities",
+        "Dalma (lentil-vegetable stew), chena poda (cheese dessert), and pakhala bhata (fermented rice) are signature dishes"
+      ],
+      "legal_rules": [
+        "Lingaraj Temple \u2014 entry restricted to Hindus only; strict dress code enforcement",
+        "BDA (Bhubaneswar Development Authority) enforces heritage zone buffer rules around ancient temples",
+        "Alcohol legal but not sold near temple zones \u2014 state-run outlets in designated areas"
+      ],
+      "behavioral_notes": [
+        "Odia people are known for humility and politeness \u2014 soft-spoken interaction is the norm",
+        "Rice is the absolute staple of every meal \u2014 asking for roti as a primary carb may seem unusual",
+        "Rath Yatra fever grips the city even though the main event is in Puri \u2014 Bhubaneswar has its own smaller processions"
+      ]
+    },
+    "guwahati": {
+      "type": "city",
+      "parent_region": "assam",
+      "dominant_language": "Assamese",
+      "cultural_markers": [
+        "Kamakhya Temple on Nilachal Hill \u2014 one of 51 Shakti Peethas, famous for Ambubachi Mela (annual fertility festival)",
+        "Gateway to Northeast India \u2014 Guwahati is the transport hub for the Seven Sisters states",
+        "Brahmaputra River defines the city \u2014 Umananda Island (smallest inhabited river island) sits mid-river",
+        "Assamese thali with rice, dal, masor tenga (sour fish curry), khar (alkaline dish), and pitha (rice cakes) is the food identity"
+      ],
+      "legal_rules": [
+        "Alcohol legal; drinking age 21 \u2014 but restrictions during Bihu festival days",
+        "Inner Line Permit not needed for Assam itself but required to visit Arunachal Pradesh, Nagaland, Mizoram from Guwahati",
+        "Kamakhya Temple has restricted photography in inner sanctum and specific dress norms"
+      ],
+      "behavioral_notes": [
+        "Offering a gamosa (woven cotton towel) is the Assamese way of showing respect and welcome",
+        "Bihu celebrations in April (Rongali Bihu) are exuberant \u2014 the city celebrates for a full week",
+        "Northeast identity is distinct from mainland India \u2014 sensitivity about being called 'Chinese' or 'Nepali' is important"
+      ]
+    },
+    "shimla": {
+      "type": "city",
+      "parent_region": "himachal_pradesh",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Former summer capital of British India \u2014 The Ridge, Mall Road, Christ Church (1857), and Viceregal Lodge define the colonial heritage",
+        "Kalka-Shimla heritage railway (UNESCO World Heritage) \u2014 toy train journey through 102 tunnels and 800+ bridges",
+        "Jakhu Temple (Hanuman temple at 2,455m) offers panoramic Himalayan views and is the city's highest point",
+        "Shimla's siddu (steamed stuffed bread), Himachali dham (festive meal), and Tudkiya Bhath (spiced rice) are local specialties"
+      ],
+      "legal_rules": [
+        "Vehicle restrictions on Mall Road \u2014 no vehicles allowed on the pedestrian promenade",
+        "Plastic bags banned across Shimla \u2014 strict fines enforced especially in the main tourist areas",
+        "Construction regulations are strict \u2014 building permits tightly controlled to prevent hillside destabilization"
+      ],
+      "behavioral_notes": [
+        "Shimla is walkable and meant to be walked \u2014 the Ridge and Mall Road are the social centers",
+        "Winter (December-February) brings heavy snowfall \u2014 the city transforms but roads become treacherous",
+        "Himachali people are reserved but friendly \u2014 a simple 'Namaste' with folded hands goes a long way"
+      ]
+    },
+    "dehradun": {
+      "type": "city",
+      "parent_region": "uttarakhand",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Elite boarding school tradition \u2014 Doon School, Welham, Rashtriya Indian Military College shape the city's educational prestige",
+        "Forest Research Institute (FRI) \u2014 colonial-era Greco-Roman architecture campus; largest of its kind in Asia",
+        "Robber's Cave (Gucchu Pani) and Sahastradhara (Thousand Fold Spring) are popular natural attractions",
+        "Dehradun is the gateway to Mussoorie (Queen of Hills), Haridwar, and Rishikesh \u2014 a transit hub for pilgrims and trekkers"
+      ],
+      "legal_rules": [
+        "Dehradun Municipal Corporation enforces hill construction norms \u2014 no building beyond sanctioned floors",
+        "Alcohol legal \u2014 but Haridwar (just 50 km away) is completely dry; no alcohol allowed",
+        "Traffic police enforce pollution-under-control (PUC) certificate checks regularly"
+      ],
+      "behavioral_notes": [
+        "City has a cantonment and old-money culture \u2014 Rajpur Road and Clement Town have a relaxed, tree-lined ambiance",
+        "Mix of Garhwali hill culture and plains culture \u2014 both Hindi and Garhwali spoken",
+        "Bakeries (like Ellora's and Kumar's) are a Dehradun institution \u2014 bread and pastries are a colonial-era legacy"
+      ]
+    },
+    "rishikesh": {
+      "type": "city",
+      "parent_region": "uttarakhand",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Yoga Capital of the World \u2014 hundreds of ashrams including Parmarth Niketan, Sivananda Ashram, and the Beatles Ashram (Maharishi Mahesh Yogi's ashram)",
+        "Laxman Jhula and Ram Jhula \u2014 iconic suspension bridges over the Ganges (Laxman Jhula closed to foot traffic due to structural concerns, replaced by a new bridge)",
+        "White-water rafting on the Ganges \u2014 Shivpuri to Rishikesh stretch is India's most popular rafting route",
+        "Triveni Ghat evening Ganga Aarti \u2014 smaller and more intimate than Varanasi's but equally spiritual"
+      ],
+      "legal_rules": [
+        "Rishikesh is a holy city \u2014 alcohol and non-vegetarian food are completely banned within city limits",
+        "Plastic bags and bottles discouraged \u2014 many ashrams and cafes refuse single-use plastic",
+        "River rafting regulated by the Uttarakhand government \u2014 licensed operators only, safety gear mandatory"
+      ],
+      "behavioral_notes": [
+        "Respect ashram rules \u2014 silence zones, fixed meal times, no shoes indoors, dress modestly",
+        "The international yoga community is large \u2014 English widely spoken in cafes and ashrams along the riverside",
+        "Cow traffic on the bridges and roads is normal \u2014 patience and gentle navigation required"
+      ]
+    },
+    "srinagar": {
+      "type": "city",
+      "parent_region": "jammu_and_kashmir",
+      "dominant_language": "Kashmiri",
+      "cultural_markers": [
+        "Dal Lake and Nigeen Lake with shikaras and houseboats \u2014 staying on a houseboat is the quintessential Srinagar experience",
+        "Mughal Gardens \u2014 Shalimar Bagh, Nishat Bagh, and Chashme Shahi terraced gardens from the 17th century",
+        "Pashmina shawl and Kashmiri carpet weaving \u2014 artisan traditions passed through generations in the old city",
+        "Wazwan feast (36-course Kashmiri banquet) \u2014 rogan josh, gushtaba, tabak maaz, and rista are signature dishes"
+      ],
+      "legal_rules": [
+        "Security situation requires awareness \u2014 periodic curfews, internet shutdowns, and Section 144 orders can happen",
+        "Photography near military installations, bunkers, and certain bridges is strictly prohibited",
+        "Shikara and houseboat rates regulated by the J&K Tourism Department \u2014 printed rate cards available"
+      ],
+      "behavioral_notes": [
+        "Kashmiris welcome tourists warmly with kehwa (saffron-almond tea) \u2014 accepting is a sign of respect",
+        "Political situation is sensitive \u2014 avoid initiating political conversations unless invited",
+        "Bargaining in the floating market and shikara bazaar is expected \u2014 start at 40-50% of quoted price"
+      ]
+    },
+    "leh": {
+      "type": "city",
+      "parent_region": "ladakh",
+      "dominant_language": "Ladakhi",
+      "cultural_markers": [
+        "Leh Palace (17th century, modeled after the Potala Palace) overlooks the town from a hilltop",
+        "Shanti Stupa (1991, Japanese Buddhist) \u2014 white-domed stupa with panoramic views of the Leh valley",
+        "Changspa and Main Bazaar \u2014 traveler hub with cafes, Ladakhi jewelry, and pashmina shops",
+        "Thukpa (Tibetan noodle soup), momos, skyu (Ladakhi pasta stew), and butter tea are the food staples"
+      ],
+      "legal_rules": [
+        "Inner Line Permit required for Nubra Valley, Pangong Lake, Tso Moriri, and Hanle \u2014 obtainable at DC office in Leh",
+        "Foreign nationals need a Protected Area Permit (PAP) and must travel in groups of 2+ for restricted zones",
+        "No camping outside designated campsites \u2014 environmental protection rules strictly enforced by the administration"
+      ],
+      "behavioral_notes": [
+        "'Julley' is the greeting for hello, thank you, and goodbye \u2014 use it generously",
+        "Acclimatize for at least 24-48 hours upon arrival \u2014 altitude sickness is a serious risk at 3,500m",
+        "Ladakhi culture is Tibetan Buddhist \u2014 walk clockwise around stupas and mani walls, spin prayer wheels clockwise"
+      ]
+    },
+    "gangtok": {
+      "type": "city",
+      "parent_region": "sikkim",
+      "dominant_language": "Nepali",
+      "cultural_markers": [
+        "MG Marg \u2014 pedestrianized main street with cafes, shops, and mountain views; the heart of Gangtok",
+        "Rumtek Monastery \u2014 seat of the Karmapa, one of the most important Tibetan Buddhist monasteries outside Tibet",
+        "Enchey Monastery and Do Drul Chorten (stupa) represent the city's Buddhist spiritual identity",
+        "Momos, thukpa, gundruk (fermented leafy greens), phagshapa (pork with radish), and tongba (millet beer) define the cuisine"
+      ],
+      "legal_rules": [
+        "Inner Line Permit required for Nathula Pass (India-China border) \u2014 obtain from Gangtok Tourism Office; closed on Mondays and Tuesdays",
+        "Tobacco products banned across Sikkim \u2014 Sikkim is India's first tobacco-free state in public spaces",
+        "Protected Area Permit needed for foreign nationals to visit most areas outside Gangtok"
+      ],
+      "behavioral_notes": [
+        "Sikkimese people are gentle and soft-spoken \u2014 loud, aggressive behavior is culturally out of place",
+        "Clean city \u2014 littering is taken seriously; Gangtok takes visible pride in cleanliness",
+        "Respect Buddhist sites \u2014 do not touch or sit on prayer stones, stupas, or monastery artifacts"
+      ]
+    },
+    "shillong": {
+      "type": "city",
+      "parent_region": "meghalaya",
+      "dominant_language": "Khasi",
+      "cultural_markers": [
+        "Scotland of the East \u2014 rolling hills, pine forests, and colonial-era churches and bungalows",
+        "Live music and rock/blues culture \u2014 Shillong is India's rock music capital; Bob Dylan-inspired cafe culture in Police Bazaar",
+        "Iewduh (Bara Bazaar) \u2014 largest traditional market in Northeast India, selling everything from local produce to handloomed textiles",
+        "Jadoh (rice cooked with pork), tungrymbai (fermented soybean), doh khlieh (pork salad), and kwai (betel nut) define the food culture"
+      ],
+      "legal_rules": [
+        "Autonomous District Council (Khasi Hills) administers traditional laws alongside state laws in tribal areas",
+        "Alcohol legal; drinking age 21 \u2014 local rice beer (kiad) widely available",
+        "Inner Line Permit not required for Shillong but may be needed for remote areas near the Bangladesh border"
+      ],
+      "behavioral_notes": [
+        "Khasi society is matrilineal \u2014 family name passes through the mother; respect this unique social structure",
+        "English is widely spoken alongside Khasi \u2014 Shillong is one of the most English-literate cities in India",
+        "Church attendance on Sundays is significant \u2014 many shops in predominantly Christian areas close or open late"
+      ]
+    },
+    "visakhapatnam": {
+      "type": "city",
+      "parent_region": "andhra_pradesh",
+      "dominant_language": "Telugu",
+      "cultural_markers": [
+        "City of Destiny (Vizag) \u2014 Ramakrishna Beach, Rishikonda Beach, and Kailasagiri hilltop park along the coastline",
+        "INS Kurusura Submarine Museum \u2014 decommissioned submarine on RK Beach, one of India's few submarine museums",
+        "Simhachalam Temple (Varaha Narasimha Swamy) \u2014 11th-century Odia-Dravidian temple on Simhachalam hill",
+        "Vizag is known for its seafood \u2014 bamboo chicken (cooked inside bamboo), fish pulusu (tamarind-based fish curry), and Andhra-style prawns"
+      ],
+      "legal_rules": [
+        "AP government alcohol restrictions apply \u2014 limited number of licensed outlets",
+        "Navy and defense zones along the coast have restricted access and photography bans",
+        "CRZ (Coastal Regulation Zone) enforcement along the beach \u2014 no construction in regulated zones"
+      ],
+      "behavioral_notes": [
+        "Vizag has a defense and navy culture \u2014 city is home to the Eastern Naval Command; respect for armed forces is strong",
+        "Telugu spoken with a distinctive north-coastal Uttarandhra accent \u2014 different from Hyderabad Telugu",
+        "Friendly and laid-back coastal city vibe \u2014 less formal than Hyderabad, with strong seafood and beach culture"
+      ]
+    },
+    "jodhpur": {
+      "type": "city",
+      "parent_region": "rajasthan",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Blue City \u2014 old city houses painted indigo blue, visible dramatically from Mehrangarh Fort",
+        "Mehrangarh Fort \u2014 one of India's largest and best-preserved forts, perched on a 125m cliff, housing an outstanding museum",
+        "Umaid Bhawan Palace \u2014 Art Deco royal residence, part palace museum, part Taj hotel, part royal family home",
+        "Mirchi bada (chili fritter), mawa kachori, makhaniya lassi, and pyaaz ki kachori from Shahi Samosa are Jodhpur's street food icons"
+      ],
+      "legal_rules": [
+        "Heritage zone around Mehrangarh \u2014 strict restrictions on construction height and facade modifications",
+        "Alcohol available in hotels but dry days enforced strictly \u2014 check calendar before planning",
+        "Camel/horse ride operators at forts regulated \u2014 use only government-authorized guides and operators"
+      ],
+      "behavioral_notes": [
+        "Marwari culture is strong \u2014 traditional Rajput hospitality involves offering water and buttermilk to guests",
+        "Summers are brutally hot (45C+) \u2014 locals follow early morning and late evening routines; midday rest is standard",
+        "Jodhpuri suits (bandhgala) originated here \u2014 the city has a strong tailoring tradition"
+      ]
+    },
+    "agra": {
+      "type": "city",
+      "parent_region": "uttar_pradesh",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Taj Mahal \u2014 UNESCO World Heritage Site, Mughal emperor Shah Jahan's marble mausoleum for Mumtaz Mahal (1632-1653)",
+        "Agra Fort (UNESCO) \u2014 massive red sandstone Mughal fort with Diwan-i-Am, Diwan-i-Khas, and Sheesh Mahal",
+        "Fatehpur Sikri (38 km) \u2014 abandoned Mughal capital built by Akbar, UNESCO World Heritage Site",
+        "Petha (translucent sweet made from ash gourd) is Agra's signature sweet \u2014 Panchhi Petha (est. 1950s) is the most famous brand"
+      ],
+      "legal_rules": [
+        "Taj Trapezium Zone (TTZ) environmental regulations \u2014 industrial emissions heavily restricted within 10,400 sq km around the Taj",
+        "Drone flying banned in the Taj Mahal security zone",
+        "Taj Mahal closed on Fridays (except for namaz at the mosque) \u2014 plan visits accordingly"
+      ],
+      "behavioral_notes": [
+        "Touts and unauthorized guides are aggressive at the Taj \u2014 only use ASI (Archaeological Survey of India) authorized guides",
+        "Pollution and Yamuna river cleanliness are persistent concerns \u2014 the marble has faced yellowing from pollution",
+        "Agra is a day-trip city for many tourists \u2014 but staying overnight allows sunrise and sunset Taj views"
+      ]
+    },
+    "patna": {
+      "type": "city",
+      "parent_region": "bihar",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Ancient city of Pataliputra \u2014 capital of the Maurya and Gupta empires, over 2,500 years of history",
+        "Golghar (1786) \u2014 British-era beehive-shaped granary with panoramic city and Ganges views from the top",
+        "Mahavir Mandir near Patna Junction \u2014 one of the most visited Hanuman temples in India",
+        "Litti chokha (roasted wheat balls with mashed vegetables), sattu paratha, and Patna's thekua (sweet snack) define the food culture"
+      ],
+      "legal_rules": [
+        "Bihar is a dry state \u2014 complete alcohol prohibition; possession and consumption lead to arrest and heavy fines",
+        "Patna Municipal Corporation waste management rules \u2014 segregation mandatory",
+        "Chhath Puja ghat preparations involve temporary road closures and traffic diversions near the Ganges"
+      ],
+      "behavioral_notes": [
+        "Chhath Puja (October/November) is the most important festival \u2014 the city comes to a standstill for the rituals",
+        "Respect for elders is paramount \u2014 touching feet (pranam) is standard greeting for older people",
+        "Bhojpuri and Magahi dialects commonly spoken alongside Hindi \u2014 Maithili in northern parts of the state"
+      ]
+    },
+    "ranchi": {
+      "type": "city",
+      "parent_region": "jharkhand",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "City of Waterfalls \u2014 Dassam Falls, Hundru Falls, and Jonha Falls within 40 km radius of the city",
+        "Tagore Hill \u2014 where Rabindranath Tagore's elder brother Jyotirindranath Tagore lived; hilltop with city views",
+        "Tribal culture presence \u2014 Sarhul (spring festival) and Karma (harvest festival) celebrated with community dancing",
+        "Dhuska (deep-fried rice-lentil pancake), litti chokha, and handia (rice beer) are local food specialties"
+      ],
+      "legal_rules": [
+        "Alcohol legal; drinking age 21 \u2014 but tribal areas may have customary rules on alcohol",
+        "Jharkhand Tenancy Act protects tribal land \u2014 land transactions in scheduled areas require special permissions",
+        "Traffic enforcement is growing but still evolving \u2014 helmet and seatbelt compliance improving"
+      ],
+      "behavioral_notes": [
+        "Ranchi was the birthplace of MS Dhoni \u2014 cricket culture is passionate; JSCA International Stadium is a source of local pride",
+        "Tribal and non-tribal populations coexist \u2014 sensitivity to tribal customs in surrounding areas is important",
+        "Pleasant climate year-round (compared to neighboring Bihar) \u2014 Ranchi is on a plateau at 650m elevation"
+      ]
+    },
+    "raipur": {
+      "type": "city",
+      "parent_region": "chhattisgarh",
+      "dominant_language": "Hindi",
+      "cultural_markers": [
+        "Naya Raipur (Atal Nagar) \u2014 one of India's newest planned smart cities, the new capital of Chhattisgarh since state formation in 2000",
+        "Purkhouti Muktangan \u2014 open-air museum showcasing Chhattisgarh's tribal art, culture, and architecture",
+        "Mahant Ghasidas Memorial Museum \u2014 repository of tribal artifacts, inscriptions, and archaeological finds",
+        "Bore baasi (fermented cold rice), chila (rice flour pancake), fara (steamed rice dumplings), and aamat (tribal mixed vegetable stew) are local specialties"
+      ],
+      "legal_rules": [
+        "Alcohol legal; drinking age 21 \u2014 state-run and private liquor shops available",
+        "Raipur Development Authority enforces smart city construction norms in Naya Raipur zone",
+        "Industrial emission norms enforced \u2014 Raipur has steel plants and sponge iron factories on the outskirts"
+      ],
+      "behavioral_notes": [
+        "Chhattisgarhi dialect is the daily language \u2014 standard Hindi understood but locals prefer Chhattisgarhi",
+        "Rice is the absolute dietary staple \u2014 'chawal' (rice) is non-negotiable in every meal",
+        "Rapidly developing city \u2014 infrastructure is improving but public transport is still limited; autos and cabs are primary"
+      ]
+    },
+    "nagpur": {
+      "type": "city",
+      "parent_region": "maharashtra",
+      "dominant_language": "Marathi",
+      "cultural_markers": [
+        "Orange City \u2014 Nagpur is India's largest orange trading hub; Nagpur oranges (Citrus reticulata) are a GI-tagged product",
+        "Zero Mile Stone \u2014 geographical center of India, located at the old British survey marker in the city center",
+        "Deekshabhoomi \u2014 the site where Dr. B.R. Ambedkar embraced Buddhism in 1956 with 600,000 followers; a major Buddhist pilgrimage site",
+        "Saoji cuisine \u2014 fiery, oil-rich mutton and chicken gravies unique to Nagpur; tarri poha (spiced poha with curry) is the breakfast staple"
+      ],
+      "legal_rules": [
+        "Maharashtra beef ban applies \u2014 but Nagpur's Vidarbha region has distinct cultural food practices",
+        "Nagpur Municipal Corporation enforces noise and pollution norms \u2014 tree-cutting requires NMC permission",
+        "Nagpur Metro recently operational \u2014 follow metro etiquette rules similar to Delhi Metro"
+      ],
+      "behavioral_notes": [
+        "Nagpuri Marathi (Varhadi dialect) is distinct from Pune/Mumbai Marathi \u2014 locals are proud of this identity",
+        "Politically important city \u2014 RSS headquarters (Sangh Bhavan) is in Nagpur, and it is a site of winter legislature sessions",
+        "Summers are extreme (45C+) \u2014 the city empties during May; locals adapt with early morning routines"
+      ]
+    },
+    "surat": {
+      "type": "city",
+      "parent_region": "gujarat",
+      "dominant_language": "Gujarati",
+      "cultural_markers": [
+        "Diamond capital of the world \u2014 90% of the world's diamonds are cut and polished in Surat",
+        "Textile city \u2014 Surat produces a massive share of India's synthetic fabric, especially for sarees",
+        "Locho, khaman, surti undhiyu (winter mixed vegetable dish), ghari (sweet pastry) \u2014 Surat is arguably Gujarat's food capital",
+        "Dutch Cemetery and Surat Castle \u2014 remnants of the city's history as India's first major port for European traders"
+      ],
+      "legal_rules": [
+        "Dry city in a dry state \u2014 alcohol strictly prohibited; permits theoretically available but rarely issued",
+        "SMC (Surat Municipal Corporation) is known for very strict cleanliness enforcement \u2014 the city transformed after the 1994 plague",
+        "Diamond industry has its own informal regulatory ecosystem \u2014 trust-based transactions in Varachha and Mahidharpura"
+      ],
+      "behavioral_notes": [
+        "Surati people are known for food obsession \u2014 the city eats out more than almost any other Indian city",
+        "Garba during Navratri is a citywide phenomenon \u2014 massive community gatherings nightly for nine days",
+        "Business-first culture \u2014 Surat runs on trade and commerce; conversations often lead back to business"
+      ]
+    },
+    "kozhikode": {
+      "type": "city",
+      "parent_region": "kerala",
+      "dominant_language": "Malayalam",
+      "cultural_markers": [
+        "City of Spices \u2014 Vasco da Gama landed here in 1498, opening the spice trade route to Europe",
+        "Kozhikode halwa (made with coconut oil, rice flour, and jaggery at SM Street's iconic sweet shops) and Kozhikode biryani (with distinctive Malabar flavors) are legendary",
+        "Kuttichira \u2014 historic Muslim quarter with ancient mosques, including Mishkal Mosque (14th century, built like a Chinese pagoda)",
+        "Tali Temple, Mananchira Square, and the beach (Kozhikode Beach) form the cultural triangle of the city center"
+      ],
+      "legal_rules": [
+        "Bevco liquor outlets only \u2014 Kerala's state-run alcohol retail system applies",
+        "Kozhikode Corporation enforces heritage conservation in the old Kuttichira and SM Street areas",
+        "Hartals (political strikes) called by parties can shut down the city unexpectedly \u2014 check local news"
+      ],
+      "behavioral_notes": [
+        "Moplah (Malabar Muslim) culture is distinctive \u2014 cuisine, language (Mappila Malayalam), and customs differ from other Kerala regions",
+        "Kozhikode is a food city above all \u2014 locals will debate biryani shops and halwa brands with passion",
+        "Friendly and cosmopolitan \u2014 the city has a long tradition of welcoming outsiders, rooted in its trading port history"
+      ]
+    }
+  },
+  "live_updates": {
+    "lu_karnataka_dry_day": {
+      "region_id": "karnataka",
+      "category": "legal",
+      "severity": "high",
+      "summary": "Dry day in Karnataka today due to state holiday. Alcohol sale is prohibited across the state including bars, restaurants, and retail outlets.",
+      "source_links": [
+        "https://excise.karnataka.gov.in"
+      ],
+      "source_type": "government",
+      "confidence_score": 0.92,
+      "effective_from": "2026-02-14T00:00:00+05:30",
+      "expires_at": "2026-02-15T00:00:00+05:30",
+      "last_updated": "2026-02-14T09:00:00+05:30"
+    },
+    "lu_bangalore_metro_green_line_extension": {
+      "region_id": "bangalore",
+      "category": "transport",
+      "severity": "low",
+      "summary": "Namma Metro Green Line extension to Silk Institute now operational. New stations: Konanakunte Cross, Doddakallasandra, Vajrahalli, Talaghattapura, Silk Institute. Services run 5 AM to 11 PM.",
+      "source_links": [
+        "https://english.bmrc.co.in"
+      ],
+      "source_type": "government",
+      "confidence_score": 0.95,
+      "effective_from": "2026-01-15T00:00:00+05:30",
+      "expires_at": "2026-06-15T00:00:00+05:30",
+      "last_updated": "2026-02-14T08:00:00+05:30"
+    },
+    "lu_bangalore_traffic_orr": {
+      "region_id": "bangalore",
+      "category": "transport",
+      "severity": "medium",
+      "summary": "Heavy traffic congestion expected on Outer Ring Road (ORR) between Silk Board and Marathahalli due to ongoing metro construction. Diversions in place near Agara Lake and Ibbalur. Use Sarjapur Road or Old Airport Road as alternate routes.",
+      "source_links": [
+        "https://btp.gov.in"
+      ],
+      "source_type": "government",
+      "confidence_score": 0.88,
+      "effective_from": "2026-02-14T07:00:00+05:30",
+      "expires_at": "2026-02-28T23:59:00+05:30",
+      "last_updated": "2026-02-14T07:30:00+05:30"
+    },
+    "lu_bangalore_weather_pleasant": {
+      "region_id": "bangalore",
+      "category": "weather",
+      "severity": "low",
+      "summary": "Bangalore weather today: Clear skies, temperature 16°C-27°C. Pleasant conditions ideal for outdoor activities. UV index moderate — sunscreen recommended for midday outings. No rain expected this week.",
+      "source_links": [
+        "https://mausam.imd.gov.in"
+      ],
+      "source_type": "government",
+      "confidence_score": 0.90,
+      "effective_from": "2026-02-14T06:00:00+05:30",
+      "expires_at": "2026-02-15T06:00:00+05:30",
+      "last_updated": "2026-02-14T06:00:00+05:30"
+    },
+    "lu_bangalore_water_supply": {
+      "region_id": "bangalore",
+      "category": "safety",
+      "severity": "medium",
+      "summary": "BWSSB announces scheduled water supply disruption in Whitefield, Mahadevapura, and KR Puram zones on Feb 15 due to Cauvery pipeline maintenance. Store water in advance. Normal supply resumes Feb 16 morning.",
+      "source_links": [
+        "https://bwssb.gov.in"
+      ],
+      "source_type": "government",
+      "confidence_score": 0.90,
+      "effective_from": "2026-02-14T18:00:00+05:30",
+      "expires_at": "2026-02-16T08:00:00+05:30",
+      "last_updated": "2026-02-14T10:00:00+05:30"
+    },
+    "lu_skandagiri_weekend_slots": {
+      "region_id": "skandagiri_trek",
+      "category": "safety",
+      "severity": "medium",
+      "summary": "Skandagiri night trek slots for this weekend (Feb 15-16) are fully booked. Next available slots: Feb 22-23. Book via Jungle Lodges website. Weekday slots (Tue-Thu) still available for next week.",
+      "source_links": [
+        "https://www.junglelodges.com"
+      ],
+      "source_type": "government",
+      "confidence_score": 0.85,
+      "effective_from": "2026-02-14T00:00:00+05:30",
+      "expires_at": "2026-02-17T00:00:00+05:30",
+      "last_updated": "2026-02-14T09:00:00+05:30"
+    },
+    "lu_nandi_hills_weekend_rush": {
+      "region_id": "nandi_hills",
+      "category": "transport",
+      "severity": "medium",
+      "summary": "Nandi Hills expecting heavy weekend rush. Traffic police will enforce one-way ghat road system from 5 AM to 10 AM on Saturday and Sunday. Arrive before 5:30 AM to avoid 1-2 hour vehicle queues. Two-wheelers may face longer waits.",
+      "source_links": [
+        "https://btp.gov.in"
+      ],
+      "source_type": "government",
+      "confidence_score": 0.82,
+      "effective_from": "2026-02-14T00:00:00+05:30",
+      "expires_at": "2026-02-17T00:00:00+05:30",
+      "last_updated": "2026-02-14T08:00:00+05:30"
+    },
+    "lu_bangalore_bbmp_pothole_drive": {
+      "region_id": "bangalore",
+      "category": "transport",
+      "severity": "low",
+      "summary": "BBMP undertaking pothole-filling drive on major roads including Hosur Road, Bellary Road, and Tumkur Road this week. Expect lane closures during non-peak hours (10 AM-4 PM). Report potholes via BBMP Sahaaya app.",
+      "source_links": [
+        "https://bbmp.gov.in"
+      ],
+      "source_type": "government",
+      "confidence_score": 0.80,
+      "effective_from": "2026-02-10T00:00:00+05:30",
+      "expires_at": "2026-02-21T00:00:00+05:30",
+      "last_updated": "2026-02-14T08:00:00+05:30"
+    },
+    "lu_karnataka_rajyotsava_prep": {
+      "region_id": "karnataka",
+      "category": "cultural",
+      "severity": "low",
+      "summary": "Maha Shivaratri celebrations across Karnataka on Feb 26. Major pujas at Murdeshwar, Gokarna Mahabaleshwar, and Nandi Hills Shiva temple. Expect large crowds at temples, traffic diversions near major temple towns.",
+      "source_links": [
+        "https://karnataka.gov.in"
+      ],
+      "source_type": "government",
+      "confidence_score": 0.88,
+      "effective_from": "2026-02-14T00:00:00+05:30",
+      "expires_at": "2026-02-27T00:00:00+05:30",
+      "last_updated": "2026-02-14T09:00:00+05:30"
+    },
+    "lu_mumbai_train_delay": {
+      "region_id": "mumbai",
+      "category": "transport",
+      "severity": "medium",
+      "summary": "Western line delays expected due to track maintenance between Andheri and Borivali. Mega block on Sunday Feb 16 from 10 AM to 4 PM. Plan extra 30-45 minutes on weekdays. Use Central or Harbour line alternatives.",
+      "source_links": [
+        "https://westernrailway.gov.in"
+      ],
+      "source_type": "government",
+      "confidence_score": 0.85,
+      "effective_from": "2026-02-14T00:00:00+05:30",
+      "expires_at": "2026-02-17T00:00:00+05:30",
+      "last_updated": "2026-02-14T07:00:00+05:30"
+    },
+    "lu_mumbai_coastal_road": {
+      "region_id": "mumbai",
+      "category": "transport",
+      "severity": "low",
+      "summary": "Mumbai Coastal Road (Marine Drive to Worli) now fully operational in both directions. Cuts travel time from South Mumbai to Bandra from 45 min to 12 min during peak hours. No tolls currently. Speed limit 80 km/h.",
+      "source_links": [
+        "https://mcgm.gov.in"
+      ],
+      "source_type": "government",
+      "confidence_score": 0.92,
+      "effective_from": "2026-01-01T00:00:00+05:30",
+      "expires_at": "2026-06-01T00:00:00+05:30",
+      "last_updated": "2026-02-14T08:00:00+05:30"
+    },
+    "lu_delhi_aqi": {
+      "region_id": "delhi",
+      "category": "safety",
+      "severity": "medium",
+      "summary": "Delhi AQI moderate (150-200) today. Improvement from last week's poor levels. Outdoor exercise advisable only in morning hours (6-8 AM). N95 masks recommended for sensitive individuals. GRAP Stage 1 measures continue.",
+      "source_links": [
+        "https://cpcb.nic.in"
+      ],
+      "source_type": "government",
+      "confidence_score": 0.95,
+      "effective_from": "2026-02-14T06:00:00+05:30",
+      "expires_at": "2026-02-15T06:00:00+05:30",
+      "last_updated": "2026-02-14T06:30:00+05:30"
+    },
+    "lu_delhi_metro_new_line": {
+      "region_id": "new_delhi",
+      "category": "transport",
+      "severity": "low",
+      "summary": "Delhi Metro Phase IV construction ongoing near Janakpuri West, Maujpur, and Aerocity. Expect traffic diversions and road closures in these areas. DMRC Silver Line (Aerocity-Tughlakabad) testing in progress.",
+      "source_links": [
+        "https://delhimetrorail.com"
+      ],
+      "source_type": "government",
+      "confidence_score": 0.88,
+      "effective_from": "2026-02-01T00:00:00+05:30",
+      "expires_at": "2026-03-31T00:00:00+05:30",
+      "last_updated": "2026-02-14T09:00:00+05:30"
+    },
+    "lu_mysuru_dasara_off_season": {
+      "region_id": "mysuru",
+      "category": "cultural",
+      "severity": "low",
+      "summary": "Mysuru Palace Sunday illumination continues year-round. Palace lit with 97,000 bulbs from 7 PM to 7:45 PM every Sunday. Entry Rs 70 for Indians, Rs 200 for foreigners. Less crowded in February — ideal time to visit without Dasara rush.",
+      "source_links": [
+        "https://mysorepalace.karnataka.gov.in"
+      ],
+      "source_type": "government",
+      "confidence_score": 0.90,
+      "effective_from": "2026-02-14T00:00:00+05:30",
+      "expires_at": "2026-03-31T00:00:00+05:30",
+      "last_updated": "2026-02-14T09:00:00+05:30"
+    },
+    "lu_hampi_festival": {
+      "region_id": "hampi",
+      "category": "cultural",
+      "severity": "low",
+      "summary": "Hampi Utsav (cultural festival) scheduled for early March 2026. Dance, music, and puppet shows at the ruins. Accommodation in Hospet fills up fast — book hotels 2-3 weeks in advance. ASI monuments remain open during the festival.",
+      "source_links": [
+        "https://karnataka.gov.in/tourism"
+      ],
+      "source_type": "government",
+      "confidence_score": 0.78,
+      "effective_from": "2026-02-14T00:00:00+05:30",
+      "expires_at": "2026-03-15T00:00:00+05:30",
+      "last_updated": "2026-02-14T09:00:00+05:30"
+    }
+  }
+}
