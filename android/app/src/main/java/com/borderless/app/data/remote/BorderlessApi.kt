@@ -4,6 +4,7 @@ import com.borderless.app.data.remote.dto.AlertsResponse
 import com.borderless.app.data.remote.dto.CrossingRequest
 import com.borderless.app.data.remote.dto.CrossingResponse
 import com.borderless.app.data.remote.dto.CrossingsListResponse
+import com.borderless.app.data.remote.dto.DeviceTokenRequest
 import com.borderless.app.data.remote.dto.QaRequest
 import com.borderless.app.data.remote.dto.QaResponse
 import com.borderless.app.data.remote.dto.RegionsResponse
@@ -54,4 +55,10 @@ interface BorderlessApi {
         @Header("Authorization") authToken: String,
         @Query("limit") limit: Int? = null
     ): CrossingsListResponse
+
+    @POST("users/device-token")
+    suspend fun registerDeviceToken(
+        @Header("Authorization") authToken: String,
+        @Body body: DeviceTokenRequest
+    ): retrofit2.Response<Unit>
 }

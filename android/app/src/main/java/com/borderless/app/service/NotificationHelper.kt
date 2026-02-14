@@ -88,6 +88,43 @@ class NotificationHelper @Inject constructor(
         notificationManager.notify(regionId.hashCode(), notification)
     }
 
+    fun showPushAlertNotification(
+        title: String,
+        body: String,
+        regionId: String,
+        severity: String
+    ) {
+        val intent = Intent(context, MainActivity::class.java).apply {
+            flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
+            putExtra("navigate_to", "alert_detail/$regionId")
+        }
+
+        val pendingIntent = PendingIntent.getActivity(
+            context,
+            "push_$regionId".hashCode(),
+            intent,
+            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+        )
+
+        val priority = when (severity.lowercase()) {
+            "critical" -> NotificationCompat.PRIORITY_MAX
+            "important" -> NotificationCompat.PRIORITY_HIGH
+            else -> NotificationCompat.PRIORITY_DEFAULT
+        }
+
+        val notification = NotificationCompat.Builder(context, CHANNEL_ALERTS)
+            .setSmallIcon(R.drawable.ic_launcher_foreground)
+            .setContentTitle(title)
+            .setContentText(body)
+            .setPriority(priority)
+            .setAutoCancel(true)
+            .setContentIntent(pendingIntent)
+            .build()
+
+        val notificationManager = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+        notificationManager.notify("push_$regionId".hashCode(), notification)
+    }
+
     private fun createAlertNotificationChannel() {
         val channel = NotificationChannel(
             CHANNEL_ALERTS,

@@ -16,4 +16,5 @@ interface UserRepository {
     suspend fun getCurrentUser(): UserProfile?
     suspend fun getAuthToken(): String?
     suspend fun isLoggedIn(): Boolean
+    suspend fun registerDeviceToken(token: String): Result<Unit>
 }

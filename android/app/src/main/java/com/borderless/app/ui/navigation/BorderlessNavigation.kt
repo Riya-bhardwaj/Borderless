@@ -33,13 +33,16 @@ import com.borderless.app.ui.theme.BorderlessMotion
 object Routes {
     const val ONBOARDING = "onboarding"
     const val DASHBOARD = "dashboard"
-    const val ALERT_DETAIL = "alert_detail/{regionId}"
+    const val ALERT_DETAIL = "alert_detail/{regionId}?category={category}"
     const val QA = "qa"
     const val HISTORY = "history"
     const val SETTINGS = "settings"
     const val LOCATION_PERMISSION = "location_permission"
 
-    fun alertDetail(regionId: String) = "alert_detail/$regionId"
+    fun alertDetail(regionId: String, category: String? = null): String {
+        val base = "alert_detail/$regionId"
+        return if (category != null) "$base?category=$category" else base
+    }
 }
 
 data class BottomNavItem(
@@ -116,8 +119,8 @@ fun BorderlessNavHost(
                 exitTransition = { BorderlessMotion.fadeThroughExit }
             ) {
                 DashboardScreen(
-                    onViewAlerts = { regionId ->
-                        navController.navigate(Routes.alertDetail(regionId))
+                    onViewAlerts = { regionId, category ->
+                        navController.navigate(Routes.alertDetail(regionId, category))
                     }
                 )
             }
@@ -125,7 +128,12 @@ fun BorderlessNavHost(
             composable(
                 route = Routes.ALERT_DETAIL,
                 arguments = listOf(
-                    navArgument("regionId") { type = NavType.StringType }
+                    navArgument("regionId") { type = NavType.StringType },
+                    navArgument("category") {
+                        type = NavType.StringType
+                        nullable = true
+                        defaultValue = null
+                    }
                 )
             ) { backStackEntry ->
                 val regionId = backStackEntry.arguments?.getString("regionId") ?: return@composable
