@@ -16,6 +16,9 @@
     <!-- Boot Completed for re-registering geofences -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
+    <!-- Voice Input -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
     <!-- Internet -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />

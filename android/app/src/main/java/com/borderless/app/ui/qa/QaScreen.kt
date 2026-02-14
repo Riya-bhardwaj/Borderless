@@ -1,9 +1,24 @@
 package com.borderless.app.ui.qa
 
+import android.Manifest
+import android.content.pm.PackageManager
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.RepeatMode
+import androidx.compose.animation.core.animateFloat
+import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.rememberInfiniteTransition
+import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInVertically
+import androidx.compose.animation.slideOutVertically
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -18,9 +33,12 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.Send
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.Mic
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
@@ -38,11 +56,19 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.scale
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.core.content.ContextCompat
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.borderless.app.ui.components.RiskRatingChip
 
@@ -54,6 +80,26 @@ fun QaScreen(
     val uiState by viewModel.uiState.collectAsState()
     val snackbarHostState = remember { SnackbarHostState() }
     val listState = rememberLazyListState()
+    var showVoiceOverlay by remember { mutableStateOf(false) }
+    val context = LocalContext.current
+
+    val permissionLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.RequestPermission()
+    ) { granted ->
+        if (granted) {
+            showVoiceOverlay = true
+            viewModel.startListening()
+        }
+    }
+
+    // Dismiss overlay when listening ends (results received or error)
+    LaunchedEffect(uiState.isListening) {
+        if (!uiState.isListening && showVoiceOverlay) {
+            // Small delay so user sees final text before overlay closes
+            kotlinx.coroutines.delay(300)
+            showVoiceOverlay = false
+        }
+    }
 
     LaunchedEffect(uiState.error) {
         uiState.error?.let {
@@ -68,63 +114,212 @@ fun QaScreen(
         }
     }
 
-    Scaffold(
-        topBar = {
-            TopAppBar(
-                title = {
-                    Column {
-                        Text("Ask a Question")
-                        uiState.currentRegionName?.let {
-                            Text(
-                                text = it,
-                                style = MaterialTheme.typography.bodySmall,
-                                color = MaterialTheme.colorScheme.onSurfaceVariant
-                            )
+    Box(modifier = Modifier.fillMaxSize()) {
+        Scaffold(
+            topBar = {
+                TopAppBar(
+                    title = {
+                        Column {
+                            Text("Ask a Question")
+                            uiState.currentRegionName?.let {
+                                Text(
+                                    text = it,
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                                )
+                            }
                         }
                     }
+                )
+            },
+            snackbarHost = { SnackbarHost(snackbarHostState) }
+        ) { padding ->
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(padding)
+                    .imePadding()
+            ) {
+                LazyColumn(
+                    state = listState,
+                    modifier = Modifier
+                        .weight(1f)
+                        .fillMaxWidth(),
+                    contentPadding = PaddingValues(16.dp),
+                    verticalArrangement = Arrangement.spacedBy(12.dp)
+                ) {
+                    if (uiState.history.isEmpty() && !uiState.isLoading) {
+                        item { EmptyQaState() }
+                    }
+
+                    items(uiState.history) { item ->
+                        QaConversationItem(item)
+                    }
+
+                    if (uiState.isLoading) {
+                        item { LoadingAnswerCard() }
+                    }
+                }
+
+                QuestionInput(
+                    question = uiState.question,
+                    isLoading = uiState.isLoading,
+                    onQuestionChange = viewModel::updateQuestion,
+                    onSend = viewModel::askQuestion,
+                    onMicClick = {
+                        val hasPermission = ContextCompat.checkSelfPermission(
+                            context, Manifest.permission.RECORD_AUDIO
+                        ) == PackageManager.PERMISSION_GRANTED
+                        if (hasPermission) {
+                            showVoiceOverlay = true
+                            viewModel.startListening()
+                        } else {
+                            permissionLauncher.launch(Manifest.permission.RECORD_AUDIO)
+                        }
+                    }
+                )
+            }
+        }
+
+        // YouTube-style voice overlay
+        AnimatedVisibility(
+            visible = showVoiceOverlay,
+            enter = fadeIn(tween(200)) + slideInVertically(tween(300)) { it },
+            exit = fadeOut(tween(200)) + slideOutVertically(tween(300)) { it }
+        ) {
+            VoiceSearchOverlay(
+                isListening = uiState.isListening,
+                partialText = uiState.partialText,
+                rmsDb = uiState.voiceRmsDb,
+                onDismiss = {
+                    viewModel.stopListening()
+                    showVoiceOverlay = false
                 }
             )
-        },
-        snackbarHost = { SnackbarHost(snackbarHostState) }
-    ) { padding ->
+        }
+    }
+}
+
+@Composable
+private fun VoiceSearchOverlay(
+    isListening: Boolean,
+    partialText: String,
+    rmsDb: Float,
+    onDismiss: () -> Unit
+) {
+    val infiniteTransition = rememberInfiniteTransition(label = "pulse")
+    val pulseScale by infiniteTransition.animateFloat(
+        initialValue = 1f,
+        targetValue = 1.15f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(800),
+            repeatMode = RepeatMode.Reverse
+        ),
+        label = "pulseScale"
+    )
+
+    // Audio level drives the ring size (normalized 0-10 rms range)
+    val audioScale = 1f + (rmsDb / 10f).coerceIn(0f, 1f) * 0.5f
+
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(MaterialTheme.colorScheme.surface.copy(alpha = 0.97f))
+            .clickable(
+                interactionSource = remember { MutableInteractionSource() },
+                indication = null
+            ) { /* consume clicks */ }
+    ) {
+        // Close button top-right
+        IconButton(
+            onClick = onDismiss,
+            modifier = Modifier
+                .align(Alignment.TopEnd)
+                .padding(16.dp)
+        ) {
+            Icon(
+                imageVector = Icons.Filled.Close,
+                contentDescription = "Close",
+                tint = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+        }
+
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(padding)
-                .imePadding()
+                .padding(horizontal = 32.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center
         ) {
-            // Q&A History
-            LazyColumn(
-                state = listState,
-                modifier = Modifier
-                    .weight(1f)
-                    .fillMaxWidth(),
-                contentPadding = PaddingValues(16.dp),
-                verticalArrangement = Arrangement.spacedBy(12.dp)
-            ) {
-                if (uiState.history.isEmpty() && !uiState.isLoading) {
-                    item {
-                        EmptyQaState()
-                    }
+            // Status text
+            Text(
+                text = if (isListening) {
+                    if (partialText.isNotBlank()) "\"$partialText\"" else "Listening..."
+                } else {
+                    "Tap the mic to try again"
+                },
+                style = MaterialTheme.typography.headlineSmall,
+                color = if (partialText.isNotBlank()) MaterialTheme.colorScheme.onSurface
+                else MaterialTheme.colorScheme.onSurfaceVariant,
+                textAlign = TextAlign.Center,
+                modifier = Modifier.padding(bottom = 48.dp)
+            )
+
+            // Outer pulsing ring
+            Box(contentAlignment = Alignment.Center) {
+                // Audio level ring
+                if (isListening) {
+                    Box(
+                        modifier = Modifier
+                            .size(120.dp)
+                            .scale(audioScale)
+                            .background(
+                                color = MaterialTheme.colorScheme.primary.copy(alpha = 0.1f),
+                                shape = CircleShape
+                            )
+                    )
+                    // Pulse ring
+                    Box(
+                        modifier = Modifier
+                            .size(100.dp)
+                            .scale(pulseScale)
+                            .background(
+                                color = MaterialTheme.colorScheme.primary.copy(alpha = 0.15f),
+                                shape = CircleShape
+                            )
+                    )
                 }
 
-                items(uiState.history) { item ->
-                    QaConversationItem(item)
-                }
-
-                if (uiState.isLoading) {
-                    item {
-                        LoadingAnswerCard()
-                    }
+                // Mic button
+                Box(
+                    modifier = Modifier
+                        .size(80.dp)
+                        .background(
+                            color = if (isListening) MaterialTheme.colorScheme.primary
+                            else MaterialTheme.colorScheme.surfaceVariant,
+                            shape = CircleShape
+                        )
+                        .clickable { onDismiss() },
+                    contentAlignment = Alignment.Center
+                ) {
+                    Icon(
+                        imageVector = Icons.Filled.Mic,
+                        contentDescription = "Microphone",
+                        modifier = Modifier.size(36.dp),
+                        tint = if (isListening) Color.White
+                        else MaterialTheme.colorScheme.onSurfaceVariant
+                    )
                 }
             }
 
-            // Input area
-            QuestionInput(
-                question = uiState.question,
-                isLoading = uiState.isLoading,
-                onQuestionChange = viewModel::updateQuestion,
-                onSend = viewModel::askQuestion
+            Spacer(modifier = Modifier.height(48.dp))
+
+            // Hint text
+            Text(
+                text = if (isListening) "Ask your question now"
+                else "Tap mic or close to cancel",
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.7f)
             )
         }
     }
@@ -162,7 +357,6 @@ private fun EmptyQaState() {
 @Composable
 private fun QaConversationItem(item: QaHistoryItem) {
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-        // Question bubble
         Card(
             colors = CardDefaults.cardColors(
                 containerColor = MaterialTheme.colorScheme.primaryContainer
@@ -177,7 +371,6 @@ private fun QaConversationItem(item: QaHistoryItem) {
             )
         }
 
-        // Answer card
         AnimatedVisibility(
             visible = true,
             enter = fadeIn() + slideInVertically { it / 2 }
@@ -268,7 +461,8 @@ private fun QuestionInput(
     question: String,
     isLoading: Boolean,
     onQuestionChange: (String) -> Unit,
-    onSend: () -> Unit
+    onSend: () -> Unit,
+    onMicClick: () -> Unit
 ) {
     Row(
         modifier = Modifier
@@ -282,7 +476,18 @@ private fun QuestionInput(
             modifier = Modifier.weight(1f),
             placeholder = { Text("Ask about laws, customs, safety...") },
             maxLines = 3,
-            enabled = !isLoading
+            enabled = !isLoading,
+            trailingIcon = {
+                if (!isLoading) {
+                    IconButton(onClick = onMicClick) {
+                        Icon(
+                            imageVector = Icons.Filled.Mic,
+                            contentDescription = "Voice input",
+                            tint = MaterialTheme.colorScheme.primary
+                        )
+                    }
+                }
+            }
         )
         Spacer(modifier = Modifier.width(8.dp))
         IconButton(
