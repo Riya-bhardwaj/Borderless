@@ -25,6 +25,12 @@ import kotlinx.coroutines.launch
 import java.util.Locale
 import javax.inject.Inject
 
+data class LanguageOption(
+    val code: String,
+    val displayName: String,
+    val locale: Locale
+)
+
 data class QaUiState(
     val question: String = "",
     val isLoading: Boolean = false,
@@ -36,12 +42,27 @@ data class QaUiState(
     val history: List<QaHistoryItem> = emptyList(),
     val isListening: Boolean = false,
     val voiceRmsDb: Float = 0f,
-    val partialText: String = ""
+    val partialText: String = "",
+    val availableLanguages: List<LanguageOption> = listOf(ENGLISH),
+    val localLanguage: LanguageOption? = null
 )
 
 data class QaHistoryItem(
     val question: String,
     val answer: QaInteraction
+)
+
+val ENGLISH = LanguageOption("en", "English", Locale("en", "IN"))
+
+private val REGION_LANGUAGES = mapOf(
+    "karnataka" to LanguageOption("kn", "ಕನ್ನಡ", Locale("kn", "IN")),
+    "bangalore" to LanguageOption("kn", "ಕನ್ನಡ", Locale("kn", "IN")),
+    "delhi" to LanguageOption("hi", "हिन्दी", Locale("hi", "IN")),
+    "new-delhi" to LanguageOption("hi", "हिन्दी", Locale("hi", "IN")),
+    "tamil-nadu" to LanguageOption("ta", "தமிழ்", Locale("ta", "IN")),
+    "chennai" to LanguageOption("ta", "தமிழ்", Locale("ta", "IN")),
+    "maharashtra" to LanguageOption("mr", "मराठी", Locale("mr", "IN")),
+    "mumbai" to LanguageOption("mr", "मराठी", Locale("mr", "IN"))
 )
 
 @HiltViewModel
@@ -68,11 +89,20 @@ class QaViewModel @Inject constructor(
             val regions = regionRepository.getRegions()
 
             val firstRegion = regions.getOrNull()?.firstOrNull()
+            val regionId = firstRegion?.id
+            val localLang = regionId?.let { REGION_LANGUAGES[it] }
+            val available = buildList {
+                add(ENGLISH)
+                if (localLang != null && localLang.code != "en") add(localLang)
+            }
+
             _uiState.update {
                 it.copy(
-                    currentRegionId = firstRegion?.id,
+                    currentRegionId = regionId,
                     currentRegionName = firstRegion?.name,
-                    language = user?.language ?: "en"
+                    language = user?.language ?: "en",
+                    localLanguage = localLang,
+                    availableLanguages = available
                 )
             }
         }
@@ -83,9 +113,23 @@ class QaViewModel @Inject constructor(
     }
 
     fun selectRegion(regionId: String, regionName: String) {
-        _uiState.update {
-            it.copy(currentRegionId = regionId, currentRegionName = regionName)
+        val localLang = REGION_LANGUAGES[regionId]
+        val available = buildList {
+            add(ENGLISH)
+            if (localLang != null && localLang.code != "en") add(localLang)
         }
+        _uiState.update {
+            it.copy(
+                currentRegionId = regionId,
+                currentRegionName = regionName,
+                localLanguage = localLang,
+                availableLanguages = available
+            )
+        }
+    }
+
+    fun setLanguage(langCode: String) {
+        _uiState.update { it.copy(language = langCode) }
     }
 
     fun startListening() {
@@ -160,10 +204,19 @@ class QaViewModel @Inject constructor(
                 })
             }
 
+            // Use the selected language's locale for speech recognition
+            val currentLang = _uiState.value.language
+            val speechLocale = _uiState.value.availableLanguages
+                .find { it.code == currentLang }?.locale
+                ?: Locale("en", "IN")
+            val langTag = speechLocale.toLanguageTag()
+
+            Log.d("QaViewModel", "Starting speech recognizer with locale: $langTag")
+
             val intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH).apply {
                 putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM)
-                putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale("en", "IN").toLanguageTag())
-                putExtra(RecognizerIntent.EXTRA_LANGUAGE_PREFERENCE, Locale("en", "IN").toLanguageTag())
+                putExtra(RecognizerIntent.EXTRA_LANGUAGE, langTag)
+                putExtra(RecognizerIntent.EXTRA_LANGUAGE_PREFERENCE, langTag)
                 putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, true)
                 putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 3)
                 putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_MINIMUM_LENGTH_MILLIS, 5000L)
@@ -171,7 +224,6 @@ class QaViewModel @Inject constructor(
                 putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_POSSIBLY_COMPLETE_SILENCE_LENGTH_MILLIS, 3000L)
             }
 
-            Log.d("QaViewModel", "Starting speech recognizer")
             speechRecognizer?.startListening(intent)
         }
     }

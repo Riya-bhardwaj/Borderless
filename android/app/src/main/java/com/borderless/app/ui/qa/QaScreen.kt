@@ -15,6 +15,7 @@ import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInVertically
 import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
@@ -34,6 +35,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.Send
 import androidx.compose.material.icons.filled.Close
@@ -43,6 +45,8 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FilterChip
+import androidx.compose.material3.FilterChipDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -67,7 +71,6 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.core.content.ContextCompat
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.borderless.app.ui.components.RiskRatingChip
@@ -92,10 +95,8 @@ fun QaScreen(
         }
     }
 
-    // Dismiss overlay when listening ends (results received or error)
     LaunchedEffect(uiState.isListening) {
         if (!uiState.isListening && showVoiceOverlay) {
-            // Small delay so user sees final text before overlay closes
             kotlinx.coroutines.delay(300)
             showVoiceOverlay = false
         }
@@ -140,6 +141,15 @@ fun QaScreen(
                     .padding(padding)
                     .imePadding()
             ) {
+                // Language selector chips
+                if (uiState.availableLanguages.size > 1) {
+                    LanguageChipRow(
+                        languages = uiState.availableLanguages,
+                        selectedLanguage = uiState.language,
+                        onLanguageSelected = viewModel::setLanguage
+                    )
+                }
+
                 LazyColumn(
                     state = listState,
                     modifier = Modifier
@@ -191,10 +201,50 @@ fun QaScreen(
                 isListening = uiState.isListening,
                 partialText = uiState.partialText,
                 rmsDb = uiState.voiceRmsDb,
+                currentLanguage = uiState.availableLanguages.find { it.code == uiState.language }
+                    ?: ENGLISH,
                 onDismiss = {
                     viewModel.stopListening()
                     showVoiceOverlay = false
                 }
+            )
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun LanguageChipRow(
+    languages: List<LanguageOption>,
+    selectedLanguage: String,
+    onLanguageSelected: (String) -> Unit
+) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp, vertical = 4.dp),
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Text(
+            text = "Language:",
+            style = MaterialTheme.typography.labelMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+        )
+        languages.forEach { lang ->
+            FilterChip(
+                selected = selectedLanguage == lang.code,
+                onClick = { onLanguageSelected(lang.code) },
+                label = {
+                    Text(
+                        text = lang.displayName,
+                        style = MaterialTheme.typography.labelMedium
+                    )
+                },
+                colors = FilterChipDefaults.filterChipColors(
+                    selectedContainerColor = MaterialTheme.colorScheme.primaryContainer,
+                    selectedLabelColor = MaterialTheme.colorScheme.onPrimaryContainer
+                )
             )
         }
     }
@@ -205,6 +255,7 @@ private fun VoiceSearchOverlay(
     isListening: Boolean,
     partialText: String,
     rmsDb: Float,
+    currentLanguage: LanguageOption,
     onDismiss: () -> Unit
 ) {
     val infiniteTransition = rememberInfiniteTransition(label = "pulse")
@@ -218,7 +269,6 @@ private fun VoiceSearchOverlay(
         label = "pulseScale"
     )
 
-    // Audio level drives the ring size (normalized 0-10 rms range)
     val audioScale = 1f + (rmsDb / 10f).coerceIn(0f, 1f) * 0.5f
 
     Box(
@@ -265,9 +315,8 @@ private fun VoiceSearchOverlay(
                 modifier = Modifier.padding(bottom = 48.dp)
             )
 
-            // Outer pulsing ring
+            // Pulsing mic
             Box(contentAlignment = Alignment.Center) {
-                // Audio level ring
                 if (isListening) {
                     Box(
                         modifier = Modifier
@@ -278,7 +327,6 @@ private fun VoiceSearchOverlay(
                                 shape = CircleShape
                             )
                     )
-                    // Pulse ring
                     Box(
                         modifier = Modifier
                             .size(100.dp)
@@ -290,7 +338,6 @@ private fun VoiceSearchOverlay(
                     )
                 }
 
-                // Mic button
                 Box(
                     modifier = Modifier
                         .size(80.dp)
@@ -312,11 +359,29 @@ private fun VoiceSearchOverlay(
                 }
             }
 
-            Spacer(modifier = Modifier.height(48.dp))
+            Spacer(modifier = Modifier.height(32.dp))
 
-            // Hint text
+            // Language badge
+            Box(
+                modifier = Modifier
+                    .border(
+                        width = 1.dp,
+                        color = MaterialTheme.colorScheme.outline.copy(alpha = 0.5f),
+                        shape = RoundedCornerShape(16.dp)
+                    )
+                    .padding(horizontal = 16.dp, vertical = 6.dp)
+            ) {
+                Text(
+                    text = currentLanguage.displayName,
+                    style = MaterialTheme.typography.labelMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
+
+            Spacer(modifier = Modifier.height(16.dp))
+
             Text(
-                text = if (isListening) "Ask your question now"
+                text = if (isListening) "Speak in ${currentLanguage.displayName}"
                 else "Tap mic or close to cancel",
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.7f)
