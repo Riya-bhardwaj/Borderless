@@ -20,7 +20,17 @@ output-metadata.json
 
 # Firebase
 google-services.json
+**/google-services.json
 service-account.json
+*-service-account*.json
+firebase-debug.log
+.firebaserc
+
+# API Keys & Secrets
+*.keystore
+*.jks
+key.properties
+apikey.properties
 
 # Node.js / Backend
 node_modules/
@@ -44,8 +54,13 @@ Thumbs.db
 
 # IDE
 .vscode/
+.idea/
 *.sublime-project
 *.sublime-workspace
+
+# Specify
+.specify/
+.claude/
 
 # Test & Coverage
 coverage/

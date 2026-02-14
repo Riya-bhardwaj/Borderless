@@ -3,7 +3,6 @@ package com.borderless.app.ui.navigation
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.List
 import androidx.compose.material.icons.filled.QuestionAnswer
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Icon
@@ -24,7 +23,6 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.navArgument
 import com.borderless.app.ui.alerts.AlertDetailScreen
 import com.borderless.app.ui.dashboard.DashboardScreen
-import com.borderless.app.ui.history.CrossingHistoryScreen
 import com.borderless.app.ui.onboarding.OnboardingScreen
 import com.borderless.app.ui.qa.QaScreen
 import com.borderless.app.ui.settings.SettingsScreen
@@ -54,7 +52,6 @@ data class BottomNavItem(
 val bottomNavItems = listOf(
     BottomNavItem(Routes.DASHBOARD, "Dashboard", Icons.Filled.Home),
     BottomNavItem(Routes.QA, "Q&A", Icons.Filled.QuestionAnswer),
-    BottomNavItem(Routes.HISTORY, "History", Icons.Filled.List),
     BottomNavItem(Routes.SETTINGS, "Settings", Icons.Filled.Settings)
 )
 
@@ -149,14 +146,6 @@ fun BorderlessNavHost(
                 exitTransition = { BorderlessMotion.fadeThroughExit }
             ) {
                 QaScreen()
-            }
-
-            composable(
-                Routes.HISTORY,
-                enterTransition = { BorderlessMotion.fadeThroughEnter },
-                exitTransition = { BorderlessMotion.fadeThroughExit }
-            ) {
-                CrossingHistoryScreen()
             }
 
             composable(
