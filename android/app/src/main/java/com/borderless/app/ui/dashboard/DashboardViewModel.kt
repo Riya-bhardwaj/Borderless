@@ -17,6 +17,7 @@ import com.borderless.app.domain.repository.AlertRepository
 import com.borderless.app.domain.repository.CrossingRepository
 import com.borderless.app.domain.repository.RegionRepository
 import com.borderless.app.domain.repository.UserRepository
+import com.borderless.app.service.NotificationHelper
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.Priority
 import com.google.android.gms.tasks.CancellationTokenSource
@@ -26,6 +27,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
 import android.util.Log
@@ -77,7 +79,8 @@ class DashboardViewModel @Inject constructor(
     private val alertRepository: AlertRepository,
     private val crossingRepository: CrossingRepository,
     private val userRepository: UserRepository,
-    private val locationClient: FusedLocationProviderClient
+    private val locationClient: FusedLocationProviderClient,
+    private val notificationHelper: NotificationHelper
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(DashboardUiState())
@@ -86,6 +89,53 @@ class DashboardViewModel @Inject constructor(
     init {
         loadDashboard()
         observeCrossings()
+        scheduleDemoNotifications()
+    }
+
+    private fun scheduleDemoNotifications() {
+        viewModelScope.launch {
+            // Simulate: user is in Bangalore, then travels
+
+            delay(8_000) // 8 seconds after app open
+            notificationHelper.showPushAlertNotification(
+                title = "Welcome to Bangalore!",
+                body = "19 local tips available — try the Masala Dosa at Vidyarthi Bhavan!",
+                regionId = "karnataka",
+                severity = "important"
+            )
+
+            delay(15_000) // 23 seconds
+            notificationHelper.showPushAlertNotification(
+                title = "Entering Maharashtra",
+                body = "Plastic bags are strictly banned here. Fines up to ₹25,000. Carry a cloth bag.",
+                regionId = "maharashtra",
+                severity = "critical"
+            )
+
+            delay(12_000) // 35 seconds
+            notificationHelper.showPushAlertNotification(
+                title = "You're in Mumbai!",
+                body = "17 tips & local info available. Don't miss the Vada Pav at Ashok Vada Pav, Dadar!",
+                regionId = "maharashtra",
+                severity = "informational"
+            )
+
+            delay(15_000) // 50 seconds
+            notificationHelper.showPushAlertNotification(
+                title = "Entering Delhi NCR",
+                body = "Odd-Even vehicle rule is active. Check if your plate number is allowed today.",
+                regionId = "delhi",
+                severity = "critical"
+            )
+
+            delay(12_000) // 62 seconds
+            notificationHelper.showPushAlertNotification(
+                title = "Air Quality Alert — Delhi",
+                body = "AQI is above 300. Wear an N95 mask outdoors and avoid morning walks.",
+                regionId = "delhi",
+                severity = "critical"
+            )
+        }
     }
 
     fun loadDashboard() {
