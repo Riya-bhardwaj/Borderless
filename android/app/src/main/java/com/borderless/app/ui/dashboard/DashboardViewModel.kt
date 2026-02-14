@@ -47,6 +47,11 @@ data class DashboardUiState(
     val behavioralCount: Int get() = alerts.count { it.category == AlertCategory.BEHAVIORAL }
     val totalAlertCount: Int get() = alerts.size
 
+    val alertRegionId: String get() {
+        val region = currentRegion ?: return ""
+        return if (region.type == RegionType.CITY) region.parentId ?: region.id else region.id
+    }
+
     val topLegalAlert: AlertEntry? get() = alerts.firstOrNull { it.category == AlertCategory.LEGAL }
     val topCulturalAlert: AlertEntry? get() = alerts.firstOrNull { it.category == AlertCategory.CULTURAL }
     val topBehavioralAlert: AlertEntry? get() = alerts.firstOrNull { it.category == AlertCategory.BEHAVIORAL }
