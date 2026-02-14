@@ -1,0 +1,291 @@
+{
+  "region": {
+    "id": "tamil-nadu",
+    "name": "Tamil Nadu",
+    "type": "state",
+    "parentId": "india",
+    "geofences": [
+      {
+        "lat": 12.2586,
+        "lng": 77.0046,
+        "radiusMeters": 5000,
+        "label": "Karnataka-TN Border NH44"
+      },
+      {
+        "lat": 10.9916,
+        "lng": 76.9529,
+        "radiusMeters": 5000,
+        "label": "Kerala-TN Border NH544"
+      },
+      {
+        "lat": 13.6288,
+        "lng": 79.4192,
+        "radiusMeters": 5000,
+        "label": "AP-TN Border NH40"
+      }
+    ],
+    "quickFacts": [
+      "Tamil is one of the oldest living languages",
+      "Land of temples and Dravidian architecture",
+      "Strong classical arts tradition",
+      "Largest auto industry hub in India"
+    ],
+    "active": true
+  },
+  "city": {
+    "id": "chennai",
+    "name": "Chennai",
+    "type": "city",
+    "parentId": "tamil-nadu",
+    "geofences": [],
+    "quickFacts": [
+      "Detroit of India - auto manufacturing hub",
+      "Marina Beach is world's second longest urban beach",
+      "Famous for filter coffee and idli",
+      "Hot and humid climate"
+    ],
+    "active": true
+  },
+  "alerts": [
+    {
+      "id": "tn-legal-001",
+      "category": "legal",
+      "severity": "critical",
+      "title": "Alcohol Sales Regulated to TASMAC Outlets",
+      "description": "Alcohol sales in Tamil Nadu are exclusively through Tamil Nadu State Marketing Corporation (TASMAC) outlets. Unauthorized sale or purchase from other sources is illegal and subject to penalties.",
+      "source": "Tamil Nadu Prohibition and Regulation Act",
+      "tags": ["alcohol", "tasmac", "liquor-laws"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "tn-legal-002",
+      "category": "legal",
+      "severity": "critical",
+      "title": "Single-Use Plastic Ban in Effect",
+      "description": "Tamil Nadu has a strict ban on single-use plastic items including bags, straws, cups, and packaging. Violators face fines up to Rs 5,000 and imprisonment up to 3 months.",
+      "source": "Tamil Nadu Plastic Ban Regulation 2023",
+      "tags": ["plastic-ban", "environment", "fines"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "tn-legal-003",
+      "category": "legal",
+      "severity": "important",
+      "title": "Traffic Fine Rates for Chennai",
+      "description": "Speeding fines range from Rs 500-2,000. Parking violations incur Rs 250-500. Helmetless riding: Rs 500. Traffic rule violations subject to stringent enforcement.",
+      "source": "Chennai Traffic Police",
+      "tags": ["traffic", "fines", "enforcement"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "tn-legal-004",
+      "category": "legal",
+      "severity": "critical",
+      "title": "Marina Beach Usage Regulations",
+      "description": "Swimming is prohibited at Marina Beach during monsoon (Oct-Dec) and high-tide periods. Fishing and unauthorized activities are banned. Violators face fines up to Rs 2,000.",
+      "source": "Marina Beach Management Authority",
+      "tags": ["beach-safety", "prohibited-activities", "monsoon"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "tn-legal-005",
+      "category": "legal",
+      "severity": "important",
+      "title": "Wildlife Protection in Tamil Nadu",
+      "description": "Hunting, poaching, and unauthorized wildlife collection is strictly prohibited. Protected areas include Mudumalai National Park, Nilgiri Biosphere Reserve. Violations face imprisonment up to 7 years.",
+      "source": "Tamil Nadu Forest Department",
+      "tags": ["wildlife", "protected-areas", "poaching"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "tn-legal-006",
+      "category": "legal",
+      "severity": "important",
+      "title": "Construction Noise Regulations",
+      "description": "Construction activities are prohibited between 9 PM - 6 AM in residential areas. Daytime limits: 75 dB for residential, 85 dB for commercial zones. Non-compliance results in fines up to Rs 10,000.",
+      "source": "Tamil Nadu Pollution Control Board",
+      "tags": ["noise-pollution", "construction", "regulations"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "tn-legal-007",
+      "category": "legal",
+      "severity": "critical",
+      "title": "Water Contamination Reporting",
+      "description": "Dumping industrial waste or sewage into water bodies is illegal. Report contamination to Tamil Nadu Pollution Control Board immediately. Penalties: Rs 25,000 - Rs 1,00,000 plus imprisonment.",
+      "source": "Water Pollution Control Act",
+      "tags": ["water-safety", "contamination", "reporting"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "tn-cultural-001",
+      "category": "cultural",
+      "severity": "important",
+      "title": "Temple Dress Code - Strict Adherence Required",
+      "description": "When entering temples, dress conservatively. Men should wear traditional dhoti or full pants. Women must wear sarees, salwar kameez, or loose clothing covering shoulders and knees. Shoes must be removed. Non-compliance may result in denial of entry.",
+      "source": "Tamil Nadu Temple Authority",
+      "tags": ["temples", "dress-code", "religious", "tradition"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "tn-cultural-002",
+      "category": "cultural",
+      "severity": "informational",
+      "title": "Pongal Festival Celebrations - January",
+      "description": "Pongal is a major harvest festival celebrated in mid-January across Tamil Nadu. Expect massive celebrations, street activities, and modified traffic. Traditional dishes like pongal (rice and lentils) are prepared. Participate respectfully in local celebrations.",
+      "source": "Tamil Nadu Cultural Calendar",
+      "tags": ["pongal", "festival", "celebration", "tradition"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "tn-cultural-003",
+      "category": "cultural",
+      "severity": "important",
+      "title": "Tamil Language Pride and Sensitivity",
+      "description": "Tamil is a deeply respected ancient language with a rich 2000+ year history. Show respect when speaking about Tamil language and culture. Using Tamil is appreciated by locals. Avoid English-only communication when possible.",
+      "source": "Tamil Language Academy",
+      "tags": ["language", "cultural-sensitivity", "tamil"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "tn-cultural-004",
+      "category": "cultural",
+      "severity": "informational",
+      "title": "Classical Arts and Bharatanatyam Dance",
+      "description": "Tamil Nadu is the birthplace of Bharatanatyam classical dance. Respect performances and dancers. Do not use dance movements casually or disrespectfully. Chennai hosts many cultural performances - dress appropriately and follow etiquette during events.",
+      "source": "Tamil Nadu Arts and Culture Ministry",
+      "tags": ["classical-arts", "bharatanatyam", "cultural-event"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "tn-cultural-005",
+      "category": "cultural",
+      "severity": "important",
+      "title": "Food and Vegetarian Culture Respect",
+      "description": "Tamil Nadu has a strong vegetarian culture. Many people follow strict vegetarian or vegan diets for religious or cultural reasons. Always ask about dietary preferences. Many restaurants have separate vegetarian and non-vegetarian sections. Respect food customs.",
+      "source": "Tamil Nadu Food Culture Guidelines",
+      "tags": ["food", "vegetarian", "cultural-respect"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "tn-cultural-006",
+      "category": "cultural",
+      "severity": "informational",
+      "title": "Brahmin Customs and Rituals",
+      "description": "Tamil Nadu has a significant Brahmin population with specific customs. Show respect at temples and religious sites. Don't touch food prepared in Brahmin homes unless invited. Photography inside inner sanctums is often prohibited.",
+      "source": "Tamil Nadu Cultural Practices",
+      "tags": ["brahmin-culture", "temple-etiquette", "rituals"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "tn-cultural-007",
+      "category": "cultural",
+      "severity": "important",
+      "title": "Thirteenth Day Death Ritual Respect",
+      "description": "During mourning periods (especially the 13-day ritual in Tamil culture), avoid celebrations, loud music, or festive activities near grieving families. Show respect and maintain appropriate behavior.",
+      "source": "Tamil Death Ritual Traditions",
+      "tags": ["death-rituals", "mourning", "respect"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "tn-cultural-008",
+      "category": "cultural",
+      "severity": "informational",
+      "title": "Caste System Sensitivity",
+      "description": "While illegal to discriminate based on caste, it remains culturally significant in Tamil Nadu. Be sensitive to discussions about caste and avoid stereotypes. Treat all individuals with equal respect regardless of background.",
+      "source": "Tamil Nadu Social Guidelines",
+      "tags": ["caste-sensitivity", "social-respect", "equality"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "tn-behavioral-001",
+      "category": "behavioral",
+      "severity": "critical",
+      "title": "Water Safety at Marina Beach and Backwaters",
+      "description": "Never swim alone. Marina Beach has strong undercurrents and rip tides - only swim in designated areas. Wear a life jacket. Backwaters can have fast currents. Check weather and tide conditions before entering water.",
+      "source": "Chennai Lifeguard Services",
+      "tags": ["water-safety", "beach-safety", "swimming"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "tn-behavioral-002",
+      "category": "behavioral",
+      "severity": "critical",
+      "title": "Extreme Heat Precautions",
+      "description": "Tamil Nadu experiences extreme heat (35-42°C) Apr-May. Drink 3-4 liters of water daily. Avoid outdoor activities 12-4 PM. Wear light-colored, loose cotton clothing. Watch for heat stroke symptoms: dizziness, nausea, confusion. Stay in air-conditioned spaces when possible.",
+      "source": "Tamil Nadu Health Department",
+      "tags": ["heat-safety", "dehydration", "health-precautions"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "tn-behavioral-003",
+      "category": "behavioral",
+      "severity": "informational",
+      "title": "Auto-Rickshaw Tips and Safety",
+      "description": "Always use registered auto-rickshaws (yellow with black stripes). Negotiate fares beforehand or insist on meter. Avoid traveling alone late at night. Keep valuables secure. Share your location with someone when traveling to unfamiliar areas.",
+      "source": "Chennai Safety Guidelines",
+      "tags": ["transportation", "auto-rickshaw", "safety-tips"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "tn-behavioral-004",
+      "category": "behavioral",
+      "severity": "important",
+      "title": "Monsoon Season Preparedness (Oct-Dec)",
+      "description": "During monsoon, expect heavy rainfall, flooding, and waterlogging. Avoid driving in flooded areas - water depth is deceptive. Carry umbrella and waterproof bags. Be cautious on slippery roads. Drainage systems in coastal areas may overflow. Stay indoors during heavy downpours.",
+      "source": "Tamil Nadu Meteorological Department",
+      "tags": ["monsoon", "weather-safety", "flooding"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "tn-behavioral-005",
+      "category": "behavioral",
+      "severity": "informational",
+      "title": "Tipping and Service Customs",
+      "description": "Tipping is not mandatory in Tamil Nadu but appreciated. Restaurant: 5-10% if service tax is not included. Taxi: round up or 5%. Hotel staff: Rs 20-50 per day. Street vendors: tip is uncommon. Don't feel obligated to tip.",
+      "source": "Tamil Nadu Tourism Board",
+      "tags": ["tipping", "service-customs", "etiquette"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    }
+  ]
+}

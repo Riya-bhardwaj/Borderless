@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Borderless</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_qa">Q&amp;A</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Welcome to Borderless</string>
+    <string name="onboarding_subtitle">Stay informed as you travel across India</string>
+    <string name="onboarding_name_label">Your Name</string>
+    <string name="onboarding_language_label">Preferred Language</string>
+    <string name="onboarding_get_started">Get Started</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_current_region">Current Region</string>
+    <string name="dashboard_no_region">No region detected</string>
+    <string name="dashboard_active_alerts">Active Alerts</string>
+    <string name="dashboard_recent_crossings">Recent Crossings</string>
+    <string name="dashboard_view_all">View All</string>
+
+    <!-- Alerts -->
+    <string name="alerts_title">Alerts</string>
+    <string name="alerts_legal">Legal</string>
+    <string name="alerts_cultural">Cultural</string>
+    <string name="alerts_behavioral">Behavioral</string>
+    <string name="alerts_empty">No alerts for this region</string>
+
+    <!-- Q&A -->
+    <string name="qa_title">Ask a Question</string>
+    <string name="qa_hint">Ask about this region...</string>
+    <string name="qa_send">Send</string>
+    <string name="qa_no_internet">Requires internet connection</string>
+    <string name="qa_retry">Retry</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_alert_filters">Alert Filters</string>
+    <string name="settings_show_critical">Show Critical</string>
+    <string name="settings_show_important">Show Important</string>
+    <string name="settings_show_informational">Show Informational</string>
+
+    <!-- General -->
+    <string name="loading">Loading...</string>
+    <string name="error_generic">Something went wrong</string>
+    <string name="retry">Retry</string>
+
+    <!-- Permissions -->
+    <string name="permission_location_title">Location Access</string>
+    <string name="permission_location_rationale">Borderless needs your location to detect when you cross state boundaries and provide relevant alerts.</string>
+    <string name="permission_grant">Grant Permission</string>
+    <string name="permission_skip">Skip (Manual Selection)</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Boundary Alerts</string>
+    <string name="notification_channel_description">Alerts when crossing state boundaries</string>
+</resources>

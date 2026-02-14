@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Region",
+  "description": "Geographic region definition for Borderless",
+  "type": "object",
+  "required": ["id", "name", "type", "active"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique region identifier"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name in English"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["country", "state", "city"],
+      "description": "Region hierarchy level"
+    },
+    "parentId": {
+      "type": ["string", "null"],
+      "description": "Parent region ID for hierarchy"
+    },
+    "geofences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["lat", "lng", "radiusMeters", "label"],
+        "properties": {
+          "lat": { "type": "number" },
+          "lng": { "type": "number" },
+          "radiusMeters": { "type": "number", "minimum": 100 },
+          "label": { "type": "string" }
+        }
+      }
+    },
+    "quickFacts": {
+      "type": "array",
+      "items": { "type": "string" },
+      "maxItems": 5
+    },
+    "active": {
+      "type": "boolean"
+    }
+  }
+}

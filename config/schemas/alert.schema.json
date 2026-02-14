@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AlertEntry",
+  "description": "Context alert entry for a region",
+  "type": "object",
+  "required": ["id", "category", "severity", "title", "description", "source"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique alert identifier"
+    },
+    "category": {
+      "type": "string",
+      "enum": ["legal", "cultural", "behavioral"],
+      "description": "Alert category"
+    },
+    "severity": {
+      "type": "string",
+      "enum": ["critical", "important", "informational"],
+      "description": "Alert severity level"
+    },
+    "title": {
+      "type": "string",
+      "description": "Short alert title in source language"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed alert description"
+    },
+    "source": {
+      "type": "string",
+      "description": "Data source citation"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "effectiveDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "expiryDate": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "active": {
+      "type": "boolean"
+    }
+  }
+}

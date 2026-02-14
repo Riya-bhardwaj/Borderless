@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash /Users/riyabhardwaj/my-workspace/Borderless/.specify/scripts/bash/update-agent-context.sh claude)"
+    ]
+  }
+}

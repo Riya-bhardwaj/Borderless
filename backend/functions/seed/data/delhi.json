@@ -1,0 +1,315 @@
+{
+  "region": {
+    "id": "delhi",
+    "name": "Delhi",
+    "type": "state",
+    "parentId": "india",
+    "geofences": [
+      {
+        "lat": 28.6328,
+        "lng": 77.3372,
+        "radiusMeters": 5000,
+        "label": "Delhi-UP Border (Noida)"
+      },
+      {
+        "lat": 28.4925,
+        "lng": 77.0695,
+        "radiusMeters": 5000,
+        "label": "Delhi-Haryana Border (Gurgaon)"
+      },
+      {
+        "lat": 28.7388,
+        "lng": 77.1139,
+        "radiusMeters": 5000,
+        "label": "Delhi-Haryana Border (Rohtak Rd)"
+      }
+    ],
+    "quickFacts": [
+      "Hindi and English are widely spoken",
+      "National capital territory",
+      "Metro connects major areas",
+      "Rich Mughal-era heritage"
+    ],
+    "active": true
+  },
+  "city": {
+    "id": "new-delhi",
+    "name": "New Delhi",
+    "type": "city",
+    "parentId": "delhi",
+    "geofences": [],
+    "quickFacts": [
+      "Seat of Indian government",
+      "Connaught Place is the commercial hub",
+      "Air quality varies seasonally",
+      "Famous for street food culture"
+    ],
+    "active": true
+  },
+  "alerts": [
+    {
+      "id": "dl-legal-001",
+      "category": "legal",
+      "severity": "critical",
+      "title": "Odd-Even Vehicle Rule",
+      "description": "Vehicles with odd-numbered license plates are banned on odd-numbered dates, even-numbered plates on even dates. Exemptions include two-wheelers, commercial vehicles, and emergency vehicles. Violators face a fine of INR 4,000 and 3 penalty points.",
+      "source": "Delhi Traffic Police",
+      "tags": ["vehicle", "traffic", "rule", "fine"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-legal-002",
+      "category": "legal",
+      "severity": "critical",
+      "title": "Single-Use Plastic Ban",
+      "description": "All single-use plastic items including bags, straws, bottles, and packaging are banned in Delhi. Establishments found violating the ban face fines up to INR 25,000 and possible closure.",
+      "source": "Delhi Pollution Control Committee",
+      "tags": ["plastic", "environment", "ban", "sustainability"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-legal-003",
+      "category": "legal",
+      "severity": "critical",
+      "title": "Smoking Ban in Public Places",
+      "description": "Smoking is prohibited in public spaces including parks, markets, public transport, and within 100 meters of schools and hospitals. Violators face a fine of INR 200 for first offense and INR 500 for subsequent offenses.",
+      "source": "Delhi Health Department",
+      "tags": ["smoking", "health", "public-space", "ban"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-legal-004",
+      "category": "legal",
+      "severity": "critical",
+      "title": "Firecracker Ban During Diwali",
+      "description": "Firecrackers and fireworks are banned in Delhi from 15 days before Diwali to 2 months after. Possession or bursting crackers can result in INR 5,000 fine and up to 6 months imprisonment.",
+      "source": "Delhi Pollution Control Committee & Supreme Court",
+      "tags": ["firecracker", "diwali", "pollution", "ban"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-legal-005",
+      "category": "legal",
+      "severity": "important",
+      "title": "Vehicle Pollution Norms (BS-VI)",
+      "description": "All vehicles must comply with BS-VI emission standards. Vehicles not meeting these norms can be impounded. Get your vehicle emissions tested and maintain a valid pollution certificate.",
+      "source": "Delhi Pollution Control Committee",
+      "tags": ["pollution", "vehicle", "emissions", "compliance"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-legal-006",
+      "category": "legal",
+      "severity": "important",
+      "title": "No Honking Rule in Silence Zones",
+      "description": "Honking is strictly prohibited near hospitals, courts, and educational institutions during specified hours. Violators face a fine of INR 1,000. Use horn only when absolutely necessary for safety.",
+      "source": "Delhi Traffic Police",
+      "tags": ["traffic", "noise-pollution", "silence-zone"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-legal-007",
+      "category": "legal",
+      "severity": "important",
+      "title": "Helmet and Seatbelt Mandatory",
+      "description": "Wearing a helmet while riding two-wheelers and seatbelts while driving four-wheelers is mandatory. Non-compliance results in a fine of INR 500 and 2-3 penalty points on your license.",
+      "source": "Delhi Traffic Police",
+      "tags": ["safety", "helmet", "seatbelt", "traffic"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-legal-008",
+      "category": "legal",
+      "severity": "important",
+      "title": "Construction Dust Control Norms",
+      "description": "All construction sites must implement dust control measures including water sprinkling, dust screens, and proper waste management. Non-compliance can result in site closure and penalties up to INR 50,000.",
+      "source": "Delhi Pollution Control Committee",
+      "tags": ["construction", "pollution", "dust-control"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-legal-009",
+      "category": "legal",
+      "severity": "informational",
+      "title": "Water Conservation and Rationing",
+      "description": "During summer months, water supply is rationed. Restrict water usage for non-essential purposes. Violators of water conservation guidelines may face penalties and supply restrictions.",
+      "source": "Delhi Jal Board",
+      "tags": ["water", "conservation", "rationing"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-cultural-001",
+      "category": "cultural",
+      "severity": "important",
+      "title": "Monument Etiquette and Respect",
+      "description": "When visiting monuments like Red Fort, India Gate, and Qutb Minar, maintain respectful behavior. Remove footwear in certain areas, don't touch carvings or inscriptions, and follow posted guidelines. Photography restrictions may apply in some zones.",
+      "source": "Archaeological Survey of India",
+      "tags": ["monuments", "etiquette", "heritage", "culture"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-cultural-002",
+      "category": "cultural",
+      "severity": "important",
+      "title": "Religious Site Customs and Protocols",
+      "description": "Respect customs at temples, mosques, gurudwaras, and churches. Remove footwear before entering temples and gurudwaras, cover head and shoulders at mosques, and maintain silence in prayer areas. Ask permission before photographing.",
+      "source": "Delhi Tourism & Culture",
+      "tags": ["religion", "customs", "respect", "etiquette"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-cultural-003",
+      "category": "cultural",
+      "severity": "informational",
+      "title": "Festival Celebration Norms - Holi",
+      "description": "During Holi, use organic, herbal colors instead of synthetic ones. Be mindful of water usage in color play, and respect those who don't wish to celebrate. Avoid playing pranks that could offend or cause harm.",
+      "source": "Delhi Cultural Affairs",
+      "tags": ["holi", "festival", "celebration", "culture"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-cultural-004",
+      "category": "cultural",
+      "severity": "informational",
+      "title": "Market Haggling and Bargaining Norms",
+      "description": "In traditional markets like Chandni Chowk and Sadar Bazaar, haggling is expected and accepted. Prices can often be negotiated, especially for larger purchases. Be respectful and polite; aggressive bargaining is considered disrespectful.",
+      "source": "Delhi Chamber of Commerce",
+      "tags": ["markets", "bargaining", "shopping", "culture"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-cultural-005",
+      "category": "cultural",
+      "severity": "informational",
+      "title": "Traditional Cuisine Etiquette",
+      "description": "When dining at traditional Delhi restaurants or street food stalls, eating with your right hand is considered respectful. For meals served on thali, it's customary to finish what you take. Tipping is optional but appreciated.",
+      "source": "Delhi Tourism Board",
+      "tags": ["food", "culture", "etiquette", "dining"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-cultural-006",
+      "category": "cultural",
+      "severity": "informational",
+      "title": "Dress Code Sensitivity in Public",
+      "description": "While Delhi is cosmopolitan, modest dress is appreciated, especially in religious areas and conservative neighborhoods. Avoid revealing clothing near temples, mosques, and gurudwaras. Beach-like attire is inappropriate in public transport and markets.",
+      "source": "Delhi Tourism & Culture",
+      "tags": ["dress-code", "respect", "culture", "etiquette"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-cultural-007",
+      "category": "cultural",
+      "severity": "informational",
+      "title": "Language and Greetings",
+      "description": "Learning basic Hindi greetings like 'Namaste', 'Shukriya', and 'Kripaya' is appreciated. While English is widely understood, speaking Hindi shows respect for local culture. Many locals appreciate efforts to communicate in their language.",
+      "source": "Delhi Cultural Affairs",
+      "tags": ["language", "communication", "culture", "respect"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-behavioral-001",
+      "category": "behavioral",
+      "severity": "important",
+      "title": "Auto-Rickshaw and Taxi Negotiation",
+      "description": "Always agree on the fare before boarding autos that don't use meters, or ensure the meter is reset. Use authorized taxis and ride-sharing apps for safer travel. Keep small change ready and negotiate politely if the quoted price seems high.",
+      "source": "Delhi Tourism & Transport",
+      "tags": ["transport", "safety", "negotiation", "travel"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-behavioral-002",
+      "category": "behavioral",
+      "severity": "critical",
+      "title": "Air Quality Precautions and Health",
+      "description": "Delhi experiences severe air pollution during winter months (Oct-Feb). Wear N95 or N99 masks when AQI exceeds 300. Avoid outdoor exercise, stay indoors, use air purifiers, and keep medications handy if you have respiratory issues.",
+      "source": "Delhi Pollution Control Committee & Health Dept",
+      "tags": ["air-quality", "health", "pollution", "safety"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-behavioral-003",
+      "category": "behavioral",
+      "severity": "important",
+      "title": "Water Safety and Drinking Water",
+      "description": "Don't drink tap water directly; use filtered or bottled water. Avoid ice in drinks at street food stalls unless sure of water source. Use hand sanitizer after public transport. Tap water can be used for bathing after boiling or filtering.",
+      "source": "Delhi Health Department",
+      "tags": ["water", "health", "safety", "hygiene"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-behavioral-004",
+      "category": "behavioral",
+      "severity": "important",
+      "title": "Traffic and Road Behavior",
+      "description": "Follow traffic signals strictly. Delhi drivers are aggressive; maintain distance from vehicles, avoid sudden lane changes, and never use mobile phones while driving. Use designated crossings for pedestrians and be alert for two-wheelers.",
+      "source": "Delhi Traffic Police",
+      "tags": ["traffic", "safety", "driving", "rules"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-behavioral-005",
+      "category": "behavioral",
+      "severity": "informational",
+      "title": "Metro Etiquette and Conduct",
+      "description": "During peak hours, be prepared for crowded coaches. Give priority seating to elderly, pregnant women, and disabled persons. Avoid eating and littering. Don't block doors, keep valuables safe, and use headphones for music. Queue properly at stations.",
+      "source": "Delhi Metro Rail Corporation",
+      "tags": ["metro", "public-transport", "etiquette", "behavior"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "dl-behavioral-006",
+      "category": "behavioral",
+      "severity": "informational",
+      "title": "Street Safety and Awareness",
+      "description": "Stay aware of your surroundings, especially in crowded areas and at night. Keep valuables hidden, avoid walking alone late at night, and use well-lit routes. Be cautious of pickpockets in markets and public transport. Travel in groups when possible.",
+      "source": "Delhi Police",
+      "tags": ["safety", "awareness", "crime-prevention", "behavior"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    }
+  ]
+}

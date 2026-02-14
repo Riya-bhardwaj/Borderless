@@ -1,0 +1,123 @@
+package com.borderless.app.ui.dashboard
+
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.borderless.app.domain.model.AlertCategory
+import com.borderless.app.domain.model.AlertEntry
+import com.borderless.app.domain.model.CrossingEvent
+import com.borderless.app.domain.model.Region
+import com.borderless.app.domain.repository.AlertRepository
+import com.borderless.app.domain.repository.CrossingRepository
+import com.borderless.app.domain.repository.RegionRepository
+import com.borderless.app.domain.repository.UserRepository
+import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
+import javax.inject.Inject
+
+data class DashboardUiState(
+    val currentRegion: Region? = null,
+    val regions: List<Region> = emptyList(),
+    val alerts: List<AlertEntry> = emptyList(),
+    val recentCrossings: List<CrossingEvent> = emptyList(),
+    val isLoading: Boolean = true,
+    val error: String? = null,
+    val language: String = "en"
+) {
+    val legalCount: Int get() = alerts.count { it.category == AlertCategory.LEGAL }
+    val culturalCount: Int get() = alerts.count { it.category == AlertCategory.CULTURAL }
+    val behavioralCount: Int get() = alerts.count { it.category == AlertCategory.BEHAVIORAL }
+    val totalAlertCount: Int get() = alerts.size
+}
+
+@HiltViewModel
+class DashboardViewModel @Inject constructor(
+    private val regionRepository: RegionRepository,
+    private val alertRepository: AlertRepository,
+    private val crossingRepository: CrossingRepository,
+    private val userRepository: UserRepository
+) : ViewModel() {
+
+    private val _uiState = MutableStateFlow(DashboardUiState())
+    val uiState: StateFlow<DashboardUiState> = _uiState.asStateFlow()
+
+    init {
+        loadDashboard()
+        observeCrossings()
+    }
+
+    fun loadDashboard() {
+        viewModelScope.launch {
+            _uiState.update { it.copy(isLoading = true, error = null) }
+
+            val user = userRepository.getCurrentUser()
+            val language = user?.language ?: "en"
+
+            regionRepository.getRegions().fold(
+                onSuccess = { regions ->
+                    val currentRegion = if (user?.currentRegionId != null) {
+                        regions.find { it.id == user.currentRegionId }
+                    } else {
+                        regions.firstOrNull { it.type == com.borderless.app.domain.model.RegionType.STATE }
+                    }
+
+                    _uiState.update {
+                        it.copy(
+                            regions = regions,
+                            currentRegion = currentRegion,
+                            language = language,
+                            isLoading = false
+                        )
+                    }
+
+                    // Load alerts for current region
+                    if (currentRegion != null) {
+                        loadAlertsForRegion(currentRegion.id, language)
+                    }
+                },
+                onFailure = { error ->
+                    _uiState.update {
+                        it.copy(isLoading = false, error = error.message)
+                    }
+                }
+            )
+        }
+    }
+
+    fun selectRegion(region: Region) {
+        _uiState.update { it.copy(currentRegion = region) }
+        viewModelScope.launch {
+            loadAlertsForRegion(region.id, _uiState.value.language)
+        }
+    }
+
+    fun setLanguage(language: String) {
+        _uiState.update { it.copy(language = language) }
+        val currentRegion = _uiState.value.currentRegion
+        if (currentRegion != null) {
+            viewModelScope.launch {
+                loadAlertsForRegion(currentRegion.id, language)
+            }
+        }
+    }
+
+    private suspend fun loadAlertsForRegion(regionId: String, language: String) {
+        alertRepository.getAlertsForRegion(regionId, language).fold(
+            onSuccess = { alerts ->
+                _uiState.update { it.copy(alerts = alerts) }
+            },
+            onFailure = { /* Keep existing alerts on failure */ }
+        )
+    }
+
+    private fun observeCrossings() {
+        viewModelScope.launch {
+            crossingRepository.observeRecentCrossings(5).collect { crossings ->
+                _uiState.update { it.copy(recentCrossings = crossings) }
+            }
+        }
+    }
+}

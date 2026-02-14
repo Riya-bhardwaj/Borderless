@@ -1,0 +1,297 @@
+{
+  "region": {
+    "id": "karnataka",
+    "name": "Karnataka",
+    "type": "state",
+    "parentId": "india",
+    "geofences": [
+      {
+        "lat": 14.9506,
+        "lng": 74.2179,
+        "radiusMeters": 5000,
+        "label": "Goa-Karnataka Border NH66"
+      },
+      {
+        "lat": 12.2586,
+        "lng": 77.0046,
+        "radiusMeters": 5000,
+        "label": "TN-Karnataka Border NH44"
+      },
+      {
+        "lat": 16.6986,
+        "lng": 74.2310,
+        "radiusMeters": 5000,
+        "label": "Maharashtra-Karnataka Border NH4"
+      },
+      {
+        "lat": 15.3647,
+        "lng": 78.4737,
+        "radiusMeters": 5000,
+        "label": "AP-Karnataka Border NH44"
+      }
+    ],
+    "quickFacts": [
+      "Kannada is the official language",
+      "IT capital of India - Bangalore",
+      "Helmet mandatory for two-wheelers",
+      "Rich heritage of Vijayanagara Empire"
+    ],
+    "active": true
+  },
+  "city": {
+    "id": "bangalore",
+    "name": "Bangalore",
+    "type": "city",
+    "parentId": "karnataka",
+    "geofences": [],
+    "quickFacts": [
+      "Garden City of India",
+      "Major tech hub with MNCs and startups",
+      "Pleasant weather year-round",
+      "Famous for Dosa, Bisi Bele Bath"
+    ],
+    "active": true
+  },
+  "alerts": [
+    {
+      "id": "ka-legal-001",
+      "category": "legal",
+      "severity": "critical",
+      "title": "Single-Use Plastic Ban Enforcement",
+      "description": "Karnataka strictly enforces single-use plastic bans. Using or carrying plastic bags, straws, or containers can result in heavy fines up to ₹25,000. Violators may face imprisonment up to 5 years in severe cases.",
+      "source": "Karnataka State Pollution Control Board",
+      "tags": ["plastic ban", "environmental law", "fines", "legal violation"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "ka-legal-002",
+      "category": "legal",
+      "severity": "critical",
+      "title": "Helmet Mandatory for All Two-Wheeler Riders",
+      "description": "Wearing a helmet is legally mandatory for all motorcycle and scooter riders in Karnataka, including passengers. Non-compliance can result in fines of ₹500-₹1,000 and traffic challan entries. Repeat offenders face license suspension.",
+      "source": "Karnataka Traffic Police",
+      "tags": ["helmet law", "safety regulation", "two-wheeler", "traffic fine"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "ka-legal-003",
+      "category": "legal",
+      "severity": "critical",
+      "title": "Alcohol Sale Hours Restriction",
+      "description": "Liquor shops in Karnataka must close between 10 PM and 6 AM. Sale of alcohol outside these hours is illegal and can result in shop closure and fines. Consumption in public spaces is also prohibited.",
+      "source": "Karnataka Excise Department",
+      "tags": ["alcohol law", "sale hours", "intoxication", "public consumption"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "ka-legal-004",
+      "category": "legal",
+      "severity": "important",
+      "title": "Noise Pollution Regulations",
+      "description": "Noise levels must not exceed 55dB (day) and 45dB (night) in residential areas of Bangalore. Violations during construction, events, or public gatherings can result in fines and equipment seizure. Always check local noise regulations before events.",
+      "source": "Bangalore Pollution Control Board",
+      "tags": ["noise pollution", "noise limit", "environmental law", "fines"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "ka-legal-005",
+      "category": "legal",
+      "severity": "important",
+      "title": "Public Smoking Prohibition",
+      "description": "Smoking is prohibited in all public spaces including parks, public transport, restaurants, and workplaces in Karnataka. Violators face fines of ₹200 for first offense and up to ₹500 for repeat violations. Spitting in public is also illegal.",
+      "source": "Karnataka Health Department",
+      "tags": ["smoking ban", "public spaces", "health law", "fines"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "ka-legal-006",
+      "category": "legal",
+      "severity": "important",
+      "title": "Speed Limit Enforcement on Highways",
+      "description": "Speed limits on NH44 and NH66 are strictly 80 km/h for cars and 60 km/h for commercial vehicles. Exceeding limits results in fines starting from ₹400. Extreme speeding (over 100 km/h) can lead to vehicle impoundment and license cancellation.",
+      "source": "Karnataka Traffic Police, Highway Patrol",
+      "tags": ["speed limit", "highway", "traffic violation", "safety"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "ka-legal-007",
+      "category": "legal",
+      "severity": "informational",
+      "title": "Driving License Requirements",
+      "description": "International driving licenses must be registered with local RTO within 30 days of entry. Driving without a valid license attracts fines of ₹1,000 and potential vehicle impoundment. Always carry your license and vehicle registration documents.",
+      "source": "Karnataka Regional Transport Office",
+      "tags": ["driving license", "documentation", "legal requirement"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "ka-cultural-001",
+      "category": "cultural",
+      "severity": "important",
+      "title": "Temple Etiquette and Sacred Practices",
+      "description": "When entering Karnataka temples, remove shoes, show respect to deities, and avoid pointing at sacred objects. Women should wear modest clothing covering shoulders and knees. Photography is often prohibited in sanctums. Always seek permission before photographing rituals.",
+      "source": "Karnataka Temple Administration Guidelines",
+      "tags": ["temple etiquette", "religious respect", "dress code", "photography"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "ka-cultural-002",
+      "category": "cultural",
+      "severity": "important",
+      "title": "Vijayanagara Empire Heritage Sites Protocol",
+      "description": "Historic sites like Hampi and Badami require respectful behavior. Avoid touching ancient sculptures and inscriptions, stay on designated paths, and hire official guides for detailed tours. Breaking artifacts or vandalism results in severe legal penalties and cultural disrespect.",
+      "source": "Karnataka State Archaeology Department",
+      "tags": ["heritage sites", "Hampi", "Badami", "respect for history", "archaeology"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "ka-cultural-003",
+      "category": "cultural",
+      "severity": "important",
+      "title": "Diwali and Festival Celebration Norms",
+      "description": "During Diwali and other festivals, firecrackers are restricted to specific hours (usually 6-8 PM). Many areas of Bangalore have banned firecrackers entirely. Respect noise restrictions and participate in community celebrations respectfully. Public celebrations are more welcoming than private bursting.",
+      "source": "Bangalore Municipal Corporation",
+      "tags": ["Diwali", "festivals", "firecrackers", "noise limits"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "ka-cultural-004",
+      "category": "cultural",
+      "severity": "important",
+      "title": "Food and Drink Customs",
+      "description": "Eating with your right hand is customary in Karnataka. Beef is sensitive in many communities; vegetarian options are widely respected. Offering or eating food with left hand can be considered disrespectful. Coffee culture is strong - refusal of coffee might be seen as rude in social settings.",
+      "source": "Karnataka Cultural Heritage Foundation",
+      "tags": ["food customs", "right hand", "vegetarian", "coffee culture"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "ka-cultural-005",
+      "category": "cultural",
+      "severity": "informational",
+      "title": "Kannada Language Respect",
+      "description": "Kannada is the official language of Karnataka. While English and Hindi are widely spoken in Bangalore, respecting and learning basic Kannada phrases shows cultural appreciation. Many locals appreciate efforts to speak Kannada, even if imperfect.",
+      "source": "Karnataka Language and Culture Board",
+      "tags": ["Kannada language", "cultural respect", "communication"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "ka-cultural-006",
+      "category": "cultural",
+      "severity": "informational",
+      "title": "Marriage and Family Customs",
+      "description": "Karnataka has diverse cultural communities with different wedding customs. Accepting invitations warmly and respecting religious ceremonies is important. Gift-giving is customary at weddings. Avoid scheduling important events during major festival seasons.",
+      "source": "Karnataka Social and Cultural Department",
+      "tags": ["marriage customs", "weddings", "gifts", "family traditions"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "ka-cultural-007",
+      "category": "cultural",
+      "severity": "informational",
+      "title": "Interaction with Elders",
+      "description": "Respect for elders is paramount in Karnataka culture. Use respectful titles like 'Appa' or 'Amma', avoid direct disagreement, and always greet elders first. Standing when elders enter a room and offering them the best seat is customary.",
+      "source": "Karnataka Family and Social Culture",
+      "tags": ["elder respect", "greetings", "cultural protocol"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "ka-cultural-008",
+      "category": "cultural",
+      "severity": "informational",
+      "title": "Coffee House Etiquette",
+      "description": "Bangalore's famous coffee houses are social spaces. Coffee drinking is a leisurely activity, not rushed. Tipping is appreciated but not mandatory (5-10% is standard). It's common to spend hours in coffee shops; rushing customers away is rare.",
+      "source": "Bangalore Coffee Culture Guide",
+      "tags": ["coffee culture", "social etiquette", "tipping"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "ka-behavioral-001",
+      "category": "behavioral",
+      "severity": "important",
+      "title": "Auto-Rickshaw Negotiation Protocol",
+      "description": "Always negotiate auto-rickshaw fares before boarding, especially outside tourist areas or late night. Insist on the meter if the driver refuses. Meter fare is approximately ₹40 base + ₹30/km. Avoid traveling alone late night; use registered taxis or ride-sharing apps for safety.",
+      "source": "Bangalore Consumer Protection Authority",
+      "tags": ["auto-rickshaw", "fare negotiation", "safety", "transportation"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "ka-behavioral-002",
+      "category": "behavioral",
+      "severity": "important",
+      "title": "Traffic and Road Safety Behavior",
+      "description": "Traffic in Bangalore can be chaotic; always stay alert. Crossing streets requires careful attention - look both ways even on one-way roads. Avoid walking alone at night in unfamiliar areas. Respect one-way directions and lane markings. Honking is common but not aggressive.",
+      "source": "Bangalore Police Traffic Division",
+      "tags": ["traffic safety", "road awareness", "pedestrian safety"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "ka-behavioral-003",
+      "category": "behavioral",
+      "severity": "important",
+      "title": "Water Safety in Rivers and Lakes",
+      "description": "Many rivers in Karnataka (Krishna, Tungabhadra) have strong currents and unpredictable water levels. Swimming without local guidance is dangerous. Always ask locals about safety before swimming. Avoid water during monsoon season (June-September) when levels are high and currents are strong.",
+      "source": "Karnataka Water Resources Department",
+      "tags": ["water safety", "rivers", "swimming", "monsoon"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "ka-behavioral-004",
+      "category": "behavioral",
+      "severity": "informational",
+      "title": "Tipping Customs and Restaurant Etiquette",
+      "description": "Tipping 5-10% is standard in restaurants and cafes, though not mandatory. Service charge is often added automatically (check your bill). For auto-rickshaws, rounding up the fare (₹5-10) is appreciated. Hotel staff and service workers appreciate tips. Never tip in government establishments.",
+      "source": "Bangalore Service Industry Guidelines",
+      "tags": ["tipping", "restaurant etiquette", "service gratuity"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "ka-behavioral-005",
+      "category": "behavioral",
+      "severity": "informational",
+      "title": "Dress Code and Weather Adaptation",
+      "description": "Bangalore's weather is mild year-round (15-30°C). Light cotton clothing is ideal. During monsoon (June-September), carry an umbrella and wear waterproof shoes. In temples and conservative areas, avoid sleeveless tops and shorts. Smart casual is appropriate for most social settings and workplaces.",
+      "source": "Bangalore Travel and Cultural Guide",
+      "tags": ["dress code", "weather", "monsoon", "cultural appropriateness"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "geofences": {
+    "karnataka": [
+      {
+        "id": "gf-ka-goa-border",
+        "lat": 14.9506,
+        "lng": 74.2179,
+        "radiusMeters": 5000,
+        "label": "Goa-Karnataka Border NH66"
+      },
+      {
+        "id": "gf-ka-tn-border",
+        "lat": 12.2586,
+        "lng": 77.0046,
+        "radiusMeters": 5000,
+        "label": "TN-Karnataka Border NH44"
+      },
+      {
+        "id": "gf-ka-mh-border",
+        "lat": 16.6986,
+        "lng": 74.2310,
+        "radiusMeters": 5000,
+        "label": "Maharashtra-Karnataka Border NH4"
+      },
+      {
+        "id": "gf-ka-ap-border",
+        "lat": 15.3647,
+        "lng": 78.4737,
+        "radiusMeters": 5000,
+        "label": "AP-Karnataka Border NH44"
+      }
+    ],
+    "delhi": [
+      {
+        "id": "gf-dl-up-border-east",
+        "lat": 28.6328,
+        "lng": 77.3372,
+        "radiusMeters": 5000,
+        "label": "Delhi-UP Border (Noida)"
+      },
+      {
+        "id": "gf-dl-hr-border-south",
+        "lat": 28.4925,
+        "lng": 77.0695,
+        "radiusMeters": 5000,
+        "label": "Delhi-Haryana Border (Gurgaon)"
+      },
+      {
+        "id": "gf-dl-hr-border-north",
+        "lat": 28.7388,
+        "lng": 77.1139,
+        "radiusMeters": 5000,
+        "label": "Delhi-Haryana Border (Rohtak Rd)"
+      }
+    ],
+    "maharashtra": [
+      {
+        "id": "gf-mh-gj-border",
+        "lat": 20.3974,
+        "lng": 72.8328,
+        "radiusMeters": 5000,
+        "label": "Gujarat-Maharashtra Border NH48"
+      },
+      {
+        "id": "gf-mh-ka-border",
+        "lat": 16.6986,
+        "lng": 74.2310,
+        "radiusMeters": 5000,
+        "label": "Maharashtra-Karnataka Border NH4"
+      },
+      {
+        "id": "gf-mh-goa-border",
+        "lat": 15.7377,
+        "lng": 73.8855,
+        "radiusMeters": 5000,
+        "label": "Maharashtra-Goa Border NH66"
+      }
+    ],
+    "tamil-nadu": [
+      {
+        "id": "gf-tn-ka-border",
+        "lat": 12.2586,
+        "lng": 77.0046,
+        "radiusMeters": 5000,
+        "label": "Karnataka-TN Border NH44"
+      },
+      {
+        "id": "gf-tn-ke-border",
+        "lat": 10.9916,
+        "lng": 76.9529,
+        "radiusMeters": 5000,
+        "label": "Kerala-TN Border NH544"
+      },
+      {
+        "id": "gf-tn-ap-border",
+        "lat": 13.6288,
+        "lng": 79.4192,
+        "radiusMeters": 5000,
+        "label": "AP-TN Border NH40"
+      }
+    ]
+  },
+  "defaults": {
+    "radiusMeters": 5000,
+    "transitionTypes": ["ENTER"],
+    "loiteringDelayMs": 0,
+    "expirationDurationMs": -1
+  }
+}

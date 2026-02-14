@@ -1,0 +1,255 @@
+{
+  "region": {
+    "id": "maharashtra",
+    "name": "Maharashtra",
+    "type": "state",
+    "parentId": "india",
+    "geofences": [
+      {
+        "lat": 20.3974,
+        "lng": 72.8328,
+        "radiusMeters": 5000,
+        "label": "Gujarat-Maharashtra Border NH48"
+      },
+      {
+        "lat": 16.6986,
+        "lng": 74.2310,
+        "radiusMeters": 5000,
+        "label": "Maharashtra-Karnataka Border NH4"
+      },
+      {
+        "lat": 15.7377,
+        "lng": 73.8855,
+        "radiusMeters": 5000,
+        "label": "Maharashtra-Goa Border NH66"
+      }
+    ],
+    "quickFacts": [
+      "Marathi is the official language",
+      "Financial capital of India",
+      "Bollywood film industry hub",
+      "Gateway of India in Mumbai"
+    ],
+    "active": true
+  },
+  "city": {
+    "id": "mumbai",
+    "name": "Mumbai",
+    "type": "city",
+    "parentId": "maharashtra",
+    "geofences": [],
+    "quickFacts": [
+      "Maximum City - India's most populous",
+      "Local trains are the lifeline",
+      "Famous for Vada Pav and street food",
+      "Monsoons are intense (June-Sept)"
+    ],
+    "active": true
+  },
+  "alerts": [
+    {
+      "id": "mh-legal-001",
+      "category": "legal",
+      "severity": "critical",
+      "title": "Strict Plastic Ban in Maharashtra",
+      "description": "Single-use plastics including bags, containers, and packaging are strictly prohibited. Fines up to ₹25,000 for violations. Use cloth bags, paper, or biodegradable alternatives.",
+      "source": "Maharashtra State Pollution Control Board",
+      "tags": ["environment", "legal", "fines"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "mh-legal-002",
+      "category": "legal",
+      "severity": "critical",
+      "title": "Noise Pollution Regulations",
+      "description": "Noise levels must not exceed 55dB during day and 45dB at night. Restrictions on loudspeakers, music, and construction. Violators face fines and legal action.",
+      "source": "Mumbai Police Environmental Wing",
+      "tags": ["legal", "noise", "fines"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "mh-legal-003",
+      "category": "legal",
+      "severity": "important",
+      "title": "Traffic Violation Penalties",
+      "description": "High penalties for traffic violations: No helmet ₹1,000, wrong parking ₹2,000, speeding ₹500-1,000. License suspension possible for repeat offenders.",
+      "source": "Mumbai Traffic Police",
+      "tags": ["traffic", "legal", "vehicle"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "mh-legal-004",
+      "category": "legal",
+      "severity": "critical",
+      "title": "Alcohol Sale Restrictions",
+      "description": "No alcohol sales allowed between 11 PM to 6 AM. Dry day restrictions on election days and major festivals. Possession of liquor in public is illegal.",
+      "source": "Excise Department, Maharashtra",
+      "tags": ["alcohol", "legal", "restrictions"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "mh-legal-005",
+      "category": "legal",
+      "severity": "important",
+      "title": "Meat Ban During Religious Festivals",
+      "description": "Meat shops remain closed during certain festivals (Ganesh Chaturthi, Ram Navami, Mahavir Jayanti). Some areas enforce complete meat sales ban on specific days. Vegetarian options recommended.",
+      "source": "Municipal Corporation of Greater Mumbai",
+      "tags": ["cultural", "religion", "food"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "mh-legal-006",
+      "category": "legal",
+      "severity": "important",
+      "title": "Construction Activity Time Restrictions",
+      "description": "Construction and demolition work prohibited between 9 PM to 6 AM. Weekend restrictions apply. Permits required from Municipal Corporation. Heavy penalties for violations.",
+      "source": "Municipal Corporation of Greater Mumbai",
+      "tags": ["legal", "construction", "noise"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "mh-cultural-001",
+      "category": "cultural",
+      "severity": "important",
+      "title": "Ganesh Chaturthi Festival Etiquette",
+      "description": "Respect Ganesh idols during the 10-day festival (Aug-Sept). Modaks (sweet dumplings) are traditional. Remove shoes in homes displaying idols. Participate in Ganapati processions peacefully and respectfully.",
+      "source": "Maharashtra Tourism Board",
+      "tags": ["festival", "religion", "customs"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "mh-cultural-002",
+      "category": "cultural",
+      "severity": "informational",
+      "title": "Local Food Etiquette in Maharashtra",
+      "description": "Respect the sanctity of meals. Eat with right hand in traditional settings. Vada Pav, Pav Bhaji, and Misal Pav are iconic street foods. Try local Maharashtrian cuisine for authentic experience.",
+      "source": "Maharashtra Food & Culture Association",
+      "tags": ["food", "culture", "customs"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "mh-cultural-003",
+      "category": "cultural",
+      "severity": "important",
+      "title": "Temple Visit Customs",
+      "description": "Remove shoes before entering temples. Maintain silence and reverence. Offer flowers and coconuts as per tradition. Accept prasad (blessed food) with right hand. Photography may be restricted in sanctum.",
+      "source": "Maharashtra Religious & Cultural Council",
+      "tags": ["religion", "temple", "customs"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "mh-cultural-004",
+      "category": "cultural",
+      "severity": "informational",
+      "title": "Marathi Language and Respect",
+      "description": "Learning basic Marathi phrases is appreciated. The language is official in Maharashtra. Street signs and menus often display Marathi first. Respect local linguistic pride and cultural identity.",
+      "source": "Maharashtra State Language Board",
+      "tags": ["language", "culture", "respect"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "mh-cultural-005",
+      "category": "cultural",
+      "severity": "important",
+      "title": "Diwali and Festival Celebrations",
+      "description": "Diwali is celebrated with lights, fireworks, and oil lamps. Oil baths are traditional on Diwali morning. Limit firecrackers to designated hours. Share sweets with neighbors and friends as a custom.",
+      "source": "Maharashtra Tourism Board",
+      "tags": ["festival", "celebration", "customs"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "mh-cultural-006",
+      "category": "cultural",
+      "severity": "informational",
+      "title": "Holi Festival Traditions",
+      "description": "Holi celebrates spring with colors, music, and bonfire. Use natural colors (herbal gulal) instead of synthetic dyes. Share festive sweets like gujhiya. Enjoy the festival peacefully without causing harm.",
+      "source": "Maharashtra Festival Authority",
+      "tags": ["festival", "celebration", "tradition"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "mh-behavioral-001",
+      "category": "behavioral",
+      "severity": "important",
+      "title": "Local Train Etiquette in Mumbai",
+      "description": "The lifeline of Mumbai - avoid peak hours (8-11 AM, 5-8 PM) if possible. Reserved seats for women, elderly, and disabled. Don't block doors. Keep bags close. Follow queue discipline at stations.",
+      "source": "Mumbai Local Railways Authority",
+      "tags": ["transport", "safety", "etiquette"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "mh-behavioral-002",
+      "category": "behavioral",
+      "severity": "informational",
+      "title": "Taxi and Auto Rickshaw Tips",
+      "description": "Always use metered taxis or pre-booked services. Insist on meter usage. Auto-rickshaws charge fixed rates in Mumbai. Negotiate price beforehand outside metro areas. Keep small change handy.",
+      "source": "Mumbai Transportation Department",
+      "tags": ["transport", "safety", "tips"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "mh-behavioral-003",
+      "category": "behavioral",
+      "severity": "critical",
+      "title": "Monsoon Safety Precautions",
+      "description": "Heavy rainfall June-September causes flooding and landslides. Avoid waterlogged areas. Don't venture into swollen rivers or open drains. Stock emergency supplies. Check weather before traveling. Drainage overflows are common.",
+      "source": "Maharashtra Disaster Management Authority",
+      "tags": ["safety", "weather", "monsoon"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "mh-behavioral-004",
+      "category": "behavioral",
+      "severity": "important",
+      "title": "Beach Safety in Mumbai",
+      "description": "Swim only in designated areas with lifeguards present. Avoid beaches after sunset. Strong currents can be dangerous. Don't touch marine life or coral. Use sunscreen and stay hydrated. Check water quality advisories.",
+      "source": "Mumbai Coastal Authority",
+      "tags": ["safety", "beach", "water"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    },
+    {
+      "id": "mh-behavioral-005",
+      "category": "behavioral",
+      "severity": "informational",
+      "title": "Local Market Bargaining Customs",
+      "description": "Bargaining is accepted in street markets and small shops. Start at 40-50% of asking price. Be respectful and polite during negotiation. Fixed prices apply in malls and organized retail. Building relationships helps get better rates.",
+      "source": "Maharashtra Market Association",
+      "tags": ["shopping", "culture", "etiquette"],
+      "effectiveDate": "2024-01-01T00:00:00Z",
+      "expiryDate": null,
+      "active": true
+    }
+  ]
+}

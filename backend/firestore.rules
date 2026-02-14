@@ -1,0 +1,36 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Regions and alerts: authenticated users can read
+    match /regions/{regionId} {
+      allow read: if request.auth != null;
+      allow write: if false; // Admin-only via seed script
+
+      match /alerts/{alertId} {
+        allow read: if request.auth != null;
+        allow write: if false; // Admin-only via seed script
+      }
+    }
+
+    // Users: can read/write own profile only
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Q&A logs: users can create own logs, read own logs
+    match /qaLogs/{logId} {
+      allow create: if request.auth != null
+                     && request.resource.data.userId == request.auth.uid;
+      allow read: if request.auth != null
+                   && resource.data.userId == request.auth.uid;
+    }
+
+    // Crossings: users can create and read own crossings
+    match /crossings/{crossingId} {
+      allow create: if request.auth != null
+                     && request.resource.data.userId == request.auth.uid;
+      allow read: if request.auth != null
+                   && resource.data.userId == request.auth.uid;
+    }
+  }
+}
