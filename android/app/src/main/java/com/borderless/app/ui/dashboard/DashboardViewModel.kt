@@ -53,6 +53,11 @@ class DashboardViewModel @Inject constructor(
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true, error = null) }
 
+            // Ensure user is authenticated before reading Firestore
+            if (!userRepository.isLoggedIn()) {
+                userRepository.signInAnonymously()
+            }
+
             val user = userRepository.getCurrentUser()
             val language = user?.language ?: "en"
 
