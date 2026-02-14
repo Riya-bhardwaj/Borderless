@@ -83,27 +83,32 @@ class OnboardingViewModel @Inject constructor(
     fun signInAnonymously() {
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true, error = null) }
-            // Firebase anonymous auth happens at app level
-            // Here we just create a minimal profile
-            val state = _uiState.value
-            val name = state.displayName.ifBlank { "Traveler" }
 
-            userRepository.createOrUpdateProfile(
-                displayName = name,
-                language = state.language,
-                criticalFilter = true,
-                importantFilter = true,
-                informationalFilter = true
-            ).onSuccess {
-                _uiState.update { it.copy(isLoading = false, isComplete = true) }
-            }.onFailure { error ->
-                _uiState.update {
-                    it.copy(
-                        isLoading = false,
-                        error = error.message ?: "Failed to create profile"
+            // Sign in anonymously with Firebase first
+            userRepository.signInAnonymously()
+                .onSuccess {
+                    // Try to create profile, but proceed even if backend is unavailable
+                    val state = _uiState.value
+                    val name = state.displayName.ifBlank { "Traveler" }
+
+                    userRepository.createOrUpdateProfile(
+                        displayName = name,
+                        language = state.language,
+                        criticalFilter = true,
+                        importantFilter = true,
+                        informationalFilter = true
                     )
+                    // Complete regardless of profile API result
+                    _uiState.update { it.copy(isLoading = false, isComplete = true) }
                 }
-            }
+                .onFailure { error ->
+                    _uiState.update {
+                        it.copy(
+                            isLoading = false,
+                            error = error.message ?: "Failed to sign in. Check your internet connection."
+                        )
+                    }
+                }
         }
     }
 }

@@ -18,6 +18,12 @@ class UserRepositoryImpl @Inject constructor(
 
     private var cachedProfile: UserProfile? = null
 
+    override suspend fun signInAnonymously(): Result<Unit> = runCatching {
+        if (firebaseAuth.currentUser == null) {
+            firebaseAuth.signInAnonymously().await()
+        }
+    }
+
     override suspend fun createOrUpdateProfile(
         displayName: String,
         language: String,
@@ -25,6 +31,11 @@ class UserRepositoryImpl @Inject constructor(
         importantFilter: Boolean,
         informationalFilter: Boolean
     ): Result<UserProfile> = runCatching {
+        // Ensure we're authenticated first
+        if (firebaseAuth.currentUser == null) {
+            firebaseAuth.signInAnonymously().await()
+        }
+
         val token = getAuthToken() ?: throw IllegalStateException("Not authenticated")
         val response = api.createOrUpdateProfile(
             authToken = "Bearer $token",

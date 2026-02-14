@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0" />
+    <!-- Globe icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30c-13.25,0 -24,10.75 -24,24s10.75,24 24,24s24,-10.75 24,-24S67.25,30 54,30zM52,75.93C41.45,74.85 33,65.55 33,54c0,-1.73 0.22,-3.41 0.6,-5.02L45,60.33v2.67c0,2.93 2.4,5.33 5.33,5.33v7.6zM70.07,68.4C69.41,66.27 67.47,64.67 65.13,64.67h-2.67v-8c0,-1.47 -1.2,-2.67 -2.67,-2.67H43.8v-5.33h5.33c1.47,0 2.67,-1.2 2.67,-2.67v-5.33h5.33c2.93,0 5.33,-2.4 5.33,-5.33v-1.1C69.99,37.65 75,45.25 75,54C75,59.35 73.13,64.27 70.07,68.4z" />
+</vector>

@@ -1,5 +1,4 @@
 import { Router } from 'express';
-import { AuthenticatedRequest } from '../middleware/auth';
 import * as firestoreService from '../services/firestore';
 import { scoreAlerts } from '../services/scoring';
 import { translateTexts } from '../services/gemini';

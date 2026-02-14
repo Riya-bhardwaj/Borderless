@@ -17,7 +17,7 @@ object NetworkModule {
     @Singleton
     fun provideRetrofit(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("https://us-central1-borderless-app.cloudfunctions.net/api/")
+            .baseUrl("https://us-central1-borderless-28cc0.cloudfunctions.net/api/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }

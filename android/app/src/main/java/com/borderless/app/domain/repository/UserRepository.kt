@@ -3,6 +3,8 @@ package com.borderless.app.domain.repository
 import com.borderless.app.domain.model.UserProfile
 
 interface UserRepository {
+    suspend fun signInAnonymously(): Result<Unit>
+
     suspend fun createOrUpdateProfile(
         displayName: String,
         language: String,

@@ -78,9 +78,12 @@ class DashboardViewModel @Inject constructor(
                         loadAlertsForRegion(currentRegion.id, language)
                     }
                 },
-                onFailure = { error ->
+                onFailure = {
                     _uiState.update {
-                        it.copy(isLoading = false, error = error.message)
+                        it.copy(
+                            isLoading = false,
+                            error = "Unable to load regions. Make sure the backend is deployed and try again."
+                        )
                     }
                 }
             )
