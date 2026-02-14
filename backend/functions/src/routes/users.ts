@@ -1,6 +1,7 @@
 import { Router } from 'express';
 import { AuthenticatedRequest } from '../middleware/auth';
 import * as firestoreService from '../services/firestore';
+import * as fcmService from '../services/fcm';
 
 const router = Router();
 
@@ -55,6 +56,25 @@ router.post('/profile', async (req, res) => {
   } catch (error) {
     console.error('Profile error:', error);
     res.status(500).json({ error: 'Failed to update profile' });
+  }
+});
+
+// POST /users/device-token — Register FCM device token
+router.post('/device-token', async (req, res) => {
+  try {
+    const { uid } = req as AuthenticatedRequest;
+    const { token, platform } = req.body;
+
+    if (!token || typeof token !== 'string' || token.length < 10) {
+      res.status(400).json({ error: 'Valid token is required' });
+      return;
+    }
+
+    await fcmService.storeDeviceToken(uid, token, platform || 'android');
+    res.json({ success: true });
+  } catch (error) {
+    console.error('Device token registration error:', error);
+    res.status(500).json({ error: 'Failed to register device token' });
   }
 });
 

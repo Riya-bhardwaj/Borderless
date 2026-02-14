@@ -2,6 +2,7 @@ package com.borderless.app.data.repository
 
 import com.borderless.app.data.remote.BorderlessApi
 import com.borderless.app.data.remote.dto.AlertFiltersDto
+import com.borderless.app.data.remote.dto.DeviceTokenRequest
 import com.borderless.app.data.remote.dto.UserProfileRequest
 import com.borderless.app.domain.model.UserProfile
 import com.borderless.app.domain.repository.UserRepository
@@ -62,5 +63,13 @@ class UserRepositoryImpl @Inject constructor(
 
     override suspend fun isLoggedIn(): Boolean {
         return firebaseAuth.currentUser != null
+    }
+
+    override suspend fun registerDeviceToken(token: String): Result<Unit> = runCatching {
+        val authToken = getAuthToken() ?: throw IllegalStateException("Not authenticated")
+        api.registerDeviceToken(
+            authToken = "Bearer $authToken",
+            body = DeviceTokenRequest(token = token)
+        )
     }
 }

@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.borderless.app.domain.model.AlertCategory
 import com.borderless.app.domain.model.AlertEntry
+import com.borderless.app.domain.model.AlertSeverity
 import com.borderless.app.domain.model.CrossingEvent
 import com.borderless.app.domain.model.Region
 import com.borderless.app.domain.repository.AlertRepository
@@ -31,6 +32,31 @@ data class DashboardUiState(
     val culturalCount: Int get() = alerts.count { it.category == AlertCategory.CULTURAL }
     val behavioralCount: Int get() = alerts.count { it.category == AlertCategory.BEHAVIORAL }
     val totalAlertCount: Int get() = alerts.size
+
+    val topLegalAlert: AlertEntry? get() = alerts.firstOrNull { it.category == AlertCategory.LEGAL }
+    val topCulturalAlert: AlertEntry? get() = alerts.firstOrNull { it.category == AlertCategory.CULTURAL }
+    val topBehavioralAlert: AlertEntry? get() = alerts.firstOrNull { it.category == AlertCategory.BEHAVIORAL }
+
+    val highlights: List<AlertEntry> get() {
+        val bySeverity = alerts.groupBy { it.severity }
+        val picked = mutableListOf<AlertEntry>()
+        val severities = listOf(AlertSeverity.CRITICAL, AlertSeverity.IMPORTANT, AlertSeverity.INFORMATIONAL)
+        // Round-robin across severities to get a balanced mix
+        var round = 0
+        while (picked.size < 5) {
+            var added = false
+            for (sev in severities) {
+                val pool = bySeverity[sev] ?: continue
+                if (round < pool.size && picked.size < 5) {
+                    picked.add(pool[round])
+                    added = true
+                }
+            }
+            if (!added) break
+            round++
+        }
+        return picked
+    }
 }
 
 @HiltViewModel

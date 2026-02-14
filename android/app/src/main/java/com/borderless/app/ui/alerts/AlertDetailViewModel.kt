@@ -44,8 +44,11 @@ class AlertDetailViewModel @Inject constructor(
 ) : ViewModel() {
 
     private val regionId: String = savedStateHandle["regionId"] ?: ""
+    private val initialCategory: AlertCategory? = savedStateHandle.get<String>("category")?.let {
+        try { AlertCategory.fromString(it) } catch (_: Exception) { null }
+    }
 
-    private val _uiState = MutableStateFlow(AlertDetailUiState())
+    private val _uiState = MutableStateFlow(AlertDetailUiState(selectedCategory = initialCategory))
     val uiState: StateFlow<AlertDetailUiState> = _uiState.asStateFlow()
 
     init {

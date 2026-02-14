@@ -20,6 +20,7 @@ output-metadata.json
 
 # Firebase
 google-services.json
+service-account.json
 
 # Node.js / Backend
 node_modules/
