@@ -156,7 +156,7 @@ private fun DashboardContent(
                             entry = entry,
                             onClick = {
                                 onViewAlerts(
-                                    uiState.currentRegion.id,
+                                    uiState.alertRegionId,
                                     entry.category.toApiValue()
                                 )
                             }
@@ -185,7 +185,7 @@ private fun DashboardContent(
                         icon = Icons.Outlined.Gavel,
                         topItem = uiState.topLegalAlert,
                         onClick = {
-                            onViewAlerts(uiState.currentRegion.id, "legal")
+                            onViewAlerts(uiState.alertRegionId, "legal")
                         }
                     )
                     CategoryCard(
@@ -195,7 +195,7 @@ private fun DashboardContent(
                         icon = Icons.Outlined.Explore,
                         topItem = uiState.topCulturalAlert,
                         onClick = {
-                            onViewAlerts(uiState.currentRegion.id, "cultural")
+                            onViewAlerts(uiState.alertRegionId, "cultural")
                         }
                     )
                     CategoryCard(
@@ -205,7 +205,7 @@ private fun DashboardContent(
                         icon = Icons.Outlined.Groups,
                         topItem = uiState.topBehavioralAlert,
                         onClick = {
-                            onViewAlerts(uiState.currentRegion.id, "behavioral")
+                            onViewAlerts(uiState.alertRegionId, "behavioral")
                         }
                     )
                 }
