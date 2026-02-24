@@ -194,7 +194,3 @@ User Question → QaViewModel → AskQuestionUseCase → QaRepository → Gemini
 - Seeded demo data for reliability
 - No full personalization engine
 - Direct Gemini API calls instead of backend-proxied AI
-
-## License
-
-This project was built for a hackathon demonstration.
